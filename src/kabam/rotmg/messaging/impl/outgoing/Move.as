@@ -1,5 +1,7 @@
 package kabam.rotmg.messaging.impl.outgoing {
-   import flash.utils.IDataOutput;
+import com.company.assembleegameclient.util.TimeUtil;
+
+import flash.utils.IDataOutput;
    import kabam.rotmg.messaging.impl.data.MoveRecord;
    import kabam.rotmg.messaging.impl.data.WorldPosData;
    
@@ -9,8 +11,6 @@ package kabam.rotmg.messaging.impl.outgoing {
       public var tickId_:int;
       
       public var time_:int;
-      
-      public var serverRealTimeMSofLastNewTick_:uint;
       
       public var newPosition_:WorldPosData;
       
@@ -26,15 +26,16 @@ package kabam.rotmg.messaging.impl.outgoing {
          var _loc3_:int = 0;
          param1.writeInt(this.tickId_);
          param1.writeInt(this.time_);
-         param1.writeUnsignedInt(this.serverRealTimeMSofLastNewTick_);
-         this.newPosition_.writeToOutput(param1);
+
          var _loc2_:uint = this.records_.length;
-         param1.writeShort(_loc2_);
+         param1.writeShort(_loc2_ + 1);
          _loc3_ = 0;
-         while(_loc3_ < _loc2_) {
+         while (_loc3_ < _loc2_) {
             this.records_[_loc3_].writeToOutput(param1);
             _loc3_++;
          }
+         param1.writeInt(Math.max(1, TimeUtil.getModdedTime()));
+         this.newPosition_.writeToOutput(param1);
       }
       
       override public function toString() : String {

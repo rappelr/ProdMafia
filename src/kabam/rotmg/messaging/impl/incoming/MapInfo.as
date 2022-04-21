@@ -16,6 +16,9 @@ package kabam.rotmg.messaging.impl.incoming {
       public var maxPlayers_:int;
       public var gameOpenedTime_:int;
       public var version:String;
+
+      public var unknown_0:Boolean;
+      public var unknown_1:int;
       
       public function MapInfo(param1:uint, param2:Function) {
          super(param1,param2);
@@ -32,9 +35,11 @@ package kabam.rotmg.messaging.impl.incoming {
          this.difficulty_ = param1.readInt();
          this.allowPlayerTeleport_ = param1.readBoolean();
          this.showDisplays_ = param1.readBoolean();
+         this.unknown_0 = param1.readBoolean();
          this.maxPlayers_ = param1.readShort();
          this.gameOpenedTime_ = param1.readUnsignedInt();
          this.version = param1.readUTF();
+         this.unknown_1 = param1.readInt()
       }
       
       override public function toString() : String {

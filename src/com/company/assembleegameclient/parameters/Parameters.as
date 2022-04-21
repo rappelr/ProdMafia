@@ -18,9 +18,11 @@ import flash.utils.setTimeout;
 public class Parameters {
     public static const CLIENT_VERSION:String = "2.3.0.0.0";
     public static const PORT:int = 2050;
+    public static const CLIENT_TOKEN:String = "8bV53M5ysJdVjU4M97fh2g7BnPXhefnc";
+    public static const USER_TOKEN:String = "62nlggvmdjb86ctzeafa69oaacvi8lgpfgec9znh";
     public static const UNITY_LAUNCHER_VERSION:String = "2019.3.14f1";
     public static const UNITY_GAME_VERSION:String = "2019.4.21f1";
-    public static const LOG_PACKETS:Boolean = false;
+    public static const LOG_PACKETS:Boolean = true;
     public static const FELLOW_GUILD_COLOR:uint = 10944349;
     public static const NAME_CHOSEN_COLOR:uint = 16572160;
     public static const PLAYER_ROTATE_SPEED:Number = 0.003;

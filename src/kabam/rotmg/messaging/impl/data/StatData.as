@@ -28,6 +28,7 @@ public class StatData {
       public static const INVENTORY_9_STAT:int = 17;
       public static const INVENTORY_10_STAT:int = 18;
       public static const INVENTORY_11_STAT:int = 19;
+      public static const TEXTURE_STAT:int = 25;
       public static const VITALITY_STAT:int = 26;
       public static const WISDOM_STAT:int = 27;
       public static const DEXTERITY_STAT:int = 28;
@@ -80,7 +81,7 @@ public class StatData {
       public static const BACKPACK_6_STAT:int = 77;
       public static const BACKPACK_7_STAT:int = 78;
       public static const HASBACKPACK_STAT:int = 79;
-      public static const TEXTURE_STAT:int = 80;
+      public static const UNKNOWN_STAT_1:int = 80;
       public static const PET_INSTANCEID_STAT:int = 81;
       public static const PET_NAME_STAT:int = 82;
       public static const PET_TYPE_STAT:int = 83;
@@ -121,6 +122,11 @@ public class StatData {
       public static const QUICKSLOT_ITEM_3:int = 118;
       public static const QUICKSLOT_UPGRADE:int = 119;
       public static const FORGEFIRE_STAT:int = 120;
+      public static const UNKNOWN_DUNGEON_PORTAL_STAT:int = 122;
+      public static const UNKNOWN_MAPOBJECT_STAT_1:int = 123;
+      public static const UNKNOWN_MAPOBJECT_STAT_2:int = 124;
+      public static const UNKNOWN_MAPOBJECT_STAT_3:int = 125;
+      public static const UNKNOWN_PLAYER_STAT_1:int = 156;
       
       public var statType_:uint = 0;
       public var statValue_:int;
@@ -159,6 +165,7 @@ public class StatData {
             case ACCOUNT_ID_STAT:
             case OWNER_ACCOUNT_ID_STAT:
             case GRAVE_ACCOUNT_ID:
+            case UNKNOWN_MAPOBJECT_STAT_1:
                return true;
             default:
                return false;

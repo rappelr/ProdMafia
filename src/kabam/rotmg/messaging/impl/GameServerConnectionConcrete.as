@@ -1037,7 +1037,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       this.invSwap(param1 as Player,param1,param2,_loc4_[param2],param1,param3,_loc4_[param3]);
    }
 
-   public function move(param1:int, param2:uint, param3:Player) : void {
+   public function move(param1:int, param3:Player) : void {
       var _loc7_:* = 0;
       var _loc5_:int = 0;
       var _loc9_:* = -1;
@@ -1049,7 +1049,6 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       var _loc8_:Move = this.messages.require(42) as Move;
       _loc8_.tickId_ = param1;
       _loc8_.time_ = this.gs_.lastUpdate_;
-      _loc8_.serverRealTimeMSofLastNewTick_ = param2;
       _loc8_.newPosition_.x_ = _loc9_;
       _loc8_.newPosition_.y_ = _loc6_;
       var _loc4_:MoveRecords = this.gs_.moveRecords_;
@@ -1331,13 +1330,10 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       hello.keyTime_ = keyTime_;
       hello.key_.length = 0;
       this.key_ && hello.key_.writeBytes(this.key_);
-      hello.mapJSON_ = mapJSON_ == null?"":this.mapJSON_;
       hello.entrytag_ = account.getEntryTag();
       hello.gameNet = "rotmg";
       hello.gameNetUserId = account.gameNetworkUserId();
-      hello.playPlatform = "rotmg";
-      hello.platformToken = account.getPlatformToken();
-      hello.userToken = Parameters.data.clientToken;
+      hello.userToken = Parameters.USER_TOKEN;
       serverConnection.sendMessage(hello);
    }
 
@@ -1699,8 +1695,8 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       if(this.jitterWatcher_) {
          this.jitterWatcher_.record();
       }
-      lastServerRealTimeMS_ = param1.serverRealTimeMS_;
-      this.move(param1.tickId_,this.lastServerRealTimeMS_,this.player);
+      //lastServerRealTimeMS_ = param1.serverRealTimeMS_;
+      this.move(param1.tickId_/*,this.lastServerRealTimeMS_*/,this.player);
       this.ticksElapsed++;
       var _loc6_:int = 0;
       var _loc5_:* = param1.statuses_;
