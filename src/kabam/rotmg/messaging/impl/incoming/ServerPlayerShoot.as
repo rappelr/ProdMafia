@@ -28,6 +28,7 @@ package kabam.rotmg.messaging.impl.incoming {
          this.damage_ = input.readShort();
          this.projectileOwnerId = input.readInt();
          this.isMultiShotCreep = input.readBoolean();
+
          if (input.bytesAvailable > 0) {
             this.shotCount = input.readByte();
             this.angleInc = input.readFloat();

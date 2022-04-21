@@ -1,8 +1,10 @@
 package kabam.rotmg.messaging.impl.incoming {
    import flash.utils.ByteArray;
    import flash.utils.IDataInput;
-   
-   public class Reconnect extends IncomingMessage {
+
+import kabam.rotmg.messaging.impl.data.CompressedInt;
+
+public class Reconnect extends IncomingMessage {
        
       
       public var name_:String;
@@ -31,7 +33,7 @@ package kabam.rotmg.messaging.impl.incoming {
          this.gameId_ = param1.readInt();
          this.keyTime_ = param1.readInt();
          this.isFromArena_ = param1.readBoolean();
-         var _loc2_:int = param1.readShort();
+         var _loc2_:int = CompressedInt.read(param1);
          this.key_.length = 0;
          param1.readBytes(this.key_,0,_loc2_);
       }

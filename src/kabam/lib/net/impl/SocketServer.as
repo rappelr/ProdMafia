@@ -255,10 +255,17 @@ public class SocketServer {
                     for (i = 0; i < bytesAvailable; i++)
                         bytesStr += (i == 0 ? "[" : "") + data.readByte().toString()
                                 + (i == bytesAvailable - 1 ? "]" : ", ");
-                    trace("Read-only packet (id: " + messageId + ") has unread data left over: " + bytesStr)
+                    trace("Packet [" + messageId + "] has unread data left over: " + bytesStr)
                 }
             }
             catch (error:Error) {
+
+                if (error.toString().indexOf("#2030") > 0) // end of file reached error
+                {
+                    trace("Packet [" + messageId + "] has insufficient bytes: " + bytesAvailable);
+                    continue;
+                }
+
                 logErrorAndClose("Socket-Server Protocol Error: {0}", [error.toString()]);
                 return;
             }
