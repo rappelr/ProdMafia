@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x190" id="Apple">
+    <DisplayId>Apple of Extreme Maxening</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It's healthy!\nMaxes any class to 8/8 and adds a Backpack.</Description>
+    <Sound>use_potion</Sound>
+    <Activate stat="6" amount="18050">IncrementStat</Activate>
+    <Activate stat="0" amount="2000">IncrementStat</Activate>
+    <Activate stat="3" amount="2000">IncrementStat</Activate>
+    <Activate stat="20" amount="2000">IncrementStat</Activate>
+    <Activate stat="21" amount="2000">IncrementStat</Activate>
+    <Activate stat="22" amount="2000">IncrementStat</Activate>
+    <Activate stat="26" amount="2000">IncrementStat</Activate>
+    <Activate stat="27" amount="2000">IncrementStat</Activate>
+    <Activate stat="28" amount="2000">IncrementStat</Activate>
+    <Consumable />
+    <Backpack />
+    <Potion />
+    <BagType>8</BagType>
+    <Soulbound />
+  </Object>
+  <Object type="0x18f" id="Gift">
+    <DisplayId>Gift of Krathan</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x22</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use it and simply hit the class you need equipment for! Recommended to be used in your vault.\n\nConsume responsibly!</Description>
+    <Sound>use_potion</Sound>
+    <Activate objectId="Testing Gift Spawner">Pet</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+  </Object>
+  <Object type="0x641" id="Keys">
+    <DisplayId>Skeleton Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x21</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Opens everything! For testing purposes.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Key Spawner">Create</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+  </Object>
+  <Object type="0x933" id="TKeys">
+    <DisplayId>Testing Gift</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x20</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Spawns an object that drops keys and items. For testing purposes.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Testing Key Dropper">Create</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+  </Object>
+  <Object type="0x174f" id="Test TP">
+    <DisplayId>Godlands Teleporter</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xf2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Teleports the user near the mountains.</Description>
+    <Soulbound />
+    <Activate id="Death Flower">TeleportToObject</Activate>
+    <BagType>8</BagType>
+    <InvUse />
+  </Object>
+  <Object type="0x10fa" id="Test Close">
+    <DisplayId>Realm Closer</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xf4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Kills 1 Heroes of Oryx.</Description>
+    <Soulbound />
+    <Activate amount="1">KillRealmHeroes</Activate>
+    <BagType>8</BagType>
+    <InvUse />
+  </Object>
+  <Object type="0x0249" id="Test Ring">
+    <DisplayId>Creator's Ring</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="2">
+      <File>lofiObj</File>
+      <Index>0x2d</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A ring worn by powerful creators in the goal to observe their brand new creation.</Description>
+    <ActivateOnEquip stat="0" amount="99999">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="26" amount="99999">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="20" amount="5000">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>1500</feedPower>
+    <Soulbound />
+  </Object>
+  <Object type="0x705e" id="InvinceMe">
+    <DisplayId>Testosterone</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x15a</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Renders the user invincible for a day through sheer confidence.</Description>
+    <InvUse />
+    <BagType>6</BagType>
+    <Activate effect="Invincible" duration="86400">ConditionEffectSelf</Activate>
+    <Soulbound />
+  </Object>
+  <Object type="0x47e" id="Campaign Points Test">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="-2">
+      <File>lofiObj2</File>
+      <Index>0xac</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this item to gain 10 Campaign Points.\n\nSprite Credits: Artauris</Description>
+    <Soulbound />
+    <Activate amount="10">GrantSupporterPoints</Activate>
+    <BagType>7</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+</Objects>

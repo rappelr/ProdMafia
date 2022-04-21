@@ -1,0 +1,4727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0xc500" id="The Inner Workings Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DisplayId>The Inner Workings</DisplayId>
+    <DungeonName>The Inner Workings</DungeonName>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="0">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>theMachineObjects8x8</File>
+        <Index>0x1a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>theMachineObjects8x8</File>
+        <Index>0x1b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>theMachineObjects8x8</File>
+        <Index>0x1c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>theMachineObjects8x8</File>
+        <Index>0x1d</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>theMachineObjects8x8</File>
+        <Index>0x1e</Index>
+      </Texture>
+    </AltTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xc4FE" id="TM Activate Bit Invert">
+    <DisplayId>Electrical Interference</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1c</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Flip a TM Generic Bit's state on use. Range: 1.5</Description>
+    <Sound>use_key</Sound>
+    <InvUse />
+    <Soulbound />
+    <feedPower>200</feedPower>
+    <Activate id="TM Single Use Generic Bit Inverter">Create</Activate>
+  </Object>
+  <Object type="0xc503" id="TM Bit">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x02</Index>
+    </Texture>
+    <AltTexture id="2">
+      <Texture>
+        <File>innerWorkingsObjects8x8</File>
+        <Index>0x02</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>innerWorkingsObjects8x8</File>
+        <Index>0x03</Index>
+      </Texture>
+    </AltTexture>
+    <Size>120</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc507" id="TM Read Sequence Init">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc510" id="TM DispSeg T">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0b</Index>
+    </Texture>
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc511" id="TM DispSeg TL">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc512" id="TM DispSeg TR">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0d</Index>
+    </Texture>
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc513" id="TM DispSeg M">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0e</Index>
+    </Texture>
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc514" id="TM DispSeg BL">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc515" id="TM DispSeg BR">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x11</Index>
+    </Texture>
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc516" id="TM DispSeg B">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc51E" id="TM DispSeg N">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x13</Index>
+    </Texture>
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc53B" id="TM Negative Select Context Object A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3A</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xc53C" id="TM Negative Select Context Object B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3B</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xc517" id="TM Display HBar Off">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc518" id="TM Display HBar On">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc519" id="TM Display VBar Off">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc51A" id="TM Display VBar On">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc51F" id="TM Display NBar Off">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc520" id="TM Display NBar On">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc51B" id="TM Display Element Validator">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Display Element Validator</DisplayId>
+  </Object>
+  <Object type="0xc51D" id="TM Display Reader P">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Display Reader P</DisplayId>
+  </Object>
+  <Object type="0xc51C" id="TM Display Reader">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Display Reader</DisplayId>
+  </Object>
+  <Object type="0xc521" id="TM Digit Output Register Manager">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x14</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Digit Output Register Manager</DisplayId>
+  </Object>
+  <Object type="0xc522" id="TM Generic Bit">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x02</Index>
+    </Texture>
+    <AltTexture id="2">
+      <Texture>
+        <File>innerWorkingsObjects8x8</File>
+        <Index>0x02</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>innerWorkingsObjects8x8</File>
+        <Index>0x03</Index>
+      </Texture>
+    </AltTexture>
+    <Size>120</Size>
+    <DisplayId>Generic Bit</DisplayId>
+  </Object>
+  <Object type="0xc524" id="TM Generic Bit Writer P">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Generic Bit Writer P</DisplayId>
+  </Object>
+  <Object type="0xc523" id="TM Generic Bit Writer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0a</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Writer</DisplayId>
+  </Object>
+  <Object type="0xc56b" id="TM Generic Bit Left Shift">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <DrawOnGround />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x15</Index>
+    </Texture>
+    <DisplayId>Generic Bit Left Shift</DisplayId>
+  </Object>
+  <Object type="0xc525" id="TM Generic Bit Left Shift Helper">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Generic Bit Left Shift Helper</DisplayId>
+  </Object>
+  <Object type="0xc526" id="TM Single Use Generic Bit Inverter">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <RandomTexture>
+      <Texture>
+        <File>innerWorkingsObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>innerWorkingsObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+    </RandomTexture>
+    <DrawOnGround />
+    <Size>-1</Size>
+    <DisplayId>Single Use Generic Bit Inverter</DisplayId>
+  </Object>
+  <Object type="0xc527" id="TM Generic Mul Reader P">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Generic Mul Reader P</DisplayId>
+  </Object>
+  <Object type="0xc528" id="TM Generic Mul Reader">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x16</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Mul Reader</DisplayId>
+  </Object>
+  <Object type="0xc529" id="TM Left Shift Creator">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x15</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Left Shift Creator</DisplayId>
+  </Object>
+  <Object type="0xc52A" id="TM Left Shift Emulator">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <DrawOnGround />
+    <DisplayId>Left Shift Emulator</DisplayId>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x06</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc50B" id="TM Generic Sequence Copy Reader South">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <DrawOnGround />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DisplayId>Generic Sequence Copy Reader South</DisplayId>
+  </Object>
+  <Object type="0xc50F" id="TM Generic Sequence Copy Writer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <DrawOnGround />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0A</Index>
+    </Texture>
+    <DisplayId>Generic Sequence Copy Writer</DisplayId>
+  </Object>
+  <Object type="0xc54F" id="TM Sequence Copy Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Sequence Copy Messenger</DisplayId>
+  </Object>
+  <Object type="0xc550" id="TM Sequence Copy Messenger Stop">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Sequence Copy Messenger Stop</DisplayId>
+  </Object>
+  <Object type="0xc52B" id="TM Generic Sequence Copy Reader South P">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x22</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Generic Sequence Copy Reader South P</DisplayId>
+  </Object>
+  <Object type="0xc52C" id="TM Generic Sequence Copy Writer P">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x22</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Generic Sequence Copy Writer P</DisplayId>
+  </Object>
+  <Object type="0xc52D" id="TM Generic Child Request Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x17</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Child Request Messenger</DisplayId>
+  </Object>
+  <Object type="0xc52E" id="TM Add Initiate Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Add Initiate Messenger</DisplayId>
+  </Object>
+  <Object type="0xc52F" id="TM DoShift Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>DoShift Messenger</DisplayId>
+  </Object>
+  <Object type="0xc530" id="TM DoAdd Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>DoAdd Messenger</DisplayId>
+  </Object>
+  <Object type="0xc531" id="TM Left Shift Emulator Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Left Shift Emulator Messenger</DisplayId>
+  </Object>
+  <Object type="0xc532" id="TM Creator Ready Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Creator Ready Messenger</DisplayId>
+  </Object>
+  <Object type="0xc533" id="TM Display Reader Continue Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Display Reader Continue Messenger</DisplayId>
+  </Object>
+  <Object type="0xc534" id="TM Digit Output Data Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1a</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Digit Output Data Messenger</DisplayId>
+  </Object>
+  <Object type="0xc535" id="TM Multiply Initiate Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Multiply Initiate Messenger</DisplayId>
+  </Object>
+  <Object type="0xc536" id="TM Left Shift Base10 Emulator">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x25</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Left Shift Base10 Emulator</DisplayId>
+  </Object>
+  <Object type="0xc537" id="TM Generic Bit Set False">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Set False</DisplayId>
+  </Object>
+  <Object type="0xc538" id="TM Generic Bit Set True">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x01</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Set True</DisplayId>
+  </Object>
+  <Object type="0xc539" id="TM Generic Bit Array Setter">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Array Setter</DisplayId>
+  </Object>
+  <Object type="0xc53A" id="TM Generic Bit Array Zero">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Array Zero</DisplayId>
+  </Object>
+  <Object type="0xc54B" id="TM Generic Bit Array Manager">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Array Manager</DisplayId>
+  </Object>
+  <Object type="0xc54C" id="TM Unpack Add Write P + Bit Set True">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x20</Index>
+    </Texture>
+    <DisplayId>Unpack Add Write P + Bit Set True</DisplayId>
+  </Object>
+  <Object type="0xc54D" id="TM Unpack Bit Array Manager + TM Stop">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x20</Index>
+    </Texture>
+    <DisplayId>Unpack Bit Array Manager + TM Stop</DisplayId>
+  </Object>
+  <Object type="0xc556" id="TM Display Reader Magnitude Finder">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xc551" id="TM Mul Stop">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Mul Stop</DisplayId>
+  </Object>
+  <Object type="0xc552" id="TM Multiply Highest Bit Seeker">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x21</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Multiply Highest Bit Seeker</DisplayId>
+  </Object>
+  <Object type="0xc553" id="TM Sequence Copy Blocked">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x23</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Sequence Copy Blocked</DisplayId>
+  </Object>
+  <Object type="0xc555" id="TM ALU Add Complete Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>ALU Add Complete Messenger</DisplayId>
+  </Object>
+  <Object type="0xc557" id="TM Add Highest Bit Seeker">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x24</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Add Highest Bit Seeker</DisplayId>
+  </Object>
+  <Object type="0xc558" id="TM Add Highest Bit Seeker Read Helper A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Add Highest Bit Seeker Read Helper A</DisplayId>
+  </Object>
+  <Object type="0xc559" id="TM Add Highest Bit Seeker Read Helper B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Add Highest Bit Seeker Read Helper B</DisplayId>
+  </Object>
+  <Object type="0xc55A" id="TM Add Stop Unpack">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x20</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Add Stop Unpack</DisplayId>
+  </Object>
+  <Object type="0xc55B" id="TM Add Stop">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Add Stop</DisplayId>
+  </Object>
+  <Object type="0xc55C" id="TM Add Highest Bit Seeker Stop">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Add Highest Bit Seeker Stop</DisplayId>
+  </Object>
+  <Object type="0xc55D" id="TM Base10 Conversion Initiate Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x25</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base10 Conversion Initiate Messenger</DisplayId>
+  </Object>
+  <Object type="0xc55E" id="TM Base10 Conversion Done Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x25</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base10 Conversion Done Messenger</DisplayId>
+  </Object>
+  <Object type="0xc55F" id="TM Base10 Conversion Master">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x26</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base10 Conversion Master</DisplayId>
+  </Object>
+  <Object type="0xc560" id="TM Copy Enable Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x27</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Copy Enable Messenger</DisplayId>
+  </Object>
+  <Object type="0xc561" id="TM Copy Complete Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Copy Complete Messenger</DisplayId>
+  </Object>
+  <Object type="0xc562" id="TM Generic Bit Array Manager Zero Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Array Manager Zero Messenger</DisplayId>
+  </Object>
+  <Object type="0xc563" id="TM Generic Bit Array Manager Set Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Array Manager Set Messenger</DisplayId>
+  </Object>
+  <Object type="0xc564" id="TM Multiply Initiate Messenger Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Multiply Initiate Messenger Carriage</DisplayId>
+  </Object>
+  <Object type="0xc565" id="TM Base10 Module Done Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base10 Module Done Messenger</DisplayId>
+  </Object>
+  <Object type="0xc566" id="TM Digit Module Done Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Digit Module Done Messenger</DisplayId>
+  </Object>
+  <Object type="0xc567" id="TM Left Shift Base10 Emulator Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Left Shift Base10 Emulator Carriage</DisplayId>
+  </Object>
+  <Object type="0xc568" id="TM Reader Final Digit Signal">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>TM Reader Final Digit Signal</DisplayId>
+  </Object>
+  <Object type="0xc569" id="TM Display Reader Magnitude Finder Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Display Reader Magnitude Finder Carriage</DisplayId>
+  </Object>
+  <Object type="0xc570" id="TM Display Read Enable Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x28</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Display Read Enable Messenger</DisplayId>
+  </Object>
+  <Object type="0xc571" id="TM Final Digit Signal Scrubber">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Final Digit Signal Scrubber</DisplayId>
+  </Object>
+  <Object type="0xc572" id="TM Base10 Conversion Final Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x25</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base10 Conversion Final Messenger</DisplayId>
+  </Object>
+  <Object type="0xc573" id="TM Display Empty Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Display Empty Messenger</DisplayId>
+  </Object>
+  <Object type="0xc574" id="TM Generic Bit Right Shift">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2B</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Right Shift</DisplayId>
+  </Object>
+  <Object type="0xc575" id="TM Generic Bit Right Shift Helper">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Right Shift Helper</DisplayId>
+  </Object>
+  <Object type="0xc576" id="TM Divisor Base Pointer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2C</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Divisor Base Pointer</DisplayId>
+  </Object>
+  <Object type="0xc577" id="TM Divisor Overflow Pointer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2C</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Divisor Overflow Pointer</DisplayId>
+  </Object>
+  <Object type="0xc578" id="TM Divisor Result Pointer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2C</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Divisor Result Pointer</DisplayId>
+  </Object>
+  <Object type="0xc579" id="TM Pointer Left Shift">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Pointer Left Shift</DisplayId>
+  </Object>
+  <Object type="0xc57A" id="TM Pointer Right Shift">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Pointer Right Shift</DisplayId>
+  </Object>
+  <Object type="0xc57B" id="TM LEQ Tester">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2E</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>LEQ Tester</DisplayId>
+  </Object>
+  <Object type="0xc57D" id="TM Division Overflow Pointer Placer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Overflow Pointer Placer</DisplayId>
+  </Object>
+  <Object type="0xc57E" id="TM Division Overflow Pointer Placer Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Overflow Pointer Placer Carriage</DisplayId>
+  </Object>
+  <Object type="0xc57F" id="TM Division LEQ Tester Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2E</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division LEQ Tester Carriage</DisplayId>
+  </Object>
+  <Object type="0xc580" id="TM Pointer Left Shift Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>TM Pointer Left Shift Carriage</DisplayId>
+  </Object>
+  <Object type="0xc581" id="TM Generic Bit Left Shift Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Left Shift Carriage</DisplayId>
+  </Object>
+  <Object type="0xc582" id="TM Generic Bit Division Master">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2F</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Division Master</DisplayId>
+  </Object>
+  <Object type="0xc583" id="TM LEQ Result Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>LEQ Result Messenger</DisplayId>
+  </Object>
+  <Object type="0xc584" id="TM Generic Bit Right Shift Complete Observer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Right Shift Complete Observer</DisplayId>
+  </Object>
+  <Object type="0xc585" id="TM Generic Bit Right Shift Complete Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Right Shift Complete Messenger</DisplayId>
+  </Object>
+  <Object type="0xc586" id="TM Divisor Overflow Pointer OOB Observer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Divisor Overflow Pointer OOB Observer</DisplayId>
+  </Object>
+  <Object type="0xc587" id="TM Divisor Overflow Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Divisor Overflow Messenger</DisplayId>
+  </Object>
+  <Object type="0xc588" id="TM Divisor Result Pointer Bit Setter">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Result Pointer Bit Setter</DisplayId>
+  </Object>
+  <Object type="0xc589" id="TM ALU Add Complete Messenger Rerouter">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>ALU Add Complete Messenger Rerouter</DisplayId>
+  </Object>
+  <Object type="0xc58A" id="TM ALU Add Complete Divide Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>ALU Add Complete Divide Messenger</DisplayId>
+  </Object>
+  <Object type="0xc58B" id="TM Add Initiate Messenger Divider Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Add Initiate Messenger Divider Carriage</DisplayId>
+  </Object>
+  <Object type="0xc58C" id="TM Overflow Pointer Deleter">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1F</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Overflow Pointer Deleter</DisplayId>
+  </Object>
+  <Object type="0xc58D" id="TM Division Enabler">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Enabler</DisplayId>
+  </Object>
+  <Object type="0xc58E" id="TM Division Enabler Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Enabler Carriage</DisplayId>
+  </Object>
+  <Object type="0xc58F" id="TM DispSeg Readonly">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>DispSeg Readonly</DisplayId>
+  </Object>
+  <Object type="0xc590" id="TM Base2 Remainder Reader">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x31</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base2 Remainder Reader</DisplayId>
+  </Object>
+  <Object type="0xc591" id="TM Display Digit Writer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1a</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Display Digit Writer</DisplayId>
+  </Object>
+  <Object type="0xc592" id="TM Written Digit Marker">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <Size>0</Size>
+    <DisplayId>Written Digit Marker</DisplayId>
+  </Object>
+  <Object type="0xc593" id="TM Written Digit Marker Cleaner">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Written Digit Marker Cleaner</DisplayId>
+  </Object>
+  <Object type="0xc594" id="TM Invis Stop">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <Size>0</Size>
+    <DisplayId>Invis Stop</DisplayId>
+  </Object>
+  <Object type="0xc595" id="TM Base2 Divsion Result Copy">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x32</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base2 Divsion Result Copy</DisplayId>
+  </Object>
+  <Object type="0xc596" id="TM Generic Bit Set Deleter">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Set Deleter</DisplayId>
+  </Object>
+  <Object type="0xc597" id="TM Generic Bit Array Zero Tester">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Array Zero Tester</DisplayId>
+  </Object>
+  <Object type="0xc598" id="TM Base2 Division Result Copy Complete Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base2 Division Result Copy Complete Messenger</DisplayId>
+  </Object>
+  <Object type="0xc599" id="TM Global Register Transfer Reader 1">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x33</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 1</DisplayId>
+  </Object>
+  <Object type="0xc59A" id="TM Global Register Transfer Writer 1">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x34</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Register Transfer Writer 1</DisplayId>
+  </Object>
+  <Object type="0xc59B" id="TM Global Register Transfer Reader 2">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x33</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 2</DisplayId>
+  </Object>
+  <Object type="0xc59C" id="TM Global Register Transfer Writer 2">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x34</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Writer 2</DisplayId>
+  </Object>
+  <Object type="0xc59D" id="TM Global Register Transfer Reader 3">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x33</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 3</DisplayId>
+  </Object>
+  <Object type="0xc59E" id="TM Global Register Transfer Writer 3">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x34</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Writer 3</DisplayId>
+  </Object>
+  <Object type="0xc59F" id="TM Isolated Module Initiate AddSub">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Isolated Module Initiate AddSub</DisplayId>
+  </Object>
+  <Object type="0xc5A0" id="TM Isolated Multiply Initiate Messenger Creator">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Isolated Multiply Initiate Messenger Creator</DisplayId>
+  </Object>
+  <Object type="0xc5A1" id="TM Division Enabler Carriage Creator">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Enabler Carriage Creator</DisplayId>
+  </Object>
+  <Object type="0xc5A2" id="TM ALU Add Complete Messenger Deleter">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>ALU Add Complete Messenger Deleter</DisplayId>
+  </Object>
+  <Object type="0xc5A3" id="TM Arithmetic Operation Chooser">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Enemy />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x39</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>0</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <DisplayId>Arithmetic Operation Chooser</DisplayId>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc5A4" id="TM Division Value Highest Bit Pointer Placer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2D</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Value Highest Bit Pointer Placer</DisplayId>
+  </Object>
+  <Object type="0xc5A5" id="TM Division Value Highest Bit Pointer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x2C</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Value Highest Bit Pointer</DisplayId>
+  </Object>
+  <Object type="0xc5a6" id="TM Division Multishift Worker">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Multishift Worker</DisplayId>
+  </Object>
+  <Object type="0xc5a7" id="TM Division Multishift Worker Carriage">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x28</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Multishift Worker Carriage</DisplayId>
+  </Object>
+  <Object type="0xc5a8" id="TM Division Multishift Shift Request Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Multishift Shift Request Messenger</DisplayId>
+  </Object>
+  <Object type="0xc5a9" id="TM Division Multishift Done Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Multishift Done Messenger</DisplayId>
+  </Object>
+  <Object type="0xc53d" id="TM Base10 Convert Context Object A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3A</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base10 Convert Context Object A</DisplayId>
+  </Object>
+  <Object type="0xc53e" id="TM Base10 Convert Context Object B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3B</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base10 Convert Context Object B</DisplayId>
+  </Object>
+  <Object type="0xc53f" id="TM Division Multishift Done Messenger Synchronizer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3C</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Division Multishift Done Messenger Synchronizer</DisplayId>
+  </Object>
+  <Object type="0xc540" id="TM Base10 Convert Overseer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base10 Convert Overseer</DisplayId>
+  </Object>
+  <Object type="0xc541" id="TM Arithmetic Operation Choice Overseer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Arithmetic Operation Choice Overseer</DisplayId>
+  </Object>
+  <Object type="0xc54e" id="TM Global Register Transfer Conversion To Arithmetic Module Overseer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Conversion To Arithmetic Module Overseer</DisplayId>
+  </Object>
+  <Object type="0xc56A" id="TM Arithmetic Enable Overseer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Arithmetic Enable Overseer</DisplayId>
+  </Object>
+  <Object type="0xc542" id="TM Global Register Transfer Reader 1 Placer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 1 Placer</DisplayId>
+  </Object>
+  <Object type="0xc543" id="TM Global Register Transfer Reader 2 Placer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 2 Placer</DisplayId>
+  </Object>
+  <Object type="0xc56c" id="TM Global Register Transfer Writer 3 Placer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Writer 3 Placer</DisplayId>
+  </Object>
+  <Object type="0xc544" id="TM Global Register Transfer Data Line Writer Placer AddSub">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Data Line Writer Placer AddSub</DisplayId>
+  </Object>
+  <Object type="0xc545" id="TM Global Register Transfer Data Line Writer Placer Mul">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Data Line Writer Placer Mul</DisplayId>
+  </Object>
+  <Object type="0xc546" id="TM Global Register Transfer Data Line Writer Placer Div">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Data Line Writer Placer Div</DisplayId>
+  </Object>
+  <Object type="0xc547" id="TM Global Register Transfer Reader 3 Placer AddSub">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 3 Placer AddSub</DisplayId>
+  </Object>
+  <Object type="0xc548" id="TM Global Register Transfer Reader 3 Placer Mul">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 3 Placer Mul</DisplayId>
+  </Object>
+  <Object type="0xc549" id="TM Global Register Transfer Reader 3 Placer Div">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 3 Placer Div</DisplayId>
+  </Object>
+  <Object type="0xc54A" id="TM Global Register Transfer Reader 3 Placer Mod">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Global Register Transfer Reader 3 Placer Mod</DisplayId>
+  </Object>
+  <Object type="0xc56D" id="TM Isolated Module Child Request Listener">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>TM Isolated Module Child Request Listener</DisplayId>
+  </Object>
+  <Object type="0xc56E" id="TM Isolated Module Copy Overseer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Isolated Module Copy Overseer</DisplayId>
+  </Object>
+  <Object type="0xc56F" id="TM Base2 To Base10 Overseer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Base2 To Base10 Overseer</DisplayId>
+  </Object>
+  <Object type="0xc502" id="TM Calculation Reset Overseer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Calculation Reset Overseer</DisplayId>
+  </Object>
+  <Object type="0xc5aa" id="TM Generic Bit Array Negative Convert">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Array Negative Convert</DisplayId>
+  </Object>
+  <Object type="0xc5ab" id="TM Generic Bit Increment">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Generic Bit Increment</DisplayId>
+  </Object>
+  <Object type="0xc5ac" id="TM Negativity Input Handler">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Negativity Input Handler</DisplayId>
+  </Object>
+  <Object type="0xc5ad" id="TM DispSeg Negative Output">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x13</Index>
+    </Texture>
+    <Size>0</Size>
+      &gt;
+      <DisplayId>DispSeg Negative Output</DisplayId></Object>
+  <Object type="0xc5af" id="TM Negative Convert Context Object A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Negative Convert Context Object A</DisplayId>
+  </Object>
+  <Object type="0xc5b0" id="TM Negative Convert Context Object B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Negative Convert Context Object B</DisplayId>
+  </Object>
+  <Object type="0xc5b1" id="TM Negative Convert Object Creator A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Negative Convert Object Creator A</DisplayId>
+  </Object>
+  <Object type="0xc5b2" id="TM Negative Convert Object Creator B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Negative Convert Object Creator B</DisplayId>
+  </Object>
+  <Object type="0xc5b3" id="TM Negative Convert Context Object C">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Negative Convert Context Object C</DisplayId>
+  </Object>
+  <Object type="0xc5b4" id="TM Negative Convert Object Creator C">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Negative Convert Context Object Creator C</DisplayId>
+  </Object>
+  <Object type="0xc5b5" id="TM AddSub Highest Bit Negativity Reader">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>AddSub Highest Bit Negativity Reader</DisplayId>
+  </Object>
+  <Object type="0xc5ae" id="TM Location Breakpoint Decimal Transfer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Location Breakpoint Decimal Transfer</DisplayId>
+  </Object>
+  <Object type="0xc5b6" id="TM DispSeg Input Blocker">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>DispSeg Input Blocker</DisplayId>
+  </Object>
+  <Object type="0xc5b7" id="TM Location Breakpoint Binary Conversion">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Location Breakpoint Binary Conversion</DisplayId>
+  </Object>
+  <Object type="0xc5b8" id="TM Location Breakpoint Isolated Module Copy">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Location Breakpoint Isolated Module Copy</DisplayId>
+  </Object>
+  <Object type="0xc5b9" id="TM Location Breakpoint Isolated Module AddSub">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Location Breakpoint Isolated Module AddSub</DisplayId>
+  </Object>
+  <Object type="0xc5ba" id="TM Location Breakpoint Isolated Module Mul">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Location Breakpoint Isolated Module Mul</DisplayId>
+  </Object>
+  <Object type="0xc5bb" id="TM Location Breakpoint Isolated Module DivMod">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Location Breakpoint Isolated Module DivMod</DisplayId>
+  </Object>
+  <Object type="0xc5bc" id="TM Digit Read Enable A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Digit Read Enable A</DisplayId>
+  </Object>
+  <Object type="0xc554" id="TM Digit Read Enable B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Digit Read Enable B</DisplayId>
+  </Object>
+  <Object type="0xc5bd" id="TM Location Breakpoint Display Read A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Location Breakpoint Display Read A</DisplayId>
+  </Object>
+  <Object type="0xc5be" id="TM Location Breakpoint Display Read B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Location Breakpoint Display Read B</DisplayId>
+  </Object>
+  <Object type="0xc5bf" id="TM Calculation Start Signal">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Calculation Start Signal</DisplayId>
+  </Object>
+  <Object type="0xc5c0" id="TM Location Waypoint">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Color>0xC40068</Color>
+    <Size>120</Size>
+    <DisplayId>Location Waypoint</DisplayId>
+  </Object>
+  <Object type="0xc5c1" id="TM Location Breakpoint Output">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Size>0</Size>
+    <DisplayId>Location Breakpoint Output</DisplayId>
+  </Object>
+  <Object type="0xc57c" id="TM Display Digit Zero Writer">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Display Digit Zero Writer</DisplayId>
+  </Object>
+  <Object type="0xc5c2" id="TM Display Invalid Messenger">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Display Invalid Messenger</DisplayId>
+  </Object>
+  <Object type="0xc501" id="TM Conversion Output Zero Initiate A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Conversion Output Zero Initiate A</DisplayId>
+  </Object>
+  <Object type="0xc5c3" id="TM Conversion Output Zero Initiate B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Conversion Output Zero Initiate B</DisplayId>
+  </Object>
+  <Object type="0xc5c4" id="TM Generic Bit Visual False">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Color>0x214228</Color>
+  </Object>
+  <Object type="0xc5c5" id="TM Generic Bit Visual True">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Color>0x89F9BD</Color>
+  </Object>
+  <Object type="0xc5c6" id="TM Boundary Indicator Conversion Module A">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Color>0xFF0000</Color>
+  </Object>
+  <Object type="0xc5c7" id="TM Boundary Indicator Conversion Module A Collapse">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5c8" id="TM Boundary Indicator Conversion Module A Collapse Initiate">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5c9" id="TM Boundary Indicator Conversion Module B">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Color>0xFF0000</Color>
+  </Object>
+  <Object type="0xc5ca" id="TM Boundary Indicator Conversion Module B Collapse">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5cb" id="TM Boundary Indicator Conversion Module B Collapse Initiate">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5cc" id="TM Boundary Indicator Generic">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Color>0xFF0000</Color>
+  </Object>
+  <Object type="0xc5cd" id="TM Boundary Indicator Generic Collapse">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5ce" id="TM Boundary Indicator Generic Collapse Initiate">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5cf" id="TM Output Boundary Map Placer">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5d0" id="TM Negative Convert A Boundary Map Placer">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5d1" id="TM Negative Convert B Boundary Map Placer">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5d2" id="TM Boundary Indicator Global Copy">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Color>0xFF0000</Color>
+  </Object>
+  <Object type="0xc5d3" id="TM Boundary Indicator Global Copy Collapse">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5d4" id="TM Boundary Indicator Global Copy Collapse Initiate">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5d5" id="TM OnSpawn Teleporter">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Size>0</Size>
+    <Color>0xFFFFFF</Color>
+  </Object>
+  <Object type="0xc5d6" id="TM OnSpawn Teleporter Target">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5d7" id="TM Entrance Teleporter">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5d8" id="TM Explanation Object">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Size>100</Size>
+    <DisplayId>Craig the Intern</DisplayId>
+  </Object>
+  <Object type="0xc5d9" id="TM Location Waypoint Silent">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Size>120</Size>
+  </Object>
+  <Object type="0xc5da" id="TM Output Verifier P">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc5db" id="TM Output Verifier">
+    <Class>Character</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <DisplayId>Output Reader</DisplayId>
+    <Sound id="0">monster/oryx_death</Sound>
+  </Object>
+  <Object type="0x2a4b" id="TM Craig ReExplanation">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Size>20</Size>
+    <DisplayId>Craig the Intern</DisplayId>
+    <Color>0x0000FF</Color>
+  </Object>
+  <Object type="0x2f66" id="TM Craig Anchor">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc4d8" id="TM InnerWorkings Access Point">
+    <DisplayId>Automated Security System</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc504" id="TM Bit Reader A">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Bit Reader A</DisplayId>
+  </Object>
+  <Object type="0xc505" id="TM Bit Reader B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x05</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Bit Reader B</DisplayId>
+  </Object>
+  <Object type="0xc50D" id="TM Bit Reader A P">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Bit Reader A P</DisplayId>
+  </Object>
+  <Object type="0xc50E" id="TM Bit Reader B P">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>Bit Reader B P</DisplayId>
+  </Object>
+  <Object type="0xc506" id="TM Stop">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x06</Index>
+    </Texture>
+    <DrawOnGround />
+    <DisplayId>Stop</DisplayId>
+  </Object>
+  <Object type="0xc509" id="TM ALU Add">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x09</Index>
+    </Texture>
+    <Size>100</Size>
+    <DrawOnGround />
+    <DisplayId>TM ALU Add</DisplayId>
+  </Object>
+  <Object type="0xc508" id="TM ALU Add Write P">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x08</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>ALU Add Write P</DisplayId>
+  </Object>
+  <Object type="0xc50A" id="TM ALU Add Write">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <DrawOnGround />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0A</Index>
+    </Texture>
+    <DisplayId>TM ALU Add Write</DisplayId>
+  </Object>
+  <Object type="0xc50C" id="TM ALU Add Carry Bit">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x02</Index>
+    </Texture>
+    <AltTexture id="2">
+      <Texture>
+        <File>innerWorkingsObjects8x8</File>
+        <Index>0x02</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>innerWorkingsObjects8x8</File>
+        <Index>0x03</Index>
+      </Texture>
+    </AltTexture>
+    <Size>120</Size>
+    <DisplayId>ALU Add Carry Bit</DisplayId>
+  </Object>
+  <Object type="0xa238" id="CHS Pawn W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x0</Index>
+    </Texture>
+    <DisplayId>White Pawn</DisplayId>
+    <MinimapIcon color="0xFFE7A6" piece="Pawn" />
+  </Object>
+  <Object type="0xa239" id="CHS Rook W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x1</Index>
+    </Texture>
+    <DisplayId>White Rook</DisplayId>
+    <MinimapIcon color="0xFFE7A6" piece="Rook" />
+  </Object>
+  <Object type="0xa23a" id="CHS Knight W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x2</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <DisplayId>White Knight</DisplayId>
+    <MinimapIcon color="0xFFE7A6" piece="Knight" />
+  </Object>
+  <Object type="0xa23b" id="CHS Bishop W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <DisplayId>White Bishop</DisplayId>
+    <MinimapIcon color="0xFFE7A6" piece="Bishop" />
+  </Object>
+  <Object type="0xa23c" id="CHS Queen W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x4</Index>
+    </Texture>
+    <DisplayId>White Queen</DisplayId>
+    <MinimapIcon color="0xFFE7A6" piece="Queen" />
+  </Object>
+  <Object type="0xa23d" id="CHS King W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x5</Index>
+    </Texture>
+    <DisplayId>White King</DisplayId>
+    <MinimapIcon color="0xFFE7A6" piece="King" />
+  </Object>
+  <Object type="0xa23e" id="CHS Pawn B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <DisplayId>Black Pawn</DisplayId>
+    <MinimapIcon color="0x4C4858" piece="Pawn" />
+  </Object>
+  <Object type="0xa23f" id="CHS Rook B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x7</Index>
+    </Texture>
+    <DisplayId>Black Rook</DisplayId>
+    <MinimapIcon color="0x4C4858" piece="Rook" />
+  </Object>
+  <Object type="0xa240" id="CHS Knight B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x8</Index>
+    </Texture>
+    <DisplayId>Black Knight</DisplayId>
+    <MinimapIcon color="0x4C4858" piece="Knight" />
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+  </Object>
+  <Object type="0xa241" id="CHS Bishop B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x9</Index>
+    </Texture>
+    <DisplayId>Black Bishop</DisplayId>
+    <MinimapIcon color="0x4C4858" piece="Bishop" />
+  </Object>
+  <Object type="0xa242" id="CHS Queen B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xa</Index>
+    </Texture>
+    <DisplayId>Black Queen</DisplayId>
+    <MinimapIcon color="0x4C4858" piece="Queen" />
+  </Object>
+  <Object type="0xa243" id="CHS King B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xb</Index>
+    </Texture>
+    <DisplayId>Black King</DisplayId>
+    <MinimapIcon color="0x4C4858" piece="King" />
+  </Object>
+  <Object type="0xa244" id="CHS Selected Indicator">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xa245" id="CHS Pawn W First Move Indicator">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xa24b" id="CHS Pawn B First Move Indicator">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xa247" id="CHS PieceHere W">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xa248" id="CHS PieceHere B">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xa249" id="CHS Movement Option">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <DisplayId>Outstanding Move</DisplayId>
+  </Object>
+  <Object type="0x2a4a" id="CHS Board Boundary">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a4c" id="CHS Turn Controller">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+    <DisplayId>Chess</DisplayId>
+  </Object>
+  <Object type="0x2a4d" id="CHS Board Builder W">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>3</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a4e" id="CHS Board Builder B">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>3</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a46" id="CHS Pawn W Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>White Pawn</DisplayId>
+  </Object>
+  <Object type="0x2a54" id="CHS Pawn B Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>Black Pawn</DisplayId>
+  </Object>
+  <Object type="0x2a4f" id="CHS Rook W Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>White Rook</DisplayId>
+  </Object>
+  <Object type="0x2a50" id="CHS Rook W Movement Creator East">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a51" id="CHS Rook W Movement Creator West">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a52" id="CHS Rook W Movement Creator South">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a53" id="CHS Rook W Movement Creator North">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a59" id="CHS Rook B Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>Black Rook</DisplayId>
+  </Object>
+  <Object type="0x2a5a" id="CHS Rook B Movement Creator East">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a5b" id="CHS Rook B Movement Creator West">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a5c" id="CHS Rook B Movement Creator South">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a5d" id="CHS Rook B Movement Creator North">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a55" id="CHS Knight W Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>White Knight</DisplayId>
+  </Object>
+  <Object type="0x2a56" id="CHS Knight W Movement Creator True">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a57" id="CHS Knight B Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>Black Knight</DisplayId>
+  </Object>
+  <Object type="0x2a58" id="CHS Knight B Movement Creator True">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a5e" id="CHS Bishop W Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>White Bishop</DisplayId>
+  </Object>
+  <Object type="0x2a5f" id="CHS Bishop W Movement Creator NE">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a60" id="CHS Bishop W Movement Creator SE">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a61" id="CHS Bishop W Movement Creator SW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a62" id="CHS Bishop W Movement Creator NW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a63" id="CHS Bishop B Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>Black Bishop</DisplayId>
+  </Object>
+  <Object type="0x2a64" id="CHS Bishop B Movement Creator NE">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a65" id="CHS Bishop B Movement Creator SE">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a66" id="CHS Bishop B Movement Creator SW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a67" id="CHS Bishop B Movement Creator NW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a68" id="CHS Queen W Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>White Queen</DisplayId>
+  </Object>
+  <Object type="0x2a69" id="CHS Queen B Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>Black Queen</DisplayId>
+  </Object>
+  <Object type="0x2a6a" id="CHS King W Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>White King</DisplayId>
+  </Object>
+  <Object type="0x2a6b" id="CHS King W Movement Creator True">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a6c" id="CHS King B Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <DisplayId>Black King</DisplayId>
+  </Object>
+  <Object type="0x2a6d" id="CHS King B Movement Creator True">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a6e" id="CHS Back Rank Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>3</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a6f" id="CHS En Passant Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>5</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a70" id="CHS White Attacked Checker">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>6</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a71" id="CHS King W Check Diag NE">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a72" id="CHS King W Check Diag SE">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a73" id="CHS King W Check Diag SW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a74" id="CHS King W Check Diag NW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a75" id="CHS King W Check Horiz N">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>8</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a76" id="CHS King W Check Horiz E">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>8</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a77" id="CHS King W Check Horiz S">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>8</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a78" id="CHS King W Check Horiz W">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>8</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a79" id="CHS King W Check Pawn">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>9</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a7a" id="CHS King W Check Knight">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>9</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a87" id="CHS King W Check King">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>11</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a85" id="CHS Black Attacked Checker">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>6</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a7b" id="CHS King B Check Diag NE">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a7c" id="CHS King B Check Diag SE">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a7d" id="CHS King B Check Diag SW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a7e" id="CHS King B Check Diag NW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a7f" id="CHS King B Check Horiz N">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>8</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a80" id="CHS King B Check Horiz E">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>8</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a81" id="CHS King B Check Horiz S">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>8</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a82" id="CHS King B Check Horiz W">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>8</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a83" id="CHS King B Check Pawn">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>9</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a84" id="CHS King B Check Knight">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>9</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a88" id="CHS King B Check King">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>11</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a86" id="CHS PieceWillBeHere">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>10</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a89" id="CHS Castling Manager">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>12</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a8a" id="CHS Castling Indicator KW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a8b" id="CHS Castling Indicator QW">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a8c" id="CHS Castling Indicator KB">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a8d" id="CHS Castling Indicator QB">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a8e" id="CHS King W First Move Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a8f" id="CHS King B First Move Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a90" id="CHS King W Queenside Castling Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a91" id="CHS King W Kingside Castling Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a92" id="CHS King B Queenside Castling Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a93" id="CHS King B Kingside Castling Movement Creator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a94" id="CHS Castle White Queenside Movement Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a95" id="CHS Castle White Kingside Movement Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a96" id="CHS Castle Black Queenside Movement Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a97" id="CHS Castle Black Kingside Movement Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a98" id="CHS Rook Castle Indicator">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>16</Index>
+    </Texture>
+  </Object>
+  <Object type="0xac52" id="CHS En Passant Capture King Attack Checker Modifier">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>16</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a99" id="CHS Board Edge H">
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x79</Index>
+    </Texture>
+    <Static />
+  </Object>
+  <Object type="0x2a9a" id="CHS Board Edge V">
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x7a</Index>
+    </Texture>
+    <Static />
+  </Object>
+  <Object type="0x2a9b" id="CHS Board Edge D">
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x7b</Index>
+    </Texture>
+    <Static />
+  </Object>
+  <Object type="0x2a9c" id="Nothing">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a9d" id="CHS Game State Manager">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x02</Index>
+    </Texture>
+    <Size>0</Size>
+    <DisplayId>Chess</DisplayId>
+  </Object>
+  <Object type="0x2a9e" id="CHS Confirm Proposal 1">
+    <Class>GameObject</Class>
+    <Size>100</Size>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07D</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2a9f" id="CHS Confirm Proposal 2">
+    <Class>GameObject</Class>
+    <Size>100</Size>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x07E</Index>
+    </Texture>
+  </Object>
+  <Object type="0x2f69" id="CHS Move Indicator TL">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xc</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>50</Size>
+  </Object>
+  <Object type="0x2f67" id="CHS Move Indicator TR">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xd</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>50</Size>
+  </Object>
+  <Object type="0x20af" id="CHS Move Indicator BL">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x1c</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>50</Size>
+  </Object>
+  <Object type="0x1aa8" id="CHS Move Indicator BR">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>50</Size>
+  </Object>
+  <Object type="0x1fe3" id="CHS Move Indicator Cleaner">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3764" id="CHS Captured Pawn W Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3765" id="CHS Captured Pawn B Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3766" id="CHS Captured Rook W Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3767" id="CHS Captured Rook B Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3768" id="CHS Captured Knight W Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3769" id="CHS Captured Knight B Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x376a" id="CHS Captured Bishop W Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x376b" id="CHS Captured Bishop B Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x376c" id="CHS Captured Queen W Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x376d" id="CHS Captured Queen B Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x376e" id="CHS Captured King W Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x376f" id="CHS Captured King B Create">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x51c" id="CHS Captured Pawn W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x51d" id="CHS Captured Pawn B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>6</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x51e" id="CHS Captured Rook W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>1</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x51f" id="CHS Captured Rook B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>7</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x520" id="CHS Captured Knight W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>2</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x521" id="CHS Captured Knight B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>8</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x522" id="CHS Captured Bishop W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>3</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x523" id="CHS Captured Bishop B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>9</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x524" id="CHS Captured Queen W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>4</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x525" id="CHS Captured Queen B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xa</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x526" id="CHS Captured King W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>5</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0x527" id="CHS Captured King B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xb</Index>
+    </Texture>
+    <Size>20</Size>
+  </Object>
+  <Object type="0xbe2" id="CHS Captured Notify">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xbe0" id="CHS Captured W Target">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xbe1" id="CHS Captured B Target">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xaac0" id="CHS Feet">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x7F</Index>
+    </Texture>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac1" id="CHS Edge A">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac2" id="CHS Edge B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x81</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac3" id="CHS Edge C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x82</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac4" id="CHS Edge D">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x83</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac5" id="CHS Edge E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x84</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac6" id="CHS Edge F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x85</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac7" id="CHS Edge G">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x86</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac8" id="CHS Edge H">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x87</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaac9" id="CHS Edge 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x88</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaaca" id="CHS Edge 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x89</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaacb" id="CHS Edge 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x8a</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaacc" id="CHS Edge 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x8b</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaacd" id="CHS Edge 5">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x8c</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaace" id="CHS Edge 6">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x8d</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaacf" id="CHS Edge 7">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x8e</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaad0" id="CHS Edge 8">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x8f</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0xaad1" id="CHS Alt Setup">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xaad2" id="CHS Alt Win Condition">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+    <Size>-1</Size>
+    <DisplayId>? ? ? ?</DisplayId>
+    <Sound id="0">enter_realm</Sound>
+  </Object>
+  <Object type="0xaad3" id="CHS King W Alt">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>5</Index>
+    </Texture>
+  </Object>
+  <Object type="0xaad7" id="CHS King B Alt">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xb</Index>
+    </Texture>
+  </Object>
+  <Object type="0xaad4" id="CHS Queen W Alt">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>4</Index>
+    </Texture>
+  </Object>
+  <Object type="0xaad5" id="CHS Queen B Alt">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xa</Index>
+    </Texture>
+  </Object>
+  <Object type="0xaad6" id="CHS Alt Anchor">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>5</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xaad8" id="CHS W Crumble">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>5</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x1a</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xaad9" id="CHS B Crumble">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>innerWorkingsObjects16x16</File>
+      <Index>0xb</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x27</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x28</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999.15">
+        <Texture>
+          <File>innerWorkingsObjects16x16</File>
+          <Index>0x2a</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xaada" id="CHS Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DisplayId>Chess</DisplayId>
+    <DungeonName>Chess</DungeonName>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0x66</Index>
+    </Texture>
+  </Object>
+  <Object type="0xac50" id="CHS Knight Alt">
+    <Class>Character</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x4d</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x5b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x5f</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x6d</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x7b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x22</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x26</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x71</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x75</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x78</Index>
+      </Texture>
+      <Effect particle="SwirlingMist" cooldown="0.5">XMLEffect</Effect>
+    </AltTexture>
+    <DisplayId>Geb</DisplayId>
+  </Object>
+  <Object type="0xac4f" id="CHS Rook Alt">
+    <Class>Character</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x4e</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x5c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x6a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x6e</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x7c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x23</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x27</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x72</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x76</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x79</Index>
+      </Texture>
+      <Effect particle="SwirlingMist" cooldown="0.5">XMLEffect</Effect>
+    </AltTexture>
+    <DisplayId>Bes</DisplayId>
+  </Object>
+  <Object type="0xaac4e" id="CHS Pawn Alt">
+    <Class>Character</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x4f</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x5d</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x6b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x6f</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x7d</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x24</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x28</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x73</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x77</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x37</Index>
+      </Texture>
+      <Effect particle="SwirlingMist" cooldown="0.5">XMLEffect</Effect>
+    </AltTexture>
+    <DisplayId>Ghost of Skuld</DisplayId>
+  </Object>
+  <Object type="0xaadd" id="CHS Queen Alt">
+    <Class>Character</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x4c</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x5a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x5e</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x3b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x6c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x7a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x21</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x25</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x70</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x74</Index>
+      </Texture>
+      <Effect particle="SwirlingMist" cooldown="0.5">XMLEffect</Effect>
+    </AltTexture>
+    <DisplayId>Nut</DisplayId>
+  </Object>
+  <Object type="0xaadc" id="CHS Bishop Alt">
+    <Class>Character</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x2e</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x2f</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x3a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x3b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x3c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x3d</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x3e</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x3f</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x4a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x4b</Index>
+      </Texture>
+      <Effect particle="SwirlingMist" cooldown="0.5">XMLEffect</Effect>
+    </AltTexture>
+    <DisplayId>Lord Ruthven</DisplayId>
+  </Object>
+  <Object type="0xaadb" id="CHS King Alt">
+    <Class>Character</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x1a</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x1b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x1c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x1d</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x1e</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x1f</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x2a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x2b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x2c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x2d</Index>
+      </Texture>
+      <Effect particle="SwirlingMist" cooldown="0.5">XMLEffect</Effect>
+    </AltTexture>
+    <DisplayId>The Forgotten King</DisplayId>
+  </Object>
+  <Object type="0xac59" id="Emperor Bullet">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xac5a" id="Emperor Blast">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf1</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xac5b" id="Emperor Small Shuriken">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf2</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xac5c" id="Emperor Shuriken">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf3</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xac5d" id="Emperor Wheel">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf4</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xac5e" id="Emperor Spin">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf5</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xac5f" id="Emperor Shockwave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf6</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xac60" id="Emperor Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf7</Index>
+    </Texture>
+  </Object>
+  <Object type="0xac61" id="Emperor Spear">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf8</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xac62" id="Emperor Large Bullet">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x67</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xac63" id="Emperor Ring">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xf9</Index>
+    </Texture>
+    <Rotation>120</Rotation>
+  </Object>
+  <Object type="0xac64" id="Emperor Vortex">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x68</Index>
+    </Texture>
+    <Rotation>-60</Rotation>
+  </Object>
+  <Object type="0xac65" id="Emperor Laser">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>d1lofiObjBig</File>
+      <Index>0x69</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xac66" id="Emperor Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>0xfa</Index>
+    </Texture>
+    <Rotation>-180</Rotation>
+  </Object>
+  <Object type="0xac58" id="CHS Void Emperor">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>innerWorkingsChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x29</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x37</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x38</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x39</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x4b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x79</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x78</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x47</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x48</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="10">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x49</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="11">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x57</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="12">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x58</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="13">
+      <Texture>
+        <File>d1lofiObjBig</File>
+        <Index>0x59</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="14">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <DisplayId>Void Emperor</DisplayId>
+    <Defense>90</Defense>
+    <MaxHitPoints>5000000</MaxHitPoints>
+    <AlwaysPositiveHealth />
+    <Size>300</Size>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Resurrection />
+    <Flying />
+    <Exp>800000</Exp>
+    <HitSound>weapon/wand_of_dark_magic</HitSound>
+    <DeathSound>enter_realm</DeathSound>
+    <Quest />
+    <EventChestBoss />
+    <TrackLoot />
+    <PowerUpDef />
+    <PowerUpAtt />
+    <PowerUpDex />
+    <PowerUpWis />
+    <PowerUpSpd />
+    <PowerUpVit />
+    <PowerUpMana />
+    <PowerUpLife />
+    <Enemy />
+    <HealthBarBoss radius="50" />
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Projectile id="0">
+      <ObjectId>Emperor Bullet</ObjectId>
+      <Damage>300</Damage>
+      <Speed>120</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>120</Size>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Darkness</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Emperor Blast</ObjectId>
+      <Damage>200</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Emperor Small Shuriken</ObjectId>
+      <Damage>200</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>4200</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="6">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Emperor Shuriken</ObjectId>
+      <Damage>225</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="10">Quiet</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Emperor Wheel</ObjectId>
+      <Damage>200</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="6">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Emperor Spin</ObjectId>
+      <Damage>175</Damage>
+      <Speed>150</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="6" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Emperor Bullet</ObjectId>
+      <Damage>250</Damage>
+      <Speed>20</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>120</Size>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="15">Darkness</ConditionEffect>
+      <Amplitude>1.5</Amplitude>
+      <Frequency>1.5</Frequency>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Emperor Shockwave</ObjectId>
+      <Damage>200</Damage>
+      <Speed>150</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Emperor Wave</ObjectId>
+      <Damage>300</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>120</Size>
+      <FaceDir />
+      <MultiHit />
+      <ConditionEffect duration="10">Slowed</ConditionEffect>
+      <Amplitude>2</Amplitude>
+      <Frequency>1.2</Frequency>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Emperor Spear</ObjectId>
+      <Damage>200</Damage>
+      <Speed>20</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>120</Size>
+      <ConditionEffect duration="30">Silenced</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Emperor Large Bullet</ObjectId>
+      <Damage>300</Damage>
+      <Speed>110</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>250</Size>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="5">Darkness</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Emperor Ring</ObjectId>
+      <Damage>200</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="2">Petrify</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Emperor Wave</ObjectId>
+      <Damage>250</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>120</Size>
+      <FaceDir />
+      <MultiHit />
+      <ConditionEffect duration="5">Slowed</ConditionEffect>
+      <Amplitude>2</Amplitude>
+      <Frequency>1.2</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Emperor Shuriken</ObjectId>
+      <Damage>225</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="5">Quiet</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Emperor Blast</ObjectId>
+      <Damage>205</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <FaceDir />
+      <Amplitude>2</Amplitude>
+      <Frequency>2.5</Frequency>
+      <ConditionEffect duration="5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Emperor Small Shuriken</ObjectId>
+      <Damage>180</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>120</Size>
+      <ConditionEffect duration="6">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Emperor Spin</ObjectId>
+      <Damage>250</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <Size>120</Size>
+      <Amplitude>2</Amplitude>
+      <Frequency>3</Frequency>
+      <MultiHit />
+      <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>Emperor Spear</ObjectId>
+      <Damage>300</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>120</Size>
+      <FaceDir />
+      <MultiHit />
+      <Amplitude>1.5</Amplitude>
+      <Frequency>2</Frequency>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Emperor Vortex</ObjectId>
+      <Damage>1</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Size>240</Size>
+      <MultiHit />
+      <ConditionEffect duration="20">Dead</ConditionEffect>
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>Emperor Laser</ObjectId>
+      <Damage>450</Damage>
+      <Speed>110</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <ConditionEffect duration="20">Weak</ConditionEffect>
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>Emperor Shot</ObjectId>
+      <Damage>350</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="20">Dazed</ConditionEffect>
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>Emperor Large Bullet</ObjectId>
+      <Damage>300</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>250</Size>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="20">Unstable</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xac67" id="CHS Void Emperor Anchor">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>innerWorkingsChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xac68" id="CHS Void Emperor Blackhole Spawner">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>innerWorkingsChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xac69" id="CHS Void Emperor Gravity Controller">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>innerWorkingsChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xac6a" id="CHS Void Emperor Teleportation Controller">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>innerWorkingsChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xac6b" id="CHS Void Emperor Controller">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>innerWorkingsChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xac51" id="CHS Explain Dropper">
+    <Class>Container</Class>
+    <Container />
+    <Loot />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x02</Index>
+    </Texture>
+    <Size>100</Size>
+    <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0x37bb, 0x37bb, 0x37bb, 0x37bb, 0x37bb, 0x37bb, 0x37bb, 0x37bb</Equipment>
+  </Object>
+</Objects>

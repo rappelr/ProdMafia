@@ -1,0 +1,3551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0xb5bb" id="Bilgewater Cannonball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x47</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5bc" id="Bilgewater Cannonball Spike">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x48</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5bd" id="Bilgewater Cannonball Skull">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x49</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5be" id="Bilgewater Cannonball Skull Red">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x4a</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5bf" id="Bilgewater Cutlass">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x4b</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xb5c0" id="Bilgewater Cannonball S">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xc0</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5c1" id="Bilgewater Cannonball Spike S">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xc1</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5c2" id="Bilgewater Cannonball Skull S">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xc2</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5c3" id="Bilgewater Cannonball Skull Red S">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xc3</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5c4" id="Deadwater Blade">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb5c5" id="Deadwater Crab Claw">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x31</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xb5c6" id="Deadwater Talon">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xcc</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xb5c7" id="Deadwater Small Cannonball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5c8" id="Deadwater Small Cannonball Orange">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x33</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5c9" id="Deadwater Small Cannonball Blue">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x35</Index>
+    </Texture>
+    <Rotation>200</Rotation>
+  </Object>
+  <Object type="0xb5ca" id="Deadwater Liquid Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x36</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xb5cb" id="Deadwater Liquid Missile">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x37</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xb5cd" id="Deadwater Liquid Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x38</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb5ce" id="Deadwater Parrot Feather">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xb0</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xb1</Index>
+      </Texture>
+    </RandomTexture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xb5cf" id="Deadwater Macaw Feather">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xb2</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xb3</Index>
+      </Texture>
+    </RandomTexture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xb5d0" id="Deadwater Flintlock Shot">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xc4</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xc5</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xc6</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0xb5d1" id="Bilgewater Coin Bronze">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xc7</Index>
+    </Texture>
+    <Rotation>220</Rotation>
+  </Object>
+  <Object type="0xb5d2" id="Bilgewater Coin Silver">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xc8</Index>
+    </Texture>
+    <Rotation>220</Rotation>
+  </Object>
+  <Object type="0xb5d3" id="Bilgewater Coin Gold">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xc9</Index>
+    </Texture>
+    <Rotation>220</Rotation>
+  </Object>
+  <Object type="0xb5d4" id="Deadwater White Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xb9</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb5d5" id="Deadwater White Spike">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xba</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xb5d6" id="Deadwater White Zap">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xbb</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xb5d7" id="Deadwater Banana">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xca</Index>
+    </Texture>
+    <Rotation>220</Rotation>
+  </Object>
+  <Object type="0xb5d8" id="Deadwater White Banana">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xcb</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xb5d9" id="Deadwater Knife">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xcd</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xce</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xcf</Index>
+      </Texture>
+    </RandomTexture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xb5da" id="Deadwater Bubble">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xd0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb5db" id="Deadwater Spinner">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xd1</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xb602" id="Deadwater Bartholomew Feather">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x7a</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x7b</Index>
+      </Texture>
+    </RandomTexture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0x706a" id="DWD Bilgewater Summoner">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x707a" id="DWD Bilgewater Ship Controller">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xb5e4" id="DWD Bilgewater Entrance Controller">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x0930" id="DWD Jon Bilgewater the Pirate King">
+    <Group>JonBilgewater</Group>
+    <Enemy />
+    <DisplayId>Jon Bilgewater the Pirate King</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>deadwaterDocksChars16x16</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/pirate_king_hit</HitSound>
+    <DeathSound>monster/pirate_king_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>80000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Quest />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <Level>1</Level>
+    <Exp>15000</Exp>
+    <NoArticle />
+    <EventChestBoss />
+    <TrackLoot />
+    <KillStat stat="HumanoidKills" />
+    <KillStat stat="GodKills" />
+    <Projectile id="0">
+      <ObjectId>Bilgewater Cutlass</ObjectId>
+      <Damage>160</Damage>
+      <Speed>100</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Bilgewater Cannonball</ObjectId>
+      <Damage>200</Damage>
+      <Speed>80</Speed>
+      <Size>160</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Bilgewater Coin Bronze</ObjectId>
+      <Damage>80</Damage>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Bilgewater Cannonball Spike</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <Size>160</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <Amplitude>3</Amplitude>
+      <Frequency>1</Frequency>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Bilgewater Coin Silver</ObjectId>
+      <Damage>100</Damage>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Bilgewater Cannonball Skull</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <Size>160</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Bilgewater Cutlass</ObjectId>
+      <Size>100</Size>
+      <Damage>160</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Bilgewater Cutlass</ObjectId>
+      <Size>100</Size>
+      <Damage>160</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Bilgewater Cutlass</ObjectId>
+      <Size>100</Size>
+      <Damage>160</Damage>
+      <Speed>95</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Bilgewater Coin Gold</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <ConditionEffect duration="5">Exposed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Bilgewater Cannonball Skull Red</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <Size>160</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+    </Projectile>
+    <HealthBarBoss radius="20" />
+    <DamageBasedXP />
+  </Object>
+  <Object type="0x705d" id="DWD Parrot Cage">
+    <Class>GameObject</Class>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x08</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x09</Index>
+      </Texture>
+    </AltTexture>
+    <Size>120</Size>
+  </Object>
+  <Object type="0x705b" id="DWD Parrot">
+    <Group>Deadwater Parrots</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Deadwater Parrot</DisplayId>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cave_pirates_hit</HitSound>
+    <DeathSound>monster/cave_pirates_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>0</Exp>
+    <KillStat stat="CritterKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Parrot Feather</ObjectId>
+      <Damage>100</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x705c" id="DWD Macaw">
+    <Group>Deadwater Parrots</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Deadwater Macaw</DisplayId>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cave_pirates_hit</HitSound>
+    <DeathSound>monster/cave_pirates_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>0</Exp>
+    <KillStat stat="CritterKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Macaw Feather</ObjectId>
+      <Damage>80</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0x707c" id="DWD Massive Parrot">
+    <Group>Massive Parrots</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Bartholomew the Massive Parrot</DisplayId>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cave_pirates_hit</HitSound>
+    <DeathSound>monster/cave_pirates_death</DeathSound>
+    <Size>100</Size>
+    <Z>0.40</Z>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <MaxHitPoints>17500</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Bartholomew Feather</ObjectId>
+      <Damage>140</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x7109" id="DWD Cannon Controller">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>theGoldenArcher</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xb5b7" id="DWD Bilgewater Cannon 1">
+    <Enemy />
+    <NoMiniMap />
+    <Class>Character</Class>
+    <DisplayId>Bilgewater Cannon</DisplayId>
+    <Invincible />
+    <AnimatedTexture>
+      <File>theGoldenArcher</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>theGoldenArcher</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Size>120</Size>
+    <Projectile id="0">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>White Bullet</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <Size>0</Size>
+      <LifetimeMS>1</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Bilgewater Cannonball Spike S</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <Amplitude>2</Amplitude>
+      <Frequency>1</Frequency>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Bilgewater Cannonball Skull S</ObjectId>
+      <Damage>125</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Bilgewater Cannonball Skull Red S</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xb5e5" id="DWD Cannon">
+    <Enemy />
+    <NoMiniMap />
+    <Class>Character</Class>
+    <DisplayId>Deadwater Cannon</DisplayId>
+    <Invincible />
+    <AnimatedTexture>
+      <File>theGoldenArcher</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>theGoldenArcher</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Size>120</Size>
+    <Projectile id="0">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xb5e6" id="DWD Cannon Spawner">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <AnimatedTexture>
+      <File>theGoldenArcher</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x693" id="DWD Admiral">
+    <Group>Deadwater Boss</Group>
+    <DisplayId>Deadwater Admiral</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirate_king_hit</HitSound>
+    <DeathSound>monster/pirate_king_death</DeathSound>
+    <Size>100</Size>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>300</Exp>
+    <KillStat stat="HumanoidKills" />
+    <KillStat stat="LesserGodKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater White Banana</ObjectId>
+      <Size>100</Size>
+      <Damage>90</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Deadwater White Banana</ObjectId>
+      <Size>100</Size>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Deadwater White Banana</ObjectId>
+      <Size>100</Size>
+      <Damage>150</Damage>
+      <Speed>95</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Deadwater White Banana</ObjectId>
+      <Damage>150</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x692" id="DWD Captain">
+    <Group>Deadwater Boss</Group>
+    <DisplayId>Deadwater Captain</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>400</Exp>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Flintlock Shot</ObjectId>
+      <Damage>140</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Deadwater Flintlock Shot</ObjectId>
+      <Damage>200</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x690" id="DWD Lieutenant">
+    <Group>Deadwater Boss</Group>
+    <DisplayId>Deadwater Lieutenant</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/lizard_god_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>250</Exp>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Banana</ObjectId>
+      <Damage>120</Damage>
+      <Speed>110</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x691" id="DWD Commander">
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Commander</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>300</Exp>
+    <KillStat stat="BeastKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Small Cannonball Orange</ObjectId>
+      <Damage>80</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object type="0x5f1" id="DWD Cannoneer">
+    <Enemy />
+    <DisplayId>Deadwater Cannoneer</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/golems_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="StructureKills" />
+    <Projectile id="0">
+      <ObjectId>Bilgewater Cannonball</ObjectId>
+      <Damage>180</Damage>
+      <Speed>130</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>140</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Damage>140</Damage>
+      <Speed>110</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+  </Object>
+  <Object type="0xb59f" id="DWD Shipwright">
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Shipwright</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <KillStat stat="GrotesqueKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Small Cannonball</ObjectId>
+      <Damage>115</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2200</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Deadwater Spinner</ObjectId>
+      <Damage>0</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>2200</LifetimeMS>
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0x5f4" id="DWD Sharpshooter">
+    <Enemy />
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Sharpshooter</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flying_brain_hit</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="BeastKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Small Cannonball Orange</ObjectId>
+      <Damage>120</Damage>
+      <Speed>140</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>120</Size>
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object type="0x5f2" id="DWD Cook">
+    <Enemy />
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Cook</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/bats_hit</HitSound>
+    <DeathSound>monster/flayers_hit</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1550</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="CritterKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Knife</ObjectId>
+      <Damage>120</Damage>
+      <Size>100</Size>
+      <Speed>80</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Boomerang />
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0xb0c1" id="DWD Navigator">
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Navigator</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1300</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>150</Exp>
+    <KillStat stat="BeastKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Talon</ObjectId>
+      <Damage>100</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x694" id="DWD Brawler">
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Brawler</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/scorpions_hit</HitSound>
+    <DeathSound>monster/scorpions_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1300</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="BeastKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Crab Claw</ObjectId>
+      <Damage>125</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>600</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x5f5" id="DWD Boatswain">
+    <Enemy />
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Boatswain</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="CritterKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater White Wave</ObjectId>
+      <Damage>125</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x5f6" id="DWD Swashbuckler">
+    <Enemy />
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Swashbuckler</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="CritterKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Bubble</ObjectId>
+      <Damage>100</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Quiet</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xb565" id="DWD Buccaneer">
+    <Enemy />
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Buccaneer</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1750</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="CritterKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater White Spike</ObjectId>
+      <Damage>110</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0xb566" id="DWD Cutthroat">
+    <Enemy />
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Cutthroat</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1750</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="CritterKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater White Zap</ObjectId>
+      <Damage>110</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-500</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Deadwater White Zap</ObjectId>
+      <Damage>140</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>500</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xb567" id="DWD Helmsman">
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Helmsman</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/mummies_death</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>150</Exp>
+    <KillStat stat="HumanoidKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Small Cannonball Blue</ObjectId>
+      <Damage>80</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x5f3" id="DWD Raider">
+    <Enemy />
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Raider</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <HitSound>monster/mummies_death</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="HumanoidKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Liquid Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0xb568" id="DWD Watchman">
+    <Enemy />
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Watchman</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dark_elves_hit</HitSound>
+    <DeathSound>monster/dark_elves_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="HumanoidKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Liquid Missile</ObjectId>
+      <Damage>100</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0xb5a0" id="DWD Doctor">
+    <Enemy />
+    <DisplayId>Deadwater Doctor</DisplayId>
+    <Group>Deadwater Crew</Group>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1300</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="HumanoidKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Liquid Magic</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x696" id="DWD Veteran">
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Veteran</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cave_pirates_hit</HitSound>
+    <DeathSound>monster/cave_pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>200</Exp>
+    <KillStat stat="HumanoidKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Blade</ObjectId>
+      <Damage>120</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x695" id="DWD Sailor">
+    <Group>Deadwater Crew</Group>
+    <DisplayId>Deadwater Sailor</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cave_pirates_hit</HitSound>
+    <DeathSound>monster/cave_pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1300</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>150</Exp>
+    <KillStat stat="HumanoidKills" />
+    <Projectile id="0">
+      <ObjectId>Deadwater Blade</ObjectId>
+      <Damage>90</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x26f" id="Special Chest Picker">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Size>0</Size>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0x26c" id="Special Chest A">
+    <DisplayId>Bilgewater's Booty</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <KeepDamageRecord />
+    <TrackLoot />
+    <HitSound>monster/djinn_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x80</Index>
+    </Texture>
+    <MaxHitPoints>30000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>100</Size>
+    <Exp>1000</Exp>
+    <StasisImmune />
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0x26d" id="Special Chest B">
+    <DisplayId>Bilgewater's Booty</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <KeepDamageRecord />
+    <TrackLoot />
+    <HitSound>monster/djinn_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x81</Index>
+    </Texture>
+    <MaxHitPoints>30000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>100</Size>
+    <Exp>1000</Exp>
+    <StasisImmune />
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0x26e" id="Special Chest C">
+    <DisplayId>Bilgewater's Booty</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <KeepDamageRecord />
+    <TrackLoot />
+    <HitSound>monster/djinn_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x82</Index>
+    </Texture>
+    <MaxHitPoints>30000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>100</Size>
+    <Exp>1000</Exp>
+    <StasisImmune />
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0x1994" id="Group Eye Wall Nondestruct">
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x3ec</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x3ed</Index>
+      </Texture>
+    </Top>
+    <Animation prob="0.4" period="0.4">
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3ee</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3ef</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3f0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3ef</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3ee</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x697" id="The Heroic Observer">
+    <Group>GroupWall</Group>
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x3e0</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x3e1</Index>
+      </Texture>
+    </Top>
+    <Animation prob="0.4" period="0.4">
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3e2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3e3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3e4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3e3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x3e2</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xb59e" id="DWD Cave Wall">
+    <Class>CaveWall</Class>
+    <Color>0x8D5E30</Color>
+    <Top>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+    </Top>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x86</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Connects />
+  </Object>
+  <Object type="0xb5a1" id="DWD Wood Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x1c</Index>
+      </Texture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xb5a2" id="DWD Wood Wall Dark">
+    <Class>Wall</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x19</Index>
+      </Texture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xb5a3" id="DWD Stone Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x3c</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x3c</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x3c</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x3b</Index>
+      </Texture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xb5a4" id="DWD Stone Wall Dark">
+    <Class>Wall</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x3d</Index>
+      </Texture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xb5a5" id="DWD Ship Wall">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x2f</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5e2" id="DWD Ship Wall Cracked">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x4c</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x4d</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5a6" id="DWD Ship Wall Dark">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x3f</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x6E6151</Color>
+  </Object>
+  <Object type="0xb5b9" id="DWD Ship Wall Dark Cannon R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x4e</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x6E6151</Color>
+  </Object>
+  <Object type="0xb5ba" id="DWD Ship Wall Dark Cannon L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x4f</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x6E6151</Color>
+  </Object>
+  <Object type="0xb5e3" id="DWD Ship Wall Dark Window">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x78</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x6E6151</Color>
+  </Object>
+  <Object type="0xb601" id="DWD Ship Wall Dark Window Edge">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x79</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x6E6151</Color>
+  </Object>
+  <Object type="0xb5a7" id="DWD Ship Window">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5a8" id="DWD Ship Window R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5a9" id="DWD Ship Window L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5aa" id="DWD Ship Painting 1 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x27</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5ab" id="DWD Ship Painting 1 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x28</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5ac" id="DWD Ship Painting 2 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x29</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5ad" id="DWD Ship Painting 2 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5ae" id="DWD Ship Painting 3 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x2b</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5af" id="DWD Ship Painting 3 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x2c</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5b0" id="DWD Ship Painting 4 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x2d</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5b1" id="DWD Ship Painting 4 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x2e</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5b2" id="DWD Ship Painting 5 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x38</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb57d" id="DWD Ship Painting 5 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x39</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb57e" id="DWD Ship Painting 6 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x3a</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb57f" id="DWD Ship Painting 6 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x3b</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5ee" id="DWD Ship Painting 7 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x54</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5ef" id="DWD Ship Painting 7 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x55</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5f0" id="DWD Ship Painting 8 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x56</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5f1" id="DWD Ship Painting 8 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x57</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5f2" id="DWD Ship Painting 9 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x58</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5f3" id="DWD Ship Painting 9 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x59</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5f4" id="DWD Ship Painting 10 R">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x5a</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb5f5" id="DWD Ship Painting 10 L">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x5b</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <Color>0xB16D49</Color>
+  </Object>
+  <Object type="0xb580" id="DWD Crystal Container">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x20</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x20</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x20</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x21</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x22</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x23</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x24</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x25</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x26</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x27</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x28</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb581" id="DWD Hat">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x29</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x2a</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x2b</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb582" id="DWD Treasure">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x2c</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x2d</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x2e</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x2f</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe5</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe6</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe7</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe8</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe9</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xea</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xeb</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xec</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xf0</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb5e7" id="DWD Gems">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xed</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xee</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xef</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>80</Size>
+  </Object>
+  <Object type="0xb583" id="DWD Anvil">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x60</Index>
+    </Texture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb584" id="DWD Grindstone">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x61</Index>
+    </Texture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb585" id="DWD Bucket">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x62</Index>
+    </Texture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb586" id="DWD Barrel">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x63</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe0</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe1</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe2</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe3</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe4</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb5f7" id="DWD Barrel Boss">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x63</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe0</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe1</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe2</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe3</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xe4</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb587" id="DWD Dummy">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x64</Index>
+    </Texture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb588" id="DWD Coal">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x65</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x66</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb589" id="DWD Grass">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x67</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x68</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb58a" id="DWD Rock">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x69</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x6a</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x6b</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x6c</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x6d</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb58b" id="DWD Stool">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x6e</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x6f</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb58c" id="DWD Boat">
+    <Class>GameObject</Class>
+    <Flying />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x00</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x01</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb58d" id="DWD Crystal Container Big">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x02</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x03</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb58e" id="DWD Crystal Container Double">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x0b</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x0d</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x0e</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb5b4" id="DWD Crystal Crate">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x43</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb5b6" id="DWD Wine Crate">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x46</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb58f" id="DWD Barrel Large">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x04</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x05</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb590" id="DWD Barrel Explosive">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x06</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x07</Index>
+      </Texture>
+    </RandomTexture>
+    <MaxHitPoints>800</MaxHitPoints>
+    <Exp>0</Exp>
+    <Size>100</Size>
+    <OccupySquare />
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xb5b5" id="DWD Barrel Explosion">
+    <DisplayId>Explosive Barrel</DisplayId>
+    <Class>GameObject</Class>
+    <Enemy />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Invincible />
+    <Sound id="0">spell/fire_nova</Sound>
+    <Effect minRadius="0.5" maxRadius="3.7" color="0xFF9000" size="100" life="0.35" amount="100">ExplosionComplex</Effect>
+  </Object>
+  <Object type="0xb591" id="DWD Light Post">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x60</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x61</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x64</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x65</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x66</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x67</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb5b3" id="DWD Lamp Post">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x41</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="3.00">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x41</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x40</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb592" id="DWD Weapon Display">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x0a</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x0c</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x72</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb593" id="DWD Shop">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x0f</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x36</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x37</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x6f</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb594" id="DWD Furnace">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x10</Index>
+    </Texture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb595" id="DWD Buoys">
+    <Class>GameObject</Class>
+    <Flying />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x6a</Index>
+    </Texture>
+    <Size>100</Size>
+    <Animation prob="1.0">
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x6a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x6b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x6c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x6b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x6a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x69</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x68</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x69</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xb596" id="DWD Rock Large">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x12</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x13</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x14</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x15</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb603" id="DWD Rock Pirate">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x7d</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x7d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x7e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x7f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb597" id="DWD Torch">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x16</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x19</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb5b8" id="DWD Torch 2">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x5c</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x5c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x5d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x5e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x5f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb5eb" id="DWD Torch Skull">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x75</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x76</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb5ec" id="DWD Treasure Chest">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x73</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x74</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb598" id="DWD Candelabra">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x1a</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x1a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x1b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x1c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>deadwaterDocksObjects16x16</File>
+          <Index>0x1d</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb599" id="DWD Banner">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb59a" id="DWD Cage">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb59b" id="DWD Barrel Large Light">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x34</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x35</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb59c" id="DWD Keg">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Size>100</Size>
+    <OccupySquare />
+  </Object>
+  <Object type="0xb59d" id="DWD Table">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x30</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x31</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x33</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb5cc" id="DWD Large Sail">
+    <Static />
+    <Class>GameObject</Class>
+    <Texture>
+      <File>pirateCaveObjects32x32</File>
+      <Index>0x30</Index>
+    </Texture>
+    <Size>160</Size>
+    <ShadowSize>40</ShadowSize>
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xb5dc" id="DWD Crystal Chest">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xd2</Index>
+    </Texture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb5dd" id="DWD Crystal Vase">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xd3</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xdd</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb5de" id="DWD Crystal Bed">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x6d</Index>
+    </Texture>
+    <Size>100</Size>
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xb5df" id="DWD Crystal Table">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x6e</Index>
+    </Texture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0xb5e0" id="DWD Crystal Dressing">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x70</Index>
+    </Texture>
+    <Size>100</Size>
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xb5e1" id="DWD Crystal Weapon Display">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x71</Index>
+    </Texture>
+    <Size>100</Size>
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xb5ff" id="DWD King Wood Crack Select">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xbc</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xb600" id="DWD King Wood Crack 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xf3</Index>
+    </Texture>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xb5f8" id="DWD King Wood Crack 1 Anim">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xf3</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.8">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xf3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xf4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.65">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xf5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xb5f9" id="DWD King Wood Crack 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xf6</Index>
+    </Texture>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xb5fa" id="DWD King Wood Crack 2 Anim">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xf6</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.8">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xf6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xf7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.65">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xf8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xb5fb" id="DWD King Wood Crack 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xf9</Index>
+    </Texture>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xb5fc" id="DWD King Wood Crack 3 Anim">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xf9</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.8">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xf9</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xfa</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.65">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xfb</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xb5fd" id="DWD King Wood Crack 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0xb5fe" id="DWD King Wood Crack 4 Anim">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.8">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xfc</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xfd</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.65">
+        <Texture>
+          <File>deadwaterDocksObjects8x8</File>
+          <Index>0xfe</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x505" id="DWD Barrel Spawner">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+  </Object>
+  <Object type="0xbb2" id="DWD Lamp Spawner">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x9ce" id="DWD Crystal Spawner">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+  </Object>
+  <Object type="0x1a50" id="DWD Crystal Spawner 2">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>3</Index>
+    </Texture>
+  </Object>
+  <Object type="0x1958" id="DWD Prop Cluster Spawner">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>innerWorkingsObjects8x8</File>
+      <Index>4</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb5f6" id="DWD Painting Spawner">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>pirateCaveObjects8x8</File>
+      <Index>0x70</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb604" id="Kingdom Stowaway">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <HitSound>player/knight_hit</HitSound>
+    <DeathSound>player/knight_death</DeathSound>
+    <KillStat stat="HumanoidKills" />
+    <Size>100</Size>
+    <MaxHitPoints>2</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>0</Exp>
+    <AlwaysPositiveHealth />
+    <NoMiniMap />
+    <Sound id="0">player/knight_death</Sound>
+  </Object>
+  <Object type="0xb91a" id="DWD Crust Anchor">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb91c" id="DWD Crust Anchor Cannoneer">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>3</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb91e" id="DWD Mr Krabs Initializer">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb91f" id="PC Context + Crust">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>4</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb91b" id="DWD Mr Krabs">
+    <Size>140</Size>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <Enemy />
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/spider_queen_death</DeathSound>
+    <MaxHitPoints>32000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>10000</Exp>
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <SlowImmune />
+    <DisplayId>Calamity Crab</DisplayId>
+    <KillStat stat="GodKills" />
+    <KillStat stat="BeastKills" />
+    <Projectile id="0">
+      <ObjectId>Bilgewater Cannonball Spike</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <Size>160</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <Amplitude>2</Amplitude>
+      <Frequency>1</Frequency>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Bilgewater Cannonball Skull Red</ObjectId>
+      <Damage>160</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Corsair Crab Claw</ObjectId>
+      <Damage>200</Damage>
+      <Speed>110</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>180</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>2.0</Amplitude>
+      <Frequency>0.5</Frequency>
+      <FaceDir />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Corsair Crab Orb</ObjectId>
+      <Damage>120</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>2.5</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Corsair Crab Orb</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>3.0</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Corsair Crab Orb</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>2.5</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Bilgewater Cannonball</ObjectId>
+      <Damage>160</Damage>
+      <Speed>95</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Bilgewater Cannonball Skull</ObjectId>
+      <Damage>160</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Bilgewater Cannonball</ObjectId>
+      <Damage>160</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Bilgewater Cannonball Skull Red</ObjectId>
+      <Damage>160</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Corsair Crab Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="6">Exposed</ConditionEffect>
+      <Acceleration>300</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>110</SpeedClamp>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Bilgewater Cannonball Skull Red</ObjectId>
+      <Damage>160</Damage>
+      <Speed>95</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Bilgewater Cannonball Spike</ObjectId>
+      <Damage>150</Damage>
+      <Speed>80</Speed>
+      <Size>160</Size>
+      <Amplitude>2</Amplitude>
+      <Frequency>0.75</Frequency>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xb91d" id="DWD Breaking Sound">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Sound id="0">spell/fire_spray</Sound>
+  </Object>
+  <Object type="0xb929" id="DWD Anti Crust Anchor">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb92a" id="DWD Crab 11">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb922" id="DWD Crab 10">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb923" id="DWD Crab 9">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb924" id="DWD Crab 8">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb925" id="DWD Crab 7">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb926" id="DWD Crab 6">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb927" id="DWD Crab 5">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb928" id="DWD Crab 4">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb92b" id="DWD C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>pirateCaveObjects16x16</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <Size>60</Size>
+    <ShadowSize>60</ShadowSize>
+    <Animation prob="1.0" sync="true" period="1">
+      <Frame time="0.25">
+        <Texture>
+          <File>pirateCaveObjects16x16</File>
+          <Index>0x0c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>pirateCaveObjects16x16</File>
+          <Index>0x0d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>pirateCaveObjects16x16</File>
+          <Index>0x0e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>pirateCaveObjects16x16</File>
+          <Index>0x0f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xb92c" id="DWD Super Crab 11">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb92d" id="DWD Super Crab 10">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb92e" id="DWD Super Crab 9">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb92f" id="DWD Super Crab 8">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb930" id="DWD Super Crab 7">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb931" id="DWD Super Crab 6">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb932" id="DWD Super Crab 5">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb933" id="DWD Super Crab 4">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xb934" id="DWD Tavern Barrel Large">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x04</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects16x16</File>
+        <Index>0x05</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xb935" id="DWD Crust Anchor Late">
+    <Size>0</Size>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>3</Index>
+    </Texture>
+  </Object>
+</Objects>

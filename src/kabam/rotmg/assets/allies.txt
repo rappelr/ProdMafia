@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x0715" id="Decoy">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <Friendly />
+    <CanUseTexes />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x755f" id="Dire Decoy">
+    <Class>Character</Class>
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>0x2c</Index>
+    </Texture>
+    <Friendly />
+    <NoMiniMap />
+  </Object>
+  <Object type="0xb101" id="Golem Decoy 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lostHallsObjects8x8</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <Friendly />
+  </Object>
+  <Object type="0xb053" id="Eye of Marble">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lostHallsObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Size>140</Size>
+    <ShadowSize>80</ShadowSize>
+    <Effect color="0xFFDF3F" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="3" rangeY="3">CustomParticles</Effect>
+  </Object>
+  <Object type="0x9f9" id="CR Friendly Cnidarian">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>cnidarianReefObjects8x8</File>
+      <Index>0x24</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>cnidarianReefObjects8x8</File>
+        <Index>0x25</Index>
+      </Texture>
+    </AltTexture>
+    <Size>85</Size>
+    <ShadowColor>0xFFA447</ShadowColor>
+  </Object>
+  <Object type="0x367f" id="Heart Decoy">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+    <Friendly />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1400" id="Purple Drake">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1401" id="White Drake">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x8</File>
+      <Index>0x31</Index>
+    </Texture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1402" id="Blue Drake">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x8</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1403" id="Orange Drake">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x8</File>
+      <Index>0x33</Index>
+    </Texture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1404" id="Green Drake">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x8</File>
+      <Index>0x34</Index>
+    </Texture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1405" id="Yellow Drake">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x8</File>
+      <Index>0x35</Index>
+    </Texture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1406" id="Red Drake">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x8rEncounters</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1407" id="Lil Firecracker">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <NoMiniMap />
+    <Sound id="0">weapon/firework</Sound>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1408" id="Big Firecracker">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <NoMiniMap />
+    <Sound id="0">weapon/firework</Sound>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1409" id="Spirit Prism Bomb">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0xce</Index>
+    </Texture>
+    <Animation prob="1" period="0.4">
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0xcf</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0xd6</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <NoMiniMap />
+    <Sound id="0">weapon/fire_wand</Sound>
+    <ShadowSize>70</ShadowSize>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x140a" id="Sand Castle">
+    <Class>Character</Class>
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x194</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x195</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x196</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x197</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x198</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0x47</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0x48</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0x49</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0x4a</Index>
+      </Texture>
+    </RandomTexture>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+    <MinSize>80</MinSize>
+    <MaxSize>120</MaxSize>
+  </Object>
+  <Object type="0x140b" id="Rock Candy Grenade">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <NoMiniMap />
+    <Sound id="0">weapon/firework</Sound>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x140d" id="Trick in a Box">
+    <Class>Character</Class>
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>0x21</Index>
+    </Texture>
+    <NoMiniMap />
+    <Sound id="0">weapon/firework</Sound>
+    <ShadowSize>65</ShadowSize>
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+  </Object>
+  <Object type="0x140e" id="Trick in a Box Normal">
+    <DisplayId>Trick in a Box</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>0x22</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x26</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Friendly />
+    <NoMiniMap />
+    <ShadowSize>65</ShadowSize>
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+  </Object>
+  <Object type="0x140f" id="Trick in a Box Oryx">
+    <DisplayId>Oryx in a Box</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>0x27</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x27</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x28</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x2a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed</File>
+          <Index>0x2b</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Friendly />
+    <NoMiniMap />
+    <ShadowSize>65</ShadowSize>
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+  </Object>
+  <Object type="0x1410" id="Fake White Bag">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0x94</Index>
+    </Texture>
+    <Size>80</Size>
+    <Sound id="0">loot_appears</Sound>
+    <Sound id="1">weapon/firework</Sound>
+  </Object>
+  <Object type="0x6b6" id="Dragon Chain 1">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar16x8</File>
+      <Index>0x7a</Index>
+    </Texture>
+    <Size>85</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6b7" id="Dragon Chain 2">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar16x8</File>
+      <Index>0x7a</Index>
+    </Texture>
+    <Size>70</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6b8" id="Dragon Chain 3">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar16x8</File>
+      <Index>0x7a</Index>
+    </Texture>
+    <Size>55</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6b9" id="Dragon Chain 4">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar16x8</File>
+      <Index>0x7a</Index>
+    </Texture>
+    <Size>40</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1890" id="Dasher">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1891" id="Dancer">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1892" id="Prancer">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1893" id="Vixen">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1894" id="CupidReindeer">
+    <DisplayId>Cupid</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1895" id="Comet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1896" id="Donner">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1897" id="Rudolph">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars8x8</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6063" id="Silex Chain 1">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>175</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6064" id="Silex Chain 2">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>lostHallsChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <Size>70</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6065" id="Silex Chain 3">
+    <Class>Character</Class>
+    <RandomTexture>
+      <Texture>
+        <File>lofiChar216x16</File>
+        <Index>0x27</Index>
+      </Texture>
+      <Texture>
+        <File>lofiChar216x16</File>
+        <Index>0x3d</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>60</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6067" id="Silex Chain 4">
+    <Class>Character</Class>
+    <RandomTexture>
+      <Texture>
+        <File>lofiChar216x16</File>
+        <Index>0x15</Index>
+      </Texture>
+      <Texture>
+        <File>lofiChar216x16</File>
+        <Index>0x16</Index>
+      </Texture>
+      <Texture>
+        <File>lofiChar216x16</File>
+        <Index>0x17</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>50</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x23f5" id="St Patrick's Flying Hat">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>187</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.4</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x23f7" id="Flying Rainbow Clover">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>68</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20c3" id="Aether Trap">
+    <Class>Character</Class>
+    <Size>-1</Size>
+    <ShadowSize>100</ShadowSize>
+    <Texture>
+      <File>mountainTempleObjects16x16</File>
+      <Index>0x60</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>mountainTempleObjects16x16</File>
+        <Index>0x63</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>mountainTempleObjects16x16</File>
+        <Index>0x64</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>mountainTempleObjects16x16</File>
+        <Index>0x65</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>mountainTempleObjects16x16</File>
+        <Index>0x66</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>mountainTempleObjects16x16</File>
+        <Index>0x67</Index>
+      </Texture>
+    </AltTexture>
+  </Object>
+  <Object type="0x6227" id="Easter Bunny">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>157</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+  <Object type="0x6226" id="EH Trap Helper">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>0x66</Index>
+    </Texture>
+    <Size>85</Size>
+    <ShadowColor>0xFFC300</ShadowColor>
+  </Object>
+  <Object type="0x0480" id="Healing Shroom">
+    <Class>Character</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x142</Index>
+    </Texture>
+    <HitSound>monster/ghosts_hit</HitSound>
+    <DeathSound>monster/ghosts_death</DeathSound>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x04b4" id="Killer Shroom">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x144</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x144</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x145</Index>
+      </Texture>
+    </AltTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x04b7" id="Crystal Sentry">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x14c</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x14c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x14d</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x14e</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x14f</Index>
+      </Texture>
+    </AltTexture>
+  </Object>
+  <Object type="0x58c" id="Refraction Cloak Decoy">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>crystalCaveObjects8x8</File>
+      <Index>0x9a</Index>
+    </Texture>
+    <Friendly />
+    <ShadowSize>65</ShadowSize>
+  </Object>
+  <Object type="0x58b" id="Friendly Neighborhood Gemstone">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>crystalCaveObjects8x8</File>
+      <Index>0x88</Index>
+    </Texture>
+    <Flying />
+    <Size>80</Size>
+    <Z>0.3</Z>
+  </Object>
+  <Object type="0x4b35" id="Mimicry Decoy">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <Friendly />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x4b38" id="Prismimic Decoy">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <Friendly />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x4b37" id="Prismimic Decoy Master">
+    <Class>Character</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0xb8</Index>
+    </Texture>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6488" id="HGolem Decoy 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x166</Index>
+    </Texture>
+    <Friendly />
+  </Object>
+  <Object type="0x6101" id="Guided Forgotten Soul">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>78</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <ShadowSize>75</ShadowSize>
+    <Flying />
+    <Z>0.4</Z>
+    <NoMiniMap />
+    <Sound id="0">monster/beholder_death</Sound>
+  </Object>
+  <Object id="ST Huntress Trap" type="0x1848">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x64c0" id="Energized Tree">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>santaWorkshopObjects16x16</File>
+      <Index>0x8a</Index>
+    </Texture>
+    <Size>140</Size>
+    <ShadowSize>80</ShadowSize>
+    <Effect color="0x6FA8DC" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="4" rangeY="4">CustomParticles</Effect>
+  </Object>
+  <Object type="0x64c1" id="Weak Tree">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>santaWorkshopObjects16x16</File>
+      <Index>0x8b</Index>
+    </Texture>
+    <Size>140</Size>
+    <ShadowSize>80</ShadowSize>
+    <Effect color="0xC3C315" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="4" rangeY="4">CustomParticles</Effect>
+  </Object>
+  <Object type="0x64c2" id="Exposed Tree">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>santaWorkshopObjects16x16</File>
+      <Index>0x8c</Index>
+    </Texture>
+    <Size>140</Size>
+    <ShadowSize>80</ShadowSize>
+    <Effect color="0xE50D0D" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="4" rangeY="4">CustomParticles</Effect>
+  </Object>
+  <Object type="0x64c3" id="Combined Tree">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>santaWorkshopObjects16x16</File>
+      <Index>0x8d</Index>
+    </Texture>
+    <Size>140</Size>
+    <ShadowSize>80</ShadowSize>
+    <Effect color="0x04D604" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="4" rangeY="4">CustomParticles</Effect>
+  </Object>
+  <Object type="0x4b95" id="Perennial Cranium Flower">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x608</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x608</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x609</Index>
+      </Texture>
+    </AltTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x4b99" id="Hanagasaku Bud Bomb">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x602</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x603</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x604</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x605</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x606</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x607</Index>
+      </Texture>
+    </AltTexture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6214" id="Painbow Bomb">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>stPatricksObjects8x8</File>
+      <Index>0x38</Index>
+    </Texture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x5b28" id="Mirror Clone">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <Friendly />
+    <CanUseTexes />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5b2e" id="Moral Support">
+    <DisplayId>Priest</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x5b34" id="Bottled Lightning">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>mountainTempleChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <Size>300</Size>
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+    <Sound id="0">lightning</Sound>
+  </Object>
+  <Object type="0x5b36" id="Epiphany Mind">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>231</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <ShadowSize>75</ShadowSize>
+    <Flying />
+    <Z>0.4</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6218" id="Fake Orange Bag">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0xd7</Index>
+    </Texture>
+    <Size>80</Size>
+    <Sound id="0">weapon/firework</Sound>
+    <Sound id="1">loot_appears</Sound>
+  </Object>
+  <Object type="0x621f" id="Exalt Trophy Helper">
+    <DisplayId>Exalt Trophy</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x22c</Index>
+    </Texture>
+    <NoMiniMap />
+    <Size>100</Size>
+    <Effect amount="25" color="0xFFFF00" life="6" maxRadius="2.5" minRadius="0.5" rise="3.4" speed="0.1">Circle</Effect>
+  </Object>
+  <Object type="0x6220" id="Sword Rune Orbit">
+    <Class>Character</Class>
+    <Size>100</Size>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8c</Index>
+    </Texture>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6221" id="Shield Rune Orbit">
+    <Class>Character</Class>
+    <Size>100</Size>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8d</Index>
+    </Texture>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x6222" id="Helmet Rune Orbit">
+    <Class>Character</Class>
+    <Size>100</Size>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8e</Index>
+    </Texture>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x4B9F" id="Magic Rabbit">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>chars8x8rLow2</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Friendly />
+  </Object>
+  <Object type="0x4b9e" id="Magic Dove">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>147</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Size>80</Size>
+    <Z>0.2</Z>
+  </Object>
+  <Object id="Slurp Spell Explosion" type="0x4f56">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0xa4</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object id="Lullaby Pharaoh Mask" type="0x4df0">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x342</Index>
+    </Texture>
+    <NoMiniMap />
+    <Size>100</Size>
+    <Z>0.4</Z>
+    <Flying />
+  </Object>
+  <Object id="Concertina Small Parrot" type="0x4ded">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Size>80</Size>
+    <Z>0.2</Z>
+  </Object>
+  <Object id="Concertina Big Parrot" type="0x4dfe">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Size>100</Size>
+    <Z>0.2</Z>
+  </Object>
+  <Object id="AoO Spell Decoy" type="0x4b53">
+    <Class>Character</Class>
+    <Size>20</Size>
+    <Texture>
+      <File>archbishopObjects16x16</File>
+      <Index>0x75</Index>
+    </Texture>
+    <Sound id="0">weapon/fire_wand</Sound>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5211" id="AoO Trap Snare">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x5213" id="AoO Skull Minion">
+    <DisplayId>Demonic Skeleton</DisplayId>
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>149</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+  </Object>
+  <Object id="AoOTomeHelper" type="0x52ee">
+    <Class>Character</Class>
+    <Texture>
+      <File>archbishopObjects16x16</File>
+      <Index>0x50</Index>
+    </Texture>
+    <Animation prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x50</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x51</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x52</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x53</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x54</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x55</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x56</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x57</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Effect color="0xFAF691" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="4" rangeY="4">CustomParticles</Effect>
+    <Size>60</Size>
+    <Z>0.2</Z>
+  </Object>
+  <Object id="AoOTomeHelperTwo" type="0x52ef">
+    <Class>Character</Class>
+    <Texture>
+      <File>archbishopObjects16x16</File>
+      <Index>0x60</Index>
+    </Texture>
+    <Animation prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x61</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x64</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x65</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x66</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x67</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>60</Size>
+    <Z>0.2</Z>
+    <Effect color="0x310839" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="4" rangeY="4">CustomParticles</Effect>
+  </Object>
+  <Object id="AoO Beacon Of Blight" type="0x4e02">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>archbishopObjects16x16</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Animation period="0.0" prob="1.0">
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x80</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x84</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x85</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x86</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x87</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>120</Size>
+  </Object>
+  <Object id="AoOLute Banner" type="0x4e06">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>archbishopObjects16x16</File>
+      <Index>0x77</Index>
+    </Texture>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+  <Object type="0x570" id="AoOPoison Cluster 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x284</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>-1</ShadowSize>
+  </Object>
+  <Object type="0x5f0" id="AoOPoison Cluster 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x284</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>-1</ShadowSize>
+  </Object>
+  <Object type="0x52c8" id="AoOPoison Cluster 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x284</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>-1</ShadowSize>
+  </Object>
+  <Object type="0x709f" id="Gambler's Fate Effect">
+    <NoMiniMap />
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxSanctuaryObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <AltTexture id="0">
+      <Texture>
+        <File>oryxSanctuaryObjects16x16</File>
+        <Index>0x00</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>oryxSanctuaryObjects16x16</File>
+        <Index>0x01</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>oryxSanctuaryObjects16x16</File>
+        <Index>0x02</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>oryxSanctuaryObjects16x16</File>
+        <Index>0x03</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>oryxSanctuaryObjects16x16</File>
+        <Index>0x06</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>oryxSanctuaryObjects16x16</File>
+        <Index>0x07</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>oryxSanctuaryObjects16x16</File>
+        <Index>0x08</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>oryxSanctuaryObjects16x16</File>
+        <Index>0x09</Index>
+      </Texture>
+    </AltTexture>
+    <Size>60</Size>
+    <Friendly />
+  </Object>
+  <Object type="0x70a4" id="Chaotic Scripture Effect">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+  </Object>
+  <Object type="0x70aa" id="Genesis Spell Portal 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x2a1</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <Effect color="0xc800ff" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="4" rise="0" riseAcc="0" riseVariance="0" rangeX="6" rangeY="6">CustomParticles</Effect>
+  </Object>
+  <Object type="0x70b9" id="Genesis Spell Portal 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x2a1</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <Effect color="0xc800ff" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="4" rise="0" riseAcc="0" riseVariance="0" rangeX="6" rangeY="6">CustomParticles</Effect>
+  </Object>
+  <Object type="0x70ba" id="Genesis Spell Portal 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x2a1</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <Effect color="0xc800ff" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="4" rise="0" riseAcc="0" riseVariance="0" rangeX="6" rangeY="6">CustomParticles</Effect>
+  </Object>
+  <Object type="0x70bb" id="Genesis Spell Portal 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x2a1</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <Effect color="0xc800ff" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="4" rise="0" riseAcc="0" riseVariance="0" rangeX="6" rangeY="6">CustomParticles</Effect>
+  </Object>
+  <Object type="0x6dc3" id="Genesis Spell Portal Rand">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x70ad" id="Cranium Effect">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x298</Index>
+    </Texture>
+    <Flying />
+    <Size>100</Size>
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x70b2" id="Battalion Banner Effect">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x2a7</Index>
+    </Texture>
+    <Size>140</Size>
+    <ShadowSize>80</ShadowSize>
+    <NoMiniMap />
+    <Effect color="0xf5f512" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="4" rangeY="4">CustomParticles</Effect>
+  </Object>
+  <Object type="0x70b4" id="Divinity Effect">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x70bc" id="Oryx's Escutcheon Effect 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object id="tD Cloak Burst" type="0x7fea">
+    <Class>Character</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>thirdDimensionObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <NoMiniMap />
+  </Object>
+  <Object id="tD Friendly Frame" type="0x4259">
+    <Class>GameObject</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>thirdDimensionObjects16x16</File>
+      <Index>0x06</Index>
+    </Texture>
+    <AltTexture id="0">
+      <Texture>
+        <File>thirdDimensionObjects16x16</File>
+        <Index>0x06</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>thirdDimensionObjects16x16</File>
+        <Index>0x16</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>thirdDimensionObjects16x16</File>
+        <Index>0x07</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>thirdDimensionObjects16x16</File>
+        <Index>0x17</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>thirdDimensionObjects16x16</File>
+        <Index>0x08</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>thirdDimensionObjects16x16</File>
+        <Index>0x18</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>thirdDimensionObjects16x16</File>
+        <Index>0x09</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>thirdDimensionObjects16x16</File>
+        <Index>0x19</Index>
+      </Texture>
+    </AltTexture>
+    <Size>50</Size>
+  </Object>
+  <Object type="0x377e" id="Lullaby Sheep">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>theMachineChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <Size>90</Size>
+    <ShadowSize>80</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x89ab" id="Summon Rat">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>150</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Rat Projectile</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>25</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+    <FollowMouse speed="1.15" />
+  </Object>
+  <Object type="0x89ac" id="Summon Squirrel">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>151</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Summon Squirrel Projectile</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+  </Object>
+  <Object type="0x89ad" id="Summon Raccoon">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>152</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Raccoon Projectile</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+  </Object>
+  <Object type="0x89ae" id="Summon Cat">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>153</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Cat Projectile</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>125</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+    <FollowMouse speed="1.15" />
+  </Object>
+  <Object type="0x89af" id="Summon Fox">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>154</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Fox Projectile</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>135</MinDamage>
+      <MaxDamage>160</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+  </Object>
+  <Object type="0x89b0" id="Summon Wolf">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>155</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Wolf Projectile</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>170</MinDamage>
+      <MaxDamage>195</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+  </Object>
+  <Object type="0x89b1" id="Summon Bear">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>32</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Bear Projectile</ObjectId>
+      <Speed>135</Speed>
+      <Size>100</Size>
+      <MinDamage>205</MinDamage>
+      <MaxDamage>230</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+  </Object>
+  <Object type="0x89b2" id="Summon Panther">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>33</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Panther Projectile</ObjectId>
+      <Speed>135</Speed>
+      <Size>100</Size>
+      <MinDamage>240</MinDamage>
+      <MaxDamage>265</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+  </Object>
+  <Object type="0x89b3" id="Summon T8">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>33</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Panther Projectile</ObjectId>
+      <Speed>135</Speed>
+      <Size>100</Size>
+      <MinDamage>275</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+  </Object>
+  <Object type="0x89b4" id="Summon Sprite Tree">
+    <Class>Summon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>167</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>168</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>169</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>164</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="5">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>165</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="6">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>166</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="7">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>173</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="8">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>174</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="9">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>175</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="10">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>170</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="11">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>171</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="12">
+      <AnimatedTexture>
+        <File>chars8x8rEncounters</File>
+        <Index>172</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="13">
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>0x171</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="14">
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>0x172</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="15">
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>0x173</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="16">
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>0x174</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="17">
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>0x176</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="18">
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>0x177</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="19">
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>0x178</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="20">
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>0x179</Index>
+      </Texture>
+    </AltTexture>
+    <Projectile id="0">
+      <ObjectId>Small Green Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Medium Green Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Large Green Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>420</MinDamage>
+      <MaxDamage>650</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Small Red Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>60</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Medium Red Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Large Red Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>90</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Small Yellow Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Medium Yellow Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Large Yellow Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>165</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Small Blue Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>150</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Medium Blue Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Large Blue Sprite Tree Summon Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>190</MinDamage>
+      <MaxDamage>285</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x89b6" id="Summon Spider">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>34</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Spider Projectile</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>650</LifetimeMS>
+      <MultiHit />
+      <Size>140</Size>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>1.0f</RepulsionRadius>
+  </Object>
+  <Object type="0x89b7" id="Summon Bee">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>35</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>50</ShadowSize>
+    <Z>0.2</Z>
+    <Projectile>
+      <ObjectId>Summon Bee Projectile</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>240</MinDamage>
+      <MaxDamage>310</MaxDamage>
+      <LifetimeMS>1700</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>1.0f</RepulsionRadius>
+  </Object>
+  <Object type="0x89b8" id="Summon Rabbit">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>36</Index>
+    </AnimatedTexture>
+    <Size>60</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Summon Rabbit Projectile</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>350</MaxDamage>
+      <LifetimeMS>450</LifetimeMS>
+      <FaceDir />
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>1.0f</RepulsionRadius>
+    <FollowMouse speed="1.15" />
+  </Object>
+  <Object type="0x3797" id="CreepST1">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>176</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Summoner ST Summon Projectile</ObjectId>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <Speed>120</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Summoner ST Mini Projectile</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>1.0f</RepulsionRadius>
+    <FollowMouse speed="1.15" />
+  </Object>
+  <Object type="0x37a2" id="CreepST2">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>176</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Summoner ST Summon Projectile</ObjectId>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <Speed>120</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Summoner ST Mini Projectile</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>1.0f</RepulsionRadius>
+    <FollowMouse speed="1.15" />
+  </Object>
+  <Object type="0x37a3" id="CreepST3">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>176</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Summoner ST Summon Projectile</ObjectId>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <Speed>120</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Summoner ST Mini Projectile</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>1.0f</RepulsionRadius>
+    <FollowMouse speed="1.15" />
+  </Object>
+  <Object type="0x37a4" id="CreepST4">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>163</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Summoner ST Summon Projectile</ObjectId>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <Speed>120</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Summoner ST Mini Projectile</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap />
+    <RepulsionRadius>1.0f</RepulsionRadius>
+    <FollowMouse speed="1.15" />
+  </Object>
+  <Object type="0x3798" id="CreepST1Explosion">
+    <Class>Summon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x37aa" id="CreepST2Explosion">
+    <Class>Summon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x37ab" id="CreepST3Explosion">
+    <Class>Summon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x37ac" id="CreepST4Explosion">
+    <Class>Summon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x4251" id="AoO Summon">
+    <Class>Summon</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x150</Index>
+    </Texture>
+    <ShadowSize>50</ShadowSize>
+    <Animation period="0.0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x150</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x151</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x152</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x153</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x154</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x155</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Z>0.2</Z>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>AoO Beam Base</ObjectId>
+      <Speed>1</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>275</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>AoO Beam Body</ObjectId>
+      <Speed>1</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>AoO Beam Head</ObjectId>
+      <Speed>1</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <RepulsionRadius>1.0f</RepulsionRadius>
+  </Object>
+  <Object type="0x37a9" id="AoO Summon Big">
+    <Class>Summon</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x150</Index>
+    </Texture>
+    <ShadowSize>50</ShadowSize>
+    <Size>100</Size>
+    <Animation period="0.0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x160</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x161</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x162</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x163</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x164</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects8x8</File>
+          <Index>0x165</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Z>0.2</Z>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>AoO Exalted Beam Base</ObjectId>
+      <Speed>1</Speed>
+      <MinDamage>375</MinDamage>
+      <MaxDamage>525</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>AoO Exalted Beam Body</ObjectId>
+      <Speed>1</Speed>
+      <MinDamage>375</MinDamage>
+      <MaxDamage>525</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>AoO Exalted Beam Head</ObjectId>
+      <Speed>1</Speed>
+      <MinDamage>375</MinDamage>
+      <MaxDamage>525</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <RepulsionRadius>1.0f</RepulsionRadius>
+  </Object>
+  <Object type="0x3801" id="Summon Steed">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Steed Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+  </Object>
+  <Object type="0x4844" id="Recursion Mace LargeSummon">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <Size>85</Size>
+    <Projectile>
+      <ObjectId>Evocation Magic</ObjectId>
+      <Speed>180</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <MinDamage>145</MinDamage>
+      <MaxDamage>180</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.35" />
+  </Object>
+  <Object type="0x4845" id="Recursion Mace MidLargeSummon">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <Size>70</Size>
+    <Projectile>
+      <ObjectId>Purple Magic</ObjectId>
+      <Speed>180</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.35" />
+  </Object>
+  <Object type="0x4846" id="Recursion Mace MidSummon">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <Size>55</Size>
+    <Projectile>
+      <ObjectId>Blue Magic</ObjectId>
+      <Speed>180</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>40</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.35" />
+  </Object>
+  <Object type="0x4847" id="Recursion Mace SmallSummon">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <Size>40</Size>
+    <Projectile>
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>180</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <MinDamage>20</MinDamage>
+      <MaxDamage>30</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.35" />
+    <RepulsionRadius>1.00</RepulsionRadius>
+  </Object>
+  <Object type="0x3806" id="Summon Polar Bear">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>38</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Polar Bear Projectile</ObjectId>
+      <Speed>135</Speed>
+      <Size>100</Size>
+      <MinDamage>205</MinDamage>
+      <MaxDamage>230</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+  </Object>
+  <Object type="0x8113" id="Summon Cat Decoy">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>153</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Cat Projectile</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>125</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NoMiniMap />
+    <Friendly />
+    <RepulsionRadius>0.75f</RepulsionRadius>
+    <FollowMouse speed="1.15" />
+  </Object>
+</Objects>

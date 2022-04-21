@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground type="0xb091" id="DWD Sand">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x1a</Index>
+    </Texture>
+    <BlendPriority>6</BlendPriority>
+  </Ground>
+  <Ground type="0xb092" id="DWD Dark Sand">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x17</Index>
+    </Texture>
+    <BlendPriority>5</BlendPriority>
+  </Ground>
+  <Ground type="0xb093" id="DWD Water">
+    <DisplayId>Dead Water</DisplayId>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <MinDamage>60</MinDamage>
+    <MaxDamage>60</MaxDamage>
+    <Sink />
+    <Speed>.5</Speed>
+    <Animate dx=".2" dy=".05">Wave</Animate>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0fa" id="DWD Water Clean">
+    <DisplayId>Dead Water</DisplayId>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <MinDamage>60</MinDamage>
+    <MaxDamage>60</MaxDamage>
+    <Sink />
+    <Speed>.5</Speed>
+    <Animate dx=".2" dy=".05">Wave</Animate>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0f9" id="DWD Water Safe">
+    <DisplayId>Dead Water</DisplayId>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <Animate dx=".2" dy=".05">Wave</Animate>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb094" id="DWD Dark Water">
+    <DisplayId>Dead Water</DisplayId>
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa3</Index>
+    </Texture>
+    <NoWalk />
+    <Sink />
+    <Speed>.666</Speed>
+    <Animate dx=".2" dy=".05">Wave</Animate>
+  </Ground>
+  <Ground type="0xb095" id="DWD Vertical Wood Edge L">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x11</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb096" id="DWD Vertical Wood">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x12</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb097" id="DWD Vertical Wood Edge R">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x13</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0e5" id="DWD Vertical Wood Hallway L">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x87</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0e6" id="DWD Vertical Wood Hallway M">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x88</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0e7" id="DWD Vertical Wood Hallway R">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x89</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0eb" id="DWD Vertical Wood Crystal">
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x74</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x75</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x77</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0ec" id="DWD Vertical Wood Cracked">
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x79</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x7a</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x7b</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0ed" id="DWD Vertical Wood Blood">
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x7c</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x7d</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x7e</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x7f</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0c5" id="DWD Horizontal Wood Edge L">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x14</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0c6" id="DWD Horizontal Wood">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x15</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0c7" id="DWD Horizontal Wood Edge R">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x16</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0e8" id="DWD Horizontal Wood Hallway L">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x8a</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0e9" id="DWD Horizontal Wood Hallway M">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x8b</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0ea" id="DWD Horizontal Wood Hallway R">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x8c</Index>
+    </Texture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0ee" id="DWD Stone">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa5</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0ef" id="DWD Stone Edge L">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa6</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f0" id="DWD Stone Edge R">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa7</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f1" id="DWD Stone Edge Corner">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa8</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f2" id="DWD Stone Edge T">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa9</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f3" id="DWD Stone Edge B">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xaa</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f4" id="DWD Stone Edge Inner TL">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xab</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f5" id="DWD Stone Edge Inner TR">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xac</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f6" id="DWD Stone Edge Inner BL">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xad</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f7" id="DWD Stone Edge Inner BR">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xae</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xb0f8" id="DWD Stone Full">
+    <SameTypeEdgeMode />
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xa5</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xb5</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xa5</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xb6</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xa5</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xb7</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xa5</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xb8</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xa6</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xab</Index>
+      </Texture>
+    </Corner>
+    <InnerCorner>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xa8</Index>
+      </Texture>
+    </InnerCorner>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xb0c8" id="DWD King Carpet M">
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x91</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0x70</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb0c9" id="DWD King Carpet TL">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x80</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0ca" id="DWD King Carpet T">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x81</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0cb" id="DWD King Carpet TR">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x82</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0cc" id="DWD King Carpet L">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x90</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0cd" id="DWD King Carpet R">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x92</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0ce" id="DWD King Carpet BL">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa0</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0cf" id="DWD King Carpet B">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa1</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0d0" id="DWD King Carpet BR">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa2</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0d1" id="DWD King Carpet I BR">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x83</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0d2" id="DWD King Carpet I BL">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x84</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0d3" id="DWD King Carpet I TR">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x93</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0d4" id="DWD King Carpet I TL">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x94</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0d7" id="DWD King Carpet Stair L">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x49</Index>
+    </Texture>
+    <Speed>.8</Speed>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0d8" id="DWD King Carpet Stair M">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x4a</Index>
+    </Texture>
+    <Speed>.8</Speed>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb0d9" id="DWD King Carpet Stair R">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xa4</Index>
+    </Texture>
+    <Speed>.8</Speed>
+    <BlendPriority>9</BlendPriority>
+    <Color>0xA5263F</Color>
+  </Ground>
+  <Ground type="0xb0da" id="DWD King Wood">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x4b</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb0fd" id="DWD King Wood Crack">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x4b</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb0fe" id="DWD King Wood Cracked">
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xbc</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xbd</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xbe</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xbf</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb000" id="DWD King Wood NoWalk">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x4b</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xb0fb" id="DWD Crystal Wood">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0xb4</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xb0fc" id="DWD Vault Tile">
+    <RandomTexture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xde</Index>
+      </Texture>
+      <Texture>
+        <File>deadwaterDocksObjects8x8</File>
+        <Index>0xdf</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xb0db" id="DWD King Wood Stair">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x4c</Index>
+    </Texture>
+    <Speed>.8</Speed>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb0dc" id="DWD House Wood Entrance">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0xb0dd" id="DWD House Wood">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb0de" id="DWD House Stone Entrance">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x3f</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0xb0df" id="DWD House Stone">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x3a</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb0e0" id="DWD House Stone Bricks">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x39</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xb0d5" id="DWD King Wood Reflection BL">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x56</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xb0d6" id="DWD King Wood Reflection B">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x57</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xb0e1" id="DWD King Wood Reflection BR">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x58</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xb0e2" id="DWD King Wood Reflection TL">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x53</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xb0e3" id="DWD King Wood Reflection T">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x54</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xb0e4" id="DWD King Wood Reflection TR">
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x55</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <NoWalk />
+  </Ground>
+</GroundTypes>

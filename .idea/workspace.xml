@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AirPackageProjectParameters">
+    <option name="desktopPackageType" value="captive runtime bundle" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ad37990-70c7-42ae-b5ef-90ac04853ccc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ActionScript Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lg5kX6wFWZFQryP3KwmUs9GttY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Descriptor.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16503906" />
+    <property name="project.structure.side.proportion" value="0.49069768" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fltr\Documents\ProdMafia\src\kabam\rotmg\assets" />
+      <recent name="C:\Users\fltr\Documents\ProdMafia\src\kabam\rotmg\core\service" />
+      <recent name="C:\Users\fltr\Documents\ProdMafia\src\kabam\rotmg\ui" />
+      <recent name="C:\Users\fltr\Documents\GitHub\ProdMafia\src\kabam\rotmg\messaging\impl\incoming" />
+      <recent name="C:\Users\fltr\Documents\GitHub\ProdMafia\src\kabam\rotmg\messaging\impl\outgoing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fltr\Documents\ProdMafia\src\kabam\rotmg\messaging\impl\outgoing" />
+      <recent name="C:\Users\fltr\Documents\ProdMafia\src\kabam\rotmg\ui\view" />
+      <recent name="C:\Users\fltr\Downloads\ProdMafia\src" />
+      <recent name="C:\Users\fltr\Downloads\ProdMafia\src\com\company\assembleegameclient\ui\forge" />
+      <recent name="C:\Users\fltr\Downloads\ProdMafia\src\com\company\assembleegameclient\ui\exaltation" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="" />
+      <recent name="kabam.rotmg.messaging.impl.outgoing" />
+      <recent name="kabam.rotmg.account.web.signals" />
+      <recent name="com.company.assembleegameclient.ui.exaltation" />
+      <recent name="kabam.rotmg.messaging.impl.incoming" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Build" type="FlashRunConfigurationType">
+      <option name="BCName" value="ProdMafia" />
+      <option name="IOSSimulatorDevice" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="clearAppDataOnEachLaunch" value="true" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="Player" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="$USER_HOME$/Downloads/flashplayer_32_sa_debug.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="ProdMafia" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ad37990-70c7-42ae-b5ef-90ac04853ccc" name="Default Changelist" comment="" />
+      <created>1608006046086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608006046086</updated>
+      <workItem from="1608006047781" duration="225000" />
+      <workItem from="1608006356622" duration="4478000" />
+      <workItem from="1608027671188" duration="3135000" />
+      <workItem from="1608032364040" duration="2313000" />
+      <workItem from="1608088110229" duration="1734000" />
+      <workItem from="1608100328214" duration="3399000" />
+      <workItem from="1608177823969" duration="1245000" />
+      <workItem from="1608185528055" duration="4076000" />
+      <workItem from="1608298564357" duration="1837000" />
+      <workItem from="1608365255827" duration="669000" />
+      <workItem from="1609865297834" duration="20000" />
+      <workItem from="1609865332991" duration="8598000" />
+      <workItem from="1610153742994" duration="3529000" />
+      <workItem from="1610326430373" duration="128000" />
+      <workItem from="1610326569759" duration="239000" />
+      <workItem from="1610326821856" duration="1093000" />
+      <workItem from="1610605463744" duration="7879000" />
+      <workItem from="1610691801505" duration="1517000" />
+      <workItem from="1610780363928" duration="42000" />
+      <workItem from="1610851025218" duration="1193000" />
+      <workItem from="1610857801903" duration="2634000" />
+      <workItem from="1610874361227" duration="10172000" />
+      <workItem from="1610926932792" duration="10850000" />
+      <workItem from="1610938653540" duration="7113000" />
+      <workItem from="1610947227210" duration="3996000" />
+      <workItem from="1610965601573" duration="1754000" />
+      <workItem from="1611012655731" duration="214000" />
+      <workItem from="1611017199873" duration="11308000" />
+      <workItem from="1611038530906" duration="27029000" />
+      <workItem from="1611102273194" duration="3445000" />
+      <workItem from="1611115512734" duration="8340000" />
+      <workItem from="1611138155221" duration="5189000" />
+      <workItem from="1611192259336" duration="1834000" />
+      <workItem from="1611196669876" duration="9209000" />
+      <workItem from="1611244133195" duration="754000" />
+      <workItem from="1611279651621" duration="345000" />
+      <workItem from="1611285348801" duration="1291000" />
+      <workItem from="1611309638986" duration="366000" />
+      <workItem from="1611459842336" duration="5237000" />
+      <workItem from="1611491384648" duration="25000" />
+      <workItem from="1611492459918" duration="8658000" />
+      <workItem from="1611555736634" duration="6068000" />
+      <workItem from="1611564168271" duration="12467000" />
+      <workItem from="1611593619124" duration="2982000" />
+      <workItem from="1611649287690" duration="10005000" />
+      <workItem from="1611665072122" duration="4203000" />
+      <workItem from="1611670831365" duration="7577000" />
+      <workItem from="1611688273148" duration="3095000" />
+      <workItem from="1611727574145" duration="1013000" />
+      <workItem from="1611735671466" duration="345000" />
+      <workItem from="1611751696833" duration="23067000" />
+      <workItem from="1611813687956" duration="45004000" />
+      <workItem from="1611902232388" duration="4714000" />
+      <workItem from="1612003994891" duration="3494000" />
+      <workItem from="1612097171715" duration="1507000" />
+      <workItem from="1612103440538" duration="6288000" />
+      <workItem from="1612132588415" duration="3457000" />
+      <workItem from="1612183868454" duration="4244000" />
+      <workItem from="1612191631247" duration="2217000" />
+      <workItem from="1612194180987" duration="2535000" />
+      <workItem from="1612270678907" duration="13411000" />
+      <workItem from="1612300597282" duration="12553000" />
+      <workItem from="1612355842844" duration="4543000" />
+      <workItem from="1612380251062" duration="189000" />
+      <workItem from="1612380462584" duration="8396000" />
+      <workItem from="1612453255763" duration="28565000" />
+      <workItem from="1612552674471" duration="2277000" />
+      <workItem from="1612571208985" duration="6559000" />
+      <workItem from="1612579061787" duration="3729000" />
+      <workItem from="1612631639527" duration="279000" />
+      <workItem from="1612632003467" duration="6164000" />
+      <workItem from="1612661842918" duration="599000" />
+      <workItem from="1612719076848" duration="2590000" />
+      <workItem from="1621560155169" duration="618000" />
+      <workItem from="1621560946648" duration="334000" />
+      <workItem from="1621561304454" duration="2192000" />
+      <workItem from="1621578806073" duration="685000" />
+      <workItem from="1621672991911" duration="3973000" />
+      <workItem from="1621684127710" duration="821000" />
+      <workItem from="1621731005523" duration="4732000" />
+      <workItem from="1621738886498" duration="25413000" />
+      <workItem from="1621820746787" duration="3406000" />
+      <workItem from="1621834834123" duration="1098000" />
+      <workItem from="1621843477560" duration="2361000" />
+      <workItem from="1621921163341" duration="5399000" />
+      <workItem from="1621933859903" duration="1494000" />
+      <workItem from="1622134353989" duration="1279000" />
+      <workItem from="1622136383905" duration="2880000" />
+      <workItem from="1622180948346" duration="2289000" />
+      <workItem from="1622193089243" duration="5877000" />
+      <workItem from="1622208662687" duration="2074000" />
+      <workItem from="1622268827910" duration="779000" />
+      <workItem from="1622376017216" duration="5000" />
+      <workItem from="1622885331790" duration="3113000" />
+      <workItem from="1650545699318" duration="1575000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/src/com/company/assembleegameclient/ui/options/Options.as</url>
+          <line>853</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/src/kabam/rotmg/core/signals/TrackEventSignal.as</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/src/kabam/rotmg/account/web/model/AccountData.as</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

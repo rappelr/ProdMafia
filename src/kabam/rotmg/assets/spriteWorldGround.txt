@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground type="0x223f" id="Sprite Square White">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x10</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x88</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x89</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8a</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8b</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x2240" id="Sprite Square Right">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x1a</Index>
+    </Texture>
+    <Animate dx="-2.5">Flow</Animate>
+    <Alpha />
+    <Push />
+    <Color>0xC83748</Color>
+  </Ground>
+  <Ground type="0x2241" id="Sprite Square Left">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <Animate dx="2.5">Flow</Animate>
+    <Alpha />
+    <Push />
+    <Color>0xA349CA</Color>
+  </Ground>
+  <Ground type="0x2242" id="Sprite Square Down">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x1c</Index>
+    </Texture>
+    <Animate dy="-2.5">Flow</Animate>
+    <Alpha />
+    <Push />
+    <Color>0x2EA471</Color>
+  </Ground>
+  <Ground type="0x2243" id="Sprite Square Up">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Animate dy="2.5">Flow</Animate>
+    <Alpha />
+    <Push />
+    <Color>0x5869CF</Color>
+  </Ground>
+  <Ground type="0x2244" id="Sprite Square White Plain">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x10</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x88</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x89</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8a</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8b</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x227c" id="Sprite Square White Fertile">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x10</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x88</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x89</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8a</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8b</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x2245" id="Sprite Square Red">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x11</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8c</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8d</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8e</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x8f</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xC83748</Color>
+  </Ground>
+  <Ground type="0x2246" id="Sprite Square Orange">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x12</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x90</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x91</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x92</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x93</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xC75D39</Color>
+  </Ground>
+  <Ground type="0x2247" id="Sprite Square Yellow">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x13</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x94</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x95</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x96</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x97</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xBF9124</Color>
+  </Ground>
+  <Ground type="0x2248" id="Sprite Square Lime">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x14</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x98</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x99</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x9a</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x9b</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0x73A443</Color>
+  </Ground>
+  <Ground type="0x2249" id="Sprite Square Green">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x15</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x9c</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x9d</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x9e</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x9f</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0x2EA471</Color>
+  </Ground>
+  <Ground type="0x224a" id="Sprite Square Cyan">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x16</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa0</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa1</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa2</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa3</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0x4C8FB7</Color>
+  </Ground>
+  <Ground type="0x224b" id="Sprite Square Blue">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x17</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa4</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa5</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa6</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa7</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0x5869CF</Color>
+  </Ground>
+  <Ground type="0x224c" id="Sprite Square Purple">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x18</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa8</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xa9</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xaa</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xab</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xA349CA</Color>
+  </Ground>
+  <Ground type="0x224d" id="Sprite Square Black">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x19</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xac</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xad</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xae</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xaf</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0x383A51</Color>
+  </Ground>
+  <Ground type="0x224e" id="Sprite Square White TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x0e</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x224f" id="Sprite Square White TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x2250" id="Sprite Square White BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x2251" id="Sprite Square White BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x2252" id="Sprite Square Black TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x0a</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x383A51</Color>
+  </Ground>
+  <Ground type="0x2253" id="Sprite Square Black TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x0b</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x383A51</Color>
+  </Ground>
+  <Ground type="0x2254" id="Sprite Square Black BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x383A51</Color>
+  </Ground>
+  <Ground type="0x2255" id="Sprite Square Black BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x0d</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x383A51</Color>
+  </Ground>
+  <Ground type="0x2256" id="Sprite Square Red TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x20</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xC83748</Color>
+  </Ground>
+  <Ground type="0x2257" id="Sprite Square Red TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x21</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xC83748</Color>
+  </Ground>
+  <Ground type="0x2258" id="Sprite Square Red BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xC83748</Color>
+  </Ground>
+  <Ground type="0x2259" id="Sprite Square Red BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x31</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xC83748</Color>
+  </Ground>
+  <Ground type="0x225a" id="Sprite Square Orange TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x22</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xC75D39</Color>
+  </Ground>
+  <Ground type="0x225b" id="Sprite Square Orange TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x23</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xC75D39</Color>
+  </Ground>
+  <Ground type="0x225c" id="Sprite Square Orange BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xC75D39</Color>
+  </Ground>
+  <Ground type="0x225d" id="Sprite Square Orange BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x33</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xC75D39</Color>
+  </Ground>
+  <Ground type="0x225e" id="Sprite Square Yellow TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x24</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xBF9124</Color>
+  </Ground>
+  <Ground type="0x225f" id="Sprite Square Yellow TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x25</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xBF9124</Color>
+  </Ground>
+  <Ground type="0x2260" id="Sprite Square Yellow BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x34</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xBF9124</Color>
+  </Ground>
+  <Ground type="0x2261" id="Sprite Square Yellow BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x35</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xBF9124</Color>
+  </Ground>
+  <Ground type="0x2262" id="Sprite Square Lime TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x26</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x73A443</Color>
+  </Ground>
+  <Ground type="0x2263" id="Sprite Square Lime TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x27</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x73A443</Color>
+  </Ground>
+  <Ground type="0x2264" id="Sprite Square Lime BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x36</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x73A443</Color>
+  </Ground>
+  <Ground type="0x2265" id="Sprite Square Lime BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x37</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x73A443</Color>
+  </Ground>
+  <Ground type="0x2266" id="Sprite Square Green TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x28</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x2EA471</Color>
+  </Ground>
+  <Ground type="0x2267" id="Sprite Square Green TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x29</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x2EA471</Color>
+  </Ground>
+  <Ground type="0x2268" id="Sprite Square Green BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x38</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x2EA471</Color>
+  </Ground>
+  <Ground type="0x2269" id="Sprite Square Green BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x39</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x2EA471</Color>
+  </Ground>
+  <Ground type="0x226a" id="Sprite Square Cyan TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x4C8FB7</Color>
+  </Ground>
+  <Ground type="0x226b" id="Sprite Square Cyan TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x2b</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x4C8FB7</Color>
+  </Ground>
+  <Ground type="0x226c" id="Sprite Square Cyan BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x3a</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x4C8FB7</Color>
+  </Ground>
+  <Ground type="0x226d" id="Sprite Square Cyan BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x3b</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x4C8FB7</Color>
+  </Ground>
+  <Ground type="0x226e" id="Sprite Square Blue TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x2c</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x5869CF</Color>
+  </Ground>
+  <Ground type="0x226f" id="Sprite Square Blue TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x2d</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x5869CF</Color>
+  </Ground>
+  <Ground type="0x2270" id="Sprite Square Blue BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x5869CF</Color>
+  </Ground>
+  <Ground type="0x2271" id="Sprite Square Blue BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Alpha />
+    <Color>0x5869CF</Color>
+  </Ground>
+  <Ground type="0x2272" id="Sprite Square Purple TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x2e</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xA349CA</Color>
+  </Ground>
+  <Ground type="0x2273" id="Sprite Square Purple TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x2f</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xA349CA</Color>
+  </Ground>
+  <Ground type="0x2274" id="Sprite Square Purple BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xA349CA</Color>
+  </Ground>
+  <Ground type="0x2275" id="Sprite Square Purple BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x3f</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xA349CA</Color>
+  </Ground>
+  <Ground type="0x2276" id="Sprite Frame TL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x2277" id="Sprite Frame TR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x81</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x2278" id="Sprite Frame BL">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x82</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x2279" id="Sprite Frame BR">
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x83</Index>
+    </Texture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x227a" id="Sprite Frame Vertical">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xc8</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xc9</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+  <Ground type="0x227b" id="Sprite Frame Horizontal">
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xc6</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xc7</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+    </RandomTexture>
+    <Alpha />
+    <Color>0xB9B9D3</Color>
+  </Ground>
+</GroundTypes>

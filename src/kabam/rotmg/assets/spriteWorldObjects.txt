@@ -1,0 +1,2453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0xc05c" id="Orange Sprite Line">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x58</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc05d" id="Purple Sprite Line">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x59</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc05e" id="Green Sprite Line">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x5a</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc05f" id="Cyan Sprite Line">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x5b</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc4f0" id="Orange Sprite Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x5c</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc4f1" id="Purple Sprite Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x5d</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc4f2" id="Green Sprite Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x5e</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc4f3" id="Cyan Sprite Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x5f</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc4f4" id="Orange Sprite Twirl">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x60</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc4f5" id="Purple Sprite Twirl">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x61</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc4f6" id="Green Sprite Twirl">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x62</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc4f7" id="Cyan Sprite Twirl">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x63</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc4f8" id="Orange Sprite Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x64</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc4f9" id="Purple Sprite Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x65</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc4fa" id="Green Sprite Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x66</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc4fb" id="Cyan Sprite Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x67</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc4fc" id="Orange Sprite Beam">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x68</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc4fd" id="Purple Sprite Beam">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x69</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc047" id="Green Sprite Beam">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x6a</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc048" id="Cyan Sprite Beam">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x6b</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc04a" id="Black Sprite Line">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x6c</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc04b" id="Black Sprite Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x6d</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc04c" id="Black Sprite Twirl">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x6e</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc04d" id="Black Sprite Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x6f</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc04e" id="Black Sprite Beam">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x70</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc04f" id="Blue Sprite Line">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x71</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc050" id="Blue Sprite Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x72</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc051" id="Blue Sprite Twirl">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x73</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc052" id="Blue Sprite Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x74</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc053" id="Blue Sprite Beam">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x75</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc054" id="Prejudice Pulse">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x79</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc055" id="Rainbow Sprite Pulse">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x7a</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc056" id="Rainbow Sprite Line">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x7b</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc057" id="Rainbow Sprite Beam">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x7c</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc058" id="Rainbow Sprite Star">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x7d</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc073" id="Prejudice Missile">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xbc</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc074" id="Colorful Sprite Bolt">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xbd</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xbe</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xbf</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xc0</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0xc1</Index>
+      </Texture>
+    </RandomTexture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc075" id="Rainbow Sprite Blast">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xc2</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xc2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xc3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xc4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xc5</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc060" id="Sprite Tree">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x47</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x48</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x49</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x4a</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x4b</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x4c</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x4d</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x4e</Index>
+      </Texture>
+      <Texture>
+        <File>spriteWorldObjects8x8</File>
+        <Index>0x4f</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <MaxHitPoints>100</MaxHitPoints>
+    <HealthBar>-1</HealthBar>
+    <MinSize>120</MinSize>
+    <MaxSize>160</MaxSize>
+    <SizeStep>10</SizeStep>
+    <Static />
+    <OccupySquare />
+    <Enemy />
+    <NoMiniMap />
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xc061" id="Native Craig">
+    <DisplayId>Craig the Intern</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <KillStat stat="NatureKills" />
+    <Size>100</Size>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>0</Exp>
+    <Flying />
+    <TrackLoot />
+  </Object>
+  <Object type="0xc05b" id="Native Craig Controller">
+    <DisplayId>Craig the Intern</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>100</Size>
+    <Flying />
+  </Object>
+  <Object type="0xc062" id="Native Portal">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>0xea</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <AltTexture id="0">
+      <Texture>
+        <File>d3LofiObjEmbed</File>
+        <Index>0xea</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>d3LofiObjEmbed</File>
+        <Index>0xe9</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>d3LofiObjEmbed</File>
+        <Index>0xe8</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>d3LofiObjEmbed</File>
+        <Index>0xe7</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>d3LofiObjEmbed</File>
+        <Index>0xe6</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+  </Object>
+  <Object type="0x0d00" id="Native Fire Sprite">
+    <Group>Native Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Orange Sprite Magic</ObjectId>
+      <Damage>27</Damage>
+      <Speed>35</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x0d01" id="Native Ice Sprite">
+    <Group>Native Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Blue Sprite Twirl</ObjectId>
+      <Damage>24</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>70</Size>
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0x0d02" id="Native Magic Sprite">
+    <Group>Native Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Cyan Sprite Magic</ObjectId>
+      <Damage>18</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+  </Object>
+  <Object type="0x0d03" id="Native Nature Sprite">
+    <Group>Native Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <TrackLoot />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Green Sprite Magic</ObjectId>
+      <Damage>30</Damage>
+      <Speed>30</Speed>
+      <Acceleration>90</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x0d04" id="Native Darkness Sprite">
+    <Group>Native Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars8x8</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Black Sprite Magic</ObjectId>
+      <Damage>28</Damage>
+      <Speed>65</Speed>
+      <Acceleration>-110</Acceleration>
+      <AccelerationDelay>450</AccelerationDelay>
+      <SpeedClamp>30</SpeedClamp>
+      <LifetimeMS>3500</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0xc063" id="Native Greater Fire Sprite">
+    <Group>Native Greater Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>6</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Orange Sprite Line</ObjectId>
+      <Damage>33</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0xc064" id="Native Greater Ice Sprite">
+    <Group>Native Greater Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>6</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Blue Sprite Twirl</ObjectId>
+      <Damage>10</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>70</Size>
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xc065" id="Native Greater Magic Sprite">
+    <Group>Native Greater Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>6</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <Damage>39</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>100</Size>
+      <Boomerang />
+    </Projectile>
+  </Object>
+  <Object type="0xc066" id="Native Greater Nature Sprite">
+    <Group>Native Greater Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>6</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <TrackLoot />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Green Sprite Bolt</ObjectId>
+      <Damage>37</Damage>
+      <Speed>0</Speed>
+      <Acceleration>100</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0xc067" id="Native Greater Darkness Sprite">
+    <Group>Native Greater Sprites</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>6</Defense>
+    <Exp>40</Exp>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>Black Sprite Beam</ObjectId>
+      <Damage>42</Damage>
+      <Speed>50</Speed>
+      <Acceleration>-150</Acceleration>
+      <AccelerationDelay>900</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>2700</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x0d05" id="Native Sprite God">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>1</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/sprite_god_hit</HitSound>
+    <DeathSound>monster/sprite_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <Defense>12</Defense>
+    <Exp>250</Exp>
+    <Flying />
+    <God />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Projectile id="0">
+      <ObjectId>Black Sprite Magic</ObjectId>
+      <Damage>100</Damage>
+      <Speed>80</Speed>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>1300</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Black Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>90</Speed>
+      <Acceleration>-400</Acceleration>
+      <AccelerationDelay>800</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>2400</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Cyan Sprite Magic</ObjectId>
+      <Damage>90</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1.3</Frequency>
+      <FaceDir />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>65</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Blue Sprite Twirl</ObjectId>
+      <Damage>10</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>65</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Orange Sprite Magic</ObjectId>
+      <Damage>50</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Wavy />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <Size>85</Size>
+      <Damage>0</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <Size>85</Size>
+      <Damage>0</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <Size>85</Size>
+      <Damage>0</Damage>
+      <Speed>95</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Green Sprite Magic</ObjectId>
+      <Size>100</Size>
+      <Damage>120</Damage>
+      <Speed>0</Speed>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>95</SpeedClamp>
+      <LifetimeMS>1700</LifetimeMS>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Green Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>20</Speed>
+      <Acceleration>400</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>110</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+      <Boomerang />
+    </Projectile>
+  </Object>
+  <Object type="0xc059" id="Sprite Portal Summon">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Animation prob="1.0" period="0.0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x1a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x1b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x1c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x1d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x1e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x1f</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Sound id="0">monster/flying_brain_hit</Sound>
+  </Object>
+  <Object type="0xc076" id="Sprite Portal Active">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Animation prob="1.0" period="0.0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc077" id="Sprite Portal Close">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Animation prob="1.0" period="0.0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x27</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x28</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x2a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Sound id="0">monster/flying_brain_death</Sound>
+  </Object>
+  <Object type="0xc05a" id="Sprite Portal Generator">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x0d06" id="Limon the Sprite God">
+    <DisplayId>Limon the Sprite Goddess</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Portrait>
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </Portrait>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>16</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>17</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="14">
+      <AnimatedTexture>
+        <File>spriteWorldChars16x16</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x06</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x07</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x08</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x09</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x0a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="10">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x0b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="11">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x0c</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="12">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x0d</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="13">
+      <Texture>
+        <File>spriteWorldObjects16x16</File>
+        <Index>0x0e</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/sprite_god_hit</HitSound>
+    <DeathSound>monster/sprite_god_death</DeathSound>
+    <MaxHitPoints>12000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Size>100</Size>
+    <Flying />
+    <God />
+    <StasisImmune />
+    <Quest />
+    <Enemy />
+    <Exp>2000</Exp>
+    <NoArticle />
+    <EventChestBoss />
+    <TrackLoot />
+    <HealthBarBoss radius="30" />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Prejudice Pulse</ObjectId>
+      <Speed>80</Speed>
+      <LifetimeMS>2300</LifetimeMS>
+      <Damage>70</Damage>
+      <Size>130</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Orange Sprite Line</ObjectId>
+      <Speed>35</Speed>
+      <LifetimeMS>2300</LifetimeMS>
+      <Acceleration>140</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>70</Damage>
+      <Size>110</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Blue Sprite Bolt</ObjectId>
+      <Speed>5</Speed>
+      <Acceleration>100</Acceleration>
+      <AccelerationDelay>700</AccelerationDelay>
+      <SpeedClamp>45</SpeedClamp>
+      <LifetimeMS>5500</LifetimeMS>
+      <Damage>75</Damage>
+      <Size>110</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Orange Sprite Bolt</ObjectId>
+      <Damage>90</Damage>
+      <Speed>20</Speed>
+      <Acceleration>400</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>110</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>115</Size>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Orange Sprite Magic</ObjectId>
+      <Damage>65</Damage>
+      <Speed>80</Speed>
+      <Acceleration>-50</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>10</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>4</Frequency>
+      <Size>120</Size>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Rainbow Sprite Line</ObjectId>
+      <Damage>105</Damage>
+      <Speed>20</Speed>
+      <Acceleration>400</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>110</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>110</Size>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <Speed>40</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>140</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Damage>75</Damage>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Green Sprite Twirl</ObjectId>
+      <Damage>115</Damage>
+      <Speed>0</Speed>
+      <Acceleration>30</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Rainbow Sprite Blast</ObjectId>
+      <Damage>100</Damage>
+      <Speed>90</Speed>
+      <Acceleration>-150</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>65</SpeedClamp>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>130</Size>
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object type="0x0d07" id="Limon Element 1">
+    <DisplayId>Limon Element</DisplayId>
+    <Group>AttackType</Group>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <NoMiniMap />
+    <KillStat stat="NatureKills" />
+    <Texture>
+      <File>spriteWorldObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x00</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x05</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Purple Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>70</Speed>
+      <LifetimeMS>2957</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-18</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-27</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>4800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-50</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>4600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Cyan Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>110</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1650</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Green Sprite Beam</ObjectId>
+      <Damage>40</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Green Sprite Line</ObjectId>
+      <Damage>80</Damage>
+      <Size>130</Size>
+      <Speed>20</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Black Sprite Beam</ObjectId>
+      <Damage>35</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Cyan Sprite Beam</ObjectId>
+      <Damage>30</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Blue Sprite Beam</ObjectId>
+      <Damage>20</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Cyan Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x0d08" id="Limon Element 2">
+    <DisplayId>Limon Element</DisplayId>
+    <Group>AttackType</Group>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <NoMiniMap />
+    <KillStat stat="NatureKills" />
+    <Texture>
+      <File>spriteWorldObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x00</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x05</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Purple Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>70</Speed>
+      <LifetimeMS>2957</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-18</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-27</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>4800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-50</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>4600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Cyan Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>110</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1650</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Green Sprite Beam</ObjectId>
+      <Damage>40</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Green Sprite Line</ObjectId>
+      <Damage>80</Damage>
+      <Size>130</Size>
+      <Speed>20</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Black Sprite Beam</ObjectId>
+      <Damage>35</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Cyan Sprite Beam</ObjectId>
+      <Damage>30</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Blue Sprite Beam</ObjectId>
+      <Damage>20</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Cyan Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x0d09" id="Limon Element 3">
+    <DisplayId>Limon Element</DisplayId>
+    <Group>AttackType</Group>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <NoMiniMap />
+    <KillStat stat="NatureKills" />
+    <Texture>
+      <File>spriteWorldObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x00</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x05</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Purple Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>70</Speed>
+      <LifetimeMS>2957</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Blue Sprite Twirl</ObjectId>
+      <Damage>20</Damage>
+      <Size>80</Size>
+      <Speed>30</Speed>
+      <LifetimeMS>7000</LifetimeMS>
+      <Amplitude>0.2</Amplitude>
+      <Frequency>7</Frequency>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Blue Sprite Beam</ObjectId>
+      <Damage>20</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-18</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-27</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>4800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-50</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>4600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Cyan Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>110</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1650</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Green Sprite Beam</ObjectId>
+      <Damage>40</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Green Sprite Line</ObjectId>
+      <Damage>80</Damage>
+      <Size>130</Size>
+      <Speed>20</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Black Sprite Beam</ObjectId>
+      <Damage>35</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Cyan Sprite Beam</ObjectId>
+      <Damage>30</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Cyan Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x0d0a" id="Limon Element 4">
+    <DisplayId>Limon Element</DisplayId>
+    <Group>AttackType</Group>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <NoMiniMap />
+    <KillStat stat="NatureKills" />
+    <Texture>
+      <File>spriteWorldObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x00</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spriteWorldObjects16x16</File>
+          <Index>0x05</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Purple Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>70</Speed>
+      <LifetimeMS>2957</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Blue Sprite Beam</ObjectId>
+      <Damage>20</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-18</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-25</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>4800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Rainbow Sprite Star</ObjectId>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <Speed>60</Speed>
+      <Acceleration>-50</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>4600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Cyan Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>110</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1650</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Green Sprite Beam</ObjectId>
+      <Damage>40</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Green Sprite Line</ObjectId>
+      <Damage>80</Damage>
+      <Size>130</Size>
+      <Speed>20</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Black Sprite Beam</ObjectId>
+      <Damage>35</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Cyan Sprite Beam</ObjectId>
+      <Damage>30</Damage>
+      <Size>120</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>2800</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Cyan Sprite Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Size>130</Size>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xc049" id="Sprite Corpse">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x0bb0" id="Limon GroundShot">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x0bb1" id="Limon SafeGround">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc086" id="Player Count Test">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0xa4</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc078" id="Number Zero">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xef</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc079" id="Number One">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc07a" id="Number Two">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xfd</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc07b" id="Number Three">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xfe</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc07c" id="Number Four">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xec</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc07d" id="Number Five">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xed</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc07e" id="Number Six">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xee</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc07f" id="Number Seven">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xdc</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc080" id="Number Eight">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xdd</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc081" id="Number Nine">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xde</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc082" id="Numeral I">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xf8</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc083" id="Numeral V">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xf9</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc084" id="Numeral X">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xfa</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc085" id="Numeral L">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xfb</Index>
+    </Texture>
+    <DrawOnGround />
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xc068" id="Sprite Background 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x50</Index>
+    </Texture>
+    <BgObject />
+  </Object>
+  <Object type="0xc069" id="Sprite Background 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x51</Index>
+    </Texture>
+    <BgObject />
+  </Object>
+  <Object type="0xc06a" id="Sprite Background 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x52</Index>
+    </Texture>
+    <BgObject />
+  </Object>
+  <Object type="0xc06b" id="Sprite Background 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x53</Index>
+    </Texture>
+    <BgObject />
+  </Object>
+  <Object type="0xc06c" id="Sprite Background 5">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x54</Index>
+    </Texture>
+    <BgObject />
+  </Object>
+  <Object type="0xc06d" id="Sprite Background 6">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x55</Index>
+    </Texture>
+    <BgObject />
+  </Object>
+  <Object type="0xc06e" id="Sprite Background 7">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x56</Index>
+    </Texture>
+    <BgObject />
+  </Object>
+  <Object type="0xc06f" id="Sprite Background 8">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x57</Index>
+    </Texture>
+    <BgObject />
+  </Object>
+  <Object type="0xc070" id="Sprite Background Animated 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xb0</Index>
+    </Texture>
+    <BgObject />
+    <Animation prob="0.4" period="2.0">
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb3</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc071" id="Sprite Background Animated 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xb4</Index>
+    </Texture>
+    <BgObject />
+    <Animation prob="0.4" period="2.0">
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb7</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc072" id="Sprite Background Animated 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0xb8</Index>
+    </Texture>
+    <BgObject />
+    <Animation prob="0.4" period="2.0">
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xb9</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xba</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>spriteWorldObjects8x8</File>
+          <Index>0xbb</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+</Objects>
