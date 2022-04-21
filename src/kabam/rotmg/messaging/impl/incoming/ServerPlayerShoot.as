@@ -9,10 +9,10 @@ package kabam.rotmg.messaging.impl.incoming {
       public var startingPos_:WorldPosData;
       public var angle_:Number;
       public var damage_:int;
-      public var creepObjId:int;
+      public var projectileOwnerId:int;
       public var isMultiShotCreep:Boolean;
       public var shotCount:int;
-      public var angleIncRad:int;
+      public var angleInc:Number;
       
       public function ServerPlayerShoot(param1:uint, param2:Function) {
          this.startingPos_ = new WorldPosData();
@@ -20,17 +20,20 @@ package kabam.rotmg.messaging.impl.incoming {
       }
       
       override public function parseFromInput(input:IDataInput) : void {
-         this.bulletId_ = input.readUnsignedByte();
+         this.bulletId_ = input.readUnsignedShort();
          this.ownerId_ = input.readInt();
          this.containerType_ = input.readInt();
          this.startingPos_.parseFromInput(input);
          this.angle_ = input.readFloat();
          this.damage_ = input.readShort();
-         this.creepObjId = input.readInt();
+         this.projectileOwnerId = input.readInt();
          this.isMultiShotCreep = input.readBoolean();
          if (input.bytesAvailable > 0) {
             this.shotCount = input.readByte();
-            this.angleIncRad = input.readInt();
+            this.angleInc = input.readFloat();
+         } else {
+            this.shotCount = 1;
+            this.angleInc = 0;
          }
       }
       

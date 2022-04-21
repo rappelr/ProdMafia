@@ -471,8 +471,6 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       _loc3_.startingPos_.x_ = param2.x_;
       _loc3_.startingPos_.y_ = param2.y_;
       _loc3_.angle_ = param2.angle;
-      _loc3_.lifeMult_ = param2.lifeMul_;
-      _loc3_.speedMult_ = param2.speedMul;
       _loc3_.burstId = param2.burstId;
       serverConnection.sendMessage(_loc3_);
    }
@@ -1345,6 +1343,8 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       this.gs_.map.party_.setExaltLists();
       if (param1.stats)
          this.statsTracker.setBinaryStringData(this.charId_, param1.stats);
+
+      this.addTextLine.dispatch(ChatMessage.make(Parameters.DEBUG_CHAT_NAME,"CharID: " + this.charId_));
    }
 
    private function onDamage(param1:Damage) : void {
@@ -1609,6 +1609,11 @@ public class GameServerConnectionConcrete extends GameServerConnection {
          var _loc3_:GameObject = this.gs_.map.goDict_[param1.objectId_];
          if(_loc3_) {
             _loc2_ = LineBuilder.fromJSON(param1.message);
+            if(_loc2_ == null)
+            {
+               trace("failed to parse notification json: " + param1.message);
+               return;
+            }
             if(Parameters.data.ignoreStatusText && _loc2_.key == "s.no_effect") {
                return;
             }
@@ -2141,6 +2146,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
                }
                go.equipment_[_loc11_] = statVal;
                continue;
+
             case 30:
                _loc12_.numStars_ = statVal;
                continue;
@@ -2322,15 +2328,18 @@ public class GameServerConnectionConcrete extends GameServerConnection {
                _loc12_.magicPotionCount_ = statVal;
                continue;
             case 103:
-               _loc12_.projectileLifeMult = statVal / 1000;
+               //_loc12_.projectileLifeMult = statVal / 1000;
                continue;
             case 102:
-               _loc12_.projectileSpeedMult = statVal / 1000;
+               //_loc12_.projectileSpeedMult = statVal / 1000;
                continue;
-            case 80:
-               if(_loc12_) {
+            case StatData.TEXTURE_STAT:
+               if(_loc12_)
+               {
                   _loc12_.skinId != statVal && statVal >= 0 && this.setPlayerSkinTemplate(_loc12_,statVal);
-               } else if(go.objectType_ == 1813 && statVal > 0) {
+               }
+               else if(go.objectType_ == 1813 && statVal > 0)
+               {
                   go.setTexture(statVal);
                   continue;
                }
@@ -2532,7 +2541,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
    }
 
    private function onReconnect(param1:Reconnect) : void {
-      var _loc3_:Server = new Server().setName(param1.name_).setAddress(param1.host_ != ""?param1.host_:server_.address).setPort(param1.host_ != ""?param1.port_:int(server_.port));
+      var _loc3_:Server = new Server().setName(param1.name_).setAddress(param1.host_ != "" ? param1.host_ : server_.address).setPort(param1.host_ != ""?param1.port_:int(server_.port));
       var _loc2_:int = param1.gameId_;
       var _loc4_:Boolean = createCharacter_;
       var _loc5_:int = this.charId_;

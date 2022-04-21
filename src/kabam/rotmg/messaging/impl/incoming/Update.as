@@ -7,10 +7,12 @@ import flash.utils.IDataInput;
 import kabam.rotmg.messaging.impl.data.CompressedInt;
 import kabam.rotmg.messaging.impl.data.GroundTileData;
 import kabam.rotmg.messaging.impl.data.ObjectData;
+import kabam.rotmg.messaging.impl.data.WorldPosData;
 
 public class Update extends IncomingMessage {
 
-
+   public var position_:WorldPosData;
+   public var unknown1:int;
    public var tiles_:Vector.<GroundTileData>;
 
    public var newObjs_:Vector.<ObjectData>;
@@ -21,10 +23,15 @@ public class Update extends IncomingMessage {
       this.tiles_ = new Vector.<GroundTileData>();
       this.newObjs_ = new Vector.<ObjectData>();
       this.drops_ = new Vector.<int>();
+      this.position_ = new WorldPosData();
       super(param1,param2);
    }
 
    override public function parseFromInput(data:IDataInput) : void {
+      this.position_.parseFromInput(data);
+
+      this.unknown1 = data.readByte();
+
       var newLen:int = CompressedInt.read(data);
       var curLen:uint = this.tiles_.length;
       var i:int = newLen;

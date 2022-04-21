@@ -32,6 +32,7 @@ public class Parameters {
     public static const ERROR_CHAT_NAME:String = "*Error*";
     public static const HELP_CHAT_NAME:String = "*Help*";
     public static const GUILD_CHAT_NAME:String = "*Guild*";
+    public static const DEBUG_CHAT_NAME:String = "*Debug*";
     public static const NAME_CHANGE_PRICE:int = 1000;
     public static const GUILD_CREATION_PRICE:int = 1000;
     public static const TUTORIAL_GAMEID:int = -1;

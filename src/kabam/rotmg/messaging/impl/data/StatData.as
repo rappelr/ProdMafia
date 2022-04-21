@@ -166,6 +166,7 @@ public class StatData {
             case OWNER_ACCOUNT_ID_STAT:
             case GRAVE_ACCOUNT_ID:
             case UNKNOWN_MAPOBJECT_STAT_1:
+            case UNKNOWN_STAT_1:
                return true;
             default:
                return false;
