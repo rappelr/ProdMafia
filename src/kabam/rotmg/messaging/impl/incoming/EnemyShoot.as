@@ -27,7 +27,7 @@ package kabam.rotmg.messaging.impl.incoming {
       }
       
       override public function parseFromInput(param1:IDataInput) : void {
-         this.bulletId_ = param1.readUnsignedByte();
+         this.bulletId_ = param1.readShort();
          this.ownerId_ = param1.readInt();
          this.bulletType_ = param1.readUnsignedByte();
          this.startingPos_.parseFromInput(param1);

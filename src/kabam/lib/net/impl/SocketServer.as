@@ -1,6 +1,7 @@
 package kabam.lib.net.impl {
 import com.company.assembleegameclient.parameters.Parameters;
 import com.hurlant.crypto.symmetric.ICipher;
+import com.saladparty.io.PacketPrinter;
 
 import flash.events.Event;
 import flash.events.IOErrorEvent;
@@ -15,6 +16,7 @@ import kabam.lib.net.api.MessageProvider;
 import kabam.rotmg.account.core.Account;
 import kabam.rotmg.appengine.api.AppEngineClient;
 import kabam.rotmg.core.StaticInjectorContext;
+import kabam.rotmg.messaging.impl.outgoing.OutgoingMessage;
 
 import org.osflash.signals.Signal;
 
@@ -27,6 +29,7 @@ public class SocketServer {
     public const error:Signal = new Signal(String);
     private const unsentPlaceholder:Message = new Message(0);
     private const data:ByteArray = new ByteArray();
+    private const packetPrinter:PacketPrinter = new PacketPrinter();
 
     [Inject]
     public var messages:MessageProvider;
@@ -116,6 +119,9 @@ public class SocketServer {
     public function sendMessage(msg:Message):void {
         if (Parameters.data.noClip)
             return;
+
+        if (Parameters.EXPORT_SENT_PACKETS)
+            packetPrinter.Print(msg);
 
         this.tail.next = msg;
         this.tail = msg;
@@ -262,7 +268,7 @@ public class SocketServer {
 
                 if (error.toString().indexOf("#2030") > 0) // end of file reached error
                 {
-                    trace("Packet [" + messageId + "] has insufficient bytes: " + bytesAvailable);
+                    trace("Packet [" + messageId + "] has insufficient bytes remaining: " + bytesAvailable);
                     continue;
                 }
 

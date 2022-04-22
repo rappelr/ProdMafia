@@ -105,7 +105,7 @@ import kabam.rotmg.text.view.TextFieldDisplayConcrete;
          this.versionText.y = 589.45;
          addChild(this.versionText);
          this.copyrightText = this.makeText().setAutoSize("right").setVerticalAlign("middle");
-         this.copyrightText.setStringBuilder(new StaticStringBuilder("© 2021 DurgaSOFT SOLUTION"));
+         this.copyrightText.setStringBuilder(new StaticStringBuilder("© 2022 Saladparty [discord.gg/QNUJr32TM8]"));
          this.copyrightText.filters = [new DropShadowFilter(0,0,0)];
          this.copyrightText.x = 800;
          this.copyrightText.y = 589.45;

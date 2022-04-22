@@ -978,7 +978,8 @@ import kabam.rotmg.messaging.impl.incoming.MapInfo;
          var _loc10_:int = 0;
          var _loc9_:* = this.hitQueue;
          for each(var _loc8_ in this.hitQueue) {
-            this.gsc_.playerHit(_loc8_.bulletId,_loc8_.objectId);
+            // todo, this playerhit is dcing
+            //this.gsc_.playerHit(_loc8_.bulletId,_loc8_.objectId);
             _loc8_ = null;
          }
          this.hitQueue.length = 0;

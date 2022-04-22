@@ -999,6 +999,9 @@ public class GameServerConnectionConcrete extends GameServerConnection {
    }
 
    public function shootAck(param1:int) : void {
+      //TODO uncertain about this
+      //if(param1 == -1)
+         return;
       var _loc2_:ShootAck = this.messages.require(100) as ShootAck;
       _loc2_.time_ = param1;
       serverConnection.sendMessage(_loc2_);
@@ -1344,7 +1347,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       if (param1.stats)
          this.statsTracker.setBinaryStringData(this.charId_, param1.stats);
 
-      this.addTextLine.dispatch(ChatMessage.make(Parameters.DEBUG_CHAT_NAME,"CharID: " + this.charId_));
+      //this.addTextLine.dispatch(ChatMessage.make(Parameters.DEBUG_CHAT_NAME,"CharID: " + this.charId_));
    }
 
    private function onDamage(param1:Damage) : void {

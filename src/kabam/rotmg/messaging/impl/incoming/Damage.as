@@ -35,7 +35,7 @@ package kabam.rotmg.messaging.impl.incoming {
          }
          this.damageAmount_ = param1.readUnsignedShort();
          this.armorPierce_ = param1.readBoolean();
-         this.bulletId_ = param1.readUnsignedByte();
+         this.bulletId_ = param1.readUnsignedShort();
          this.objectId_ = param1.readInt();
       }
       

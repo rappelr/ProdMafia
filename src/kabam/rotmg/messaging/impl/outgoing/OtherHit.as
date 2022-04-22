@@ -18,7 +18,7 @@ package kabam.rotmg.messaging.impl.outgoing {
       
       override public function writeToOutput(param1:IDataOutput) : void {
          param1.writeInt(this.time_);
-         param1.writeByte(this.bulletId_);
+         param1.writeShort(this.bulletId_);
          param1.writeInt(this.objectId_);
          param1.writeInt(this.targetId_);
       }

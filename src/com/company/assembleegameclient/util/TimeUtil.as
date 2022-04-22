@@ -19,6 +19,11 @@ package com.company.assembleegameclient.util {
       public function TimeUtil() {
          super();
       }
+
+      public static function getUnixTime() : Number {
+         var temp:Number = (new Date()).time;
+         return temp;
+      }
       
       public static function getTrueTime() : int {
          return getTimer();
