@@ -1001,7 +1001,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
    public function shootAck(param1:int) : void {
       //TODO uncertain about this
       //if(param1 == -1)
-         return;
+      //   return;
       var _loc2_:ShootAck = this.messages.require(100) as ShootAck;
       _loc2_.time_ = param1;
       serverConnection.sendMessage(_loc2_);
@@ -1334,7 +1334,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       hello.entrytag_ = account.getEntryTag();
       hello.gameNet = "rotmg";
       hello.gameNetUserId = account.gameNetworkUserId();
-      hello.userToken = Parameters.USER_TOKEN;
+      hello.userToken = Parameters.data["clientToken"];
       serverConnection.sendMessage(hello);
    }
 
@@ -1649,13 +1649,19 @@ public class GameServerConnectionConcrete extends GameServerConnection {
             }
          }
       } else {
-         if (param1.message != "giftChestOccupied")
-            this.addTextLine.dispatch(ChatMessage.make("",
-                 param1.message.indexOf("}") != -1 ?
-                         LineBuilder.fromJSON(param1.message) ?
-                                 LineBuilder.fromJSON(param1.message).getString() :
-                                 "" :
-                         param1.message))
+         var msg:String = param1.message;
+
+         if (param1.message.indexOf("}") != -1)
+         {
+            try {
+               msg = LineBuilder.fromJSON(param1.message).getString();
+            }
+            catch (e) {
+               trace("Failed to parse json message from: " + msg);
+            }
+         }
+
+         this.addTextLine.dispatch(ChatMessage.make("", msg));
       }
    }
 
@@ -2401,7 +2407,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
                continue;
             case StatData.PLAYER_ID:
             case StatData.GRAVE_ACCOUNT_ID:
-            //case StatData.PET_OWNER_ACCOUNT_ID:
+            case StatData.PET_OWNER_ACCOUNT_ID: //todo this was commented out
                continue;
             case StatData.QUICKSLOT_ITEM_1:
                var plr:Player = go as Player;
@@ -2423,6 +2429,8 @@ public class GameServerConnectionConcrete extends GameServerConnection {
                continue;
             case StatData.FORGEFIRE_STAT:
                (go as Player).forgefire = statVal;
+               continue;
+            case StatData.UNKNOWN_STAT_1:
                continue;
             default:
                trace("Unhandled stat type:", statType, "statVal:", statVal,
@@ -2935,6 +2943,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
    }
 
    private function onFailure(param1:Failure) : void {
+      trace("Failure [" + param1.errorId_ + "]:" + param1.errorDescription_);
       lastConnectionFailureMessage = param1.errorDescription_;
       this.serverFull_ = false;
       var _loc2_:* = int(param1.errorId_) - 4;

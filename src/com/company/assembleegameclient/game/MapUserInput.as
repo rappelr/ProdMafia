@@ -27,6 +27,7 @@ import kabam.rotmg.account.core.Account;
 import kabam.rotmg.appengine.api.AppEngineClient;
 
 import kabam.rotmg.chat.control.ParseChatMessageSignal;
+import kabam.rotmg.chat.model.ChatMessage;
 import kabam.rotmg.core.StaticInjectorContext;
 import kabam.rotmg.core.service.ExtendAccessTokenTaskGame;
 import kabam.rotmg.core.view.Layers;
@@ -313,6 +314,19 @@ public class MapUserInput {
       Parameters.save();
    }
 
+   private function togglePrintPackets() : void {
+      Parameters.printPackets = !Parameters.printPackets;
+      Parameters.save();
+
+      if (Parameters.printPackets) {
+         this.addTextLine.dispatch(ChatMessage.make("","Printing packets"));
+      }
+      else
+      {
+         this.addTextLine.dispatch(ChatMessage.make("","No longer printing packets"));
+      }
+   }
+
    public function onMiddleClick(param1:MouseEvent) : void {
       var _loc5_:* = NaN;
       var _loc6_:Number = NaN;
@@ -524,12 +538,12 @@ public class MapUserInput {
       var _loc2_:* = null;
       var _loc15_:* = null;
       var _loc19_:Stage = this.gs.stage;
-      var _loc16_:uint = param1.keyCode;
+      var keyCode:uint = param1.keyCode;
       var player:Player = this.gs.map.player_;
       if(_loc19_.focus) {
          return;
       }
-      var _loc26_:* = _loc16_;
+      var _loc26_:* = keyCode;
       switch(_loc26_) {
          case Parameters.data.noClipKey:
             if(Parameters.data.noClip && !player.square.isWalkable()) {
@@ -636,20 +650,20 @@ public class MapUserInput {
             this.setPlayerMovement();
             return;
          default:
-            if(_loc16_ == Parameters.data.rotateLeft) {
+            if(keyCode == Parameters.data.rotateLeft) {
                if(Parameters.data.allowRotation) {
                   this.rotateLeft_ = true;
                }
-            } else if(_loc16_ == Parameters.data.rotateRight) {
+            } else if(keyCode == Parameters.data.rotateRight) {
                if(Parameters.data.allowRotation) {
                   this.rotateRight_ = true;
                }
-            } else if(_loc16_ == Parameters.data.resetToDefaultCameraAngle) {
+            } else if(keyCode == Parameters.data.resetToDefaultCameraAngle) {
                Parameters.data.cameraAngle = Parameters.data.defaultCameraAngle;
                Parameters.save();
                this.gs.camera_.nonPPMatrix_ = new Matrix3D();
                this.gs.camera_.nonPPMatrix_.appendScale(50,50,50);
-            } else if(_loc16_ == Parameters.data.useSpecial) {
+            } else if(keyCode == Parameters.data.useSpecial) {
                if(player) {
                   if(!this.specialKeyDown_) {
                      if(player.isUnstable) {
@@ -665,13 +679,13 @@ public class MapUserInput {
                      }
                   }
                }
-            } else if(_loc16_ == Parameters.data.autofireToggle) {
+            } else if(keyCode == Parameters.data.autofireToggle) {
                if(player) {
                   _loc12_ = !this.autofire_;
                   this.autofire_ = _loc12_;
                   player.isShooting = _loc12_;
                }
-            } else if(_loc16_ == Parameters.data.escapeToNexus || _loc16_ == Parameters.data.escapeToNexus2) {
+            } else if(keyCode == Parameters.data.escapeToNexus || keyCode == Parameters.data.escapeToNexus2) {
                if(player) {
                   this.gs.gsc_.disconnect();
                   this.gs.dispatchEvent(Parameters.reconNexus);
@@ -679,23 +693,23 @@ public class MapUserInput {
                Parameters.data.needsRandomRealm = false;
                Parameters.save();
                StaticInjectorContext.getInjector().getInstance(CloseAllPopupsSignal).dispatch();
-            } else if(_loc16_ == Parameters.data.useInvSlot1) {
+            } else if(keyCode == Parameters.data.useInvSlot1) {
                this.useItem(4);
-            } else if(_loc16_ == Parameters.data.useInvSlot2) {
+            } else if(keyCode == Parameters.data.useInvSlot2) {
                this.useItem(5);
-            } else if(_loc16_ == Parameters.data.useInvSlot3) {
+            } else if(keyCode == Parameters.data.useInvSlot3) {
                this.useItem(6);
-            } else if(_loc16_ == Parameters.data.useInvSlot4) {
+            } else if(keyCode == Parameters.data.useInvSlot4) {
                this.useItem(7);
-            } else if(_loc16_ == Parameters.data.useInvSlot5) {
+            } else if(keyCode == Parameters.data.useInvSlot5) {
                this.useItem(8);
-            } else if(_loc16_ == Parameters.data.useInvSlot6) {
+            } else if(keyCode == Parameters.data.useInvSlot6) {
                this.useItem(9);
-            } else if(_loc16_ == Parameters.data.useInvSlot7) {
+            } else if(keyCode == Parameters.data.useInvSlot7) {
                this.useItem(10);
-            } else if(_loc16_ == Parameters.data.useInvSlot8) {
+            } else if(keyCode == Parameters.data.useInvSlot8) {
                this.useItem(11);
-            } else if(_loc16_ == Parameters.data.quickSlotKey1) {
+            } else if(keyCode == Parameters.data.quickSlotKey1) {
                player = this.gs.map.player_;
                if (player && player.quickSlotCount1 > 0) {
                   this.gs.gsc_.useItem(TimeUtil.getModdedTime(),
@@ -708,7 +722,7 @@ public class MapUserInput {
                      player.quickSlotItem1 = -1;
                   } else player.quickSlotCount1 = newCount;
                }
-            } else if (_loc16_ == Parameters.data.quickSlotKey2) {
+            } else if (keyCode == Parameters.data.quickSlotKey2) {
                player = this.gs.map.player_;
                if (player && player.quickSlotCount2 > 0) {
                   this.gs.gsc_.useItem(TimeUtil.getModdedTime(),
@@ -721,7 +735,7 @@ public class MapUserInput {
                      player.quickSlotItem2 = -1;
                   } else player.quickSlotCount2 = newCount;
                }
-            } else if (_loc16_ == Parameters.data.quickSlotKey3) {
+            } else if (keyCode == Parameters.data.quickSlotKey3) {
                player = this.gs.map.player_;
                if (player && player.quickSlotCount3 > 0 && player.quickSlotUpgrade) {
                   this.gs.gsc_.useItem(TimeUtil.getModdedTime(),
@@ -734,20 +748,20 @@ public class MapUserInput {
                      player.quickSlotItem3 = -1;
                   } else player.quickSlotCount3 = newCount;
                }
-            } else if(_loc16_ == Parameters.data.toggleHPBar) {
+            } else if(keyCode == Parameters.data.toggleHPBar) {
                Parameters.data.HPBar = Parameters.data.HPBar != 0?0:1;
-            } else if(_loc16_ == Parameters.data.toggleProjectiles) {
+            } else if(keyCode == Parameters.data.toggleProjectiles) {
                Parameters.data.disableAllyShoot = Parameters.data.disableAllyShoot != 0?0:1;
                this.gs.gsc_.changeAllyShoot(Parameters.data.disableAllyShoot);
-            } else if(_loc16_ == Parameters.data.miniMapZoomOut) {
+            } else if(keyCode == Parameters.data.miniMapZoomOut) {
                this.miniMapZoom.dispatch("OUT");
-            } else if(_loc16_ == Parameters.data.miniMapZoomIn) {
+            } else if(keyCode == Parameters.data.miniMapZoomIn) {
                this.miniMapZoom.dispatch("IN");
-            } else if(_loc16_ == Parameters.data.togglePerformanceStats) {
+            } else if(keyCode == Parameters.data.togglePerformanceStats) {
                this.togglePerformanceStats();
-            } else if(_loc16_ == Parameters.data.toggleMasterParticles) {
+            } else if(keyCode == Parameters.data.toggleMasterParticles) {
                Parameters.data.noParticlesMaster = !Parameters.data.noParticlesMaster;
-            } else if(_loc16_ == Parameters.data.friendList) {
+            } else if(keyCode == Parameters.data.friendList) {
                this.isFriendsListOpen = !this.isFriendsListOpen;
                if(this.isFriendsListOpen) {
                   _loc20_ = StaticInjectorContext.getInjector().getInstance(ShowPopupSignal);
@@ -756,10 +770,10 @@ public class MapUserInput {
                   this.closeDialogSignal.dispatch();
                   this.closePopupByClassSignal.dispatch(SocialPopupView);
                }
-            } else if(_loc16_ == Parameters.data.options) {
+            } else if(keyCode == Parameters.data.options) {
                this.clearInput();
                this.layers.overlay.addChild(new Options(this.gs));
-            } else if(_loc16_ == Parameters.data.TombCycleKey) {
+            } else if(keyCode == Parameters.data.TombCycleKey) {
                _loc22_ = Parameters.data.TombCycleBoss;
                var _loc25_ = _loc22_;
                switch(_loc25_) {
@@ -795,66 +809,68 @@ public class MapUserInput {
                      Parameters.data.TombCycleBoss = 3368;
                }
                Parameters.save();
-            } else if(_loc16_ == Parameters.data.anchorTeleport) {
+            } else if(keyCode == Parameters.data.anchorTeleport) {
                this.gs.gsc_.playerText("/teleport " + Parameters.data.anchorName);
-            } else if(_loc16_ == Parameters.data.toggleCentering) {
+            } else if(keyCode == Parameters.data.toggleCentering) {
                Parameters.data.centerOnPlayer = !Parameters.data.centerOnPlayer;
                Parameters.save();
-            } else if(_loc16_ == Parameters.data.toggleFullscreen) {
+            } else if(keyCode == Parameters.data.toggleFullscreen) {
                if(Capabilities.playerType == "Desktop") {
                   Parameters.data.fullscreenMode = !Parameters.data.fullscreenMode;
                   Parameters.save();
                   _loc19_.displayState = !!Parameters.data.fullscreenMode?"fullScreenInteractive":"normal";
                }
-            } else if(_loc16_ == Parameters.data.toggleRealmQuestDisplay) {
+            } else if(keyCode == Parameters.data.toggleRealmQuestDisplay) {
                this.toggleRealmQuestsDisplaySignal.dispatch();
-            } else if(_loc16_ == Parameters.data.switchTabs) {
+            } else if(keyCode == Parameters.data.switchTabs) {
                this.statsTabHotKeyInputSignal.dispatch();
-            } else if(_loc16_ == Parameters.data.AutoAbilityHotkey) {
+            } else if(keyCode == Parameters.data.togglePrintPackets) {
+               this.togglePrintPackets();
+            } else if(keyCode == Parameters.data.AutoAbilityHotkey) {
                Parameters.data.AutoAbilityOn = !Parameters.data.AutoAbilityOn;
                player.textNotification(!!Parameters.data.AutoAbilityOn?"AutoAbility enabled":"AutoAbility disabled",16777215,2000,false);
-            } else if(_loc16_ != Parameters.data.ignoreSpeedyKey) {
-               if(_loc16_ == Parameters.data.AAHotkey) {
+            } else if(keyCode != Parameters.data.ignoreSpeedyKey) {
+               if(keyCode == Parameters.data.AAHotkey) {
                   Parameters.data.AAOn = !Parameters.data.AAOn;
                   if(player && !mouseDown_ && !Parameters.data.AAOn) {
                      player.isShooting = false;
                   }
                   player.textNotification(!!Parameters.data.AAOn?"AutoAim enabled":"AutoAim disabled",16777215,2000,false);
-               } else if(_loc16_ == Parameters.data.AAModeHotkey) {
+               } else if(keyCode == Parameters.data.AAModeHotkey) {
                   this.selectAimMode();
-               } else if(_loc16_ == Parameters.data.AutoLootHotkey) {
+               } else if(keyCode == Parameters.data.AutoLootHotkey) {
                   Parameters.data.AutoLootOn = !Parameters.data.AutoLootOn;
                   player.textNotification(!!Parameters.data.AutoLootOn?"AutoLoot enabled":"AutoLoot disabled",16777215,2000,false);
-               } else if(_loc16_ == Parameters.data.resetClientHP) {
+               } else if(keyCode == Parameters.data.resetClientHP) {
                   player.clientHp = player.hp_;
-               } else if(_loc16_ == Parameters.data.QuestTeleport) {
+               } else if(keyCode == Parameters.data.QuestTeleport) {
                   if(player) {
                      teleQuest(player);
                   }
-               } else if(_loc16_ == Parameters.data.TextPause) {
+               } else if(keyCode == Parameters.data.TextPause) {
                   this.gs.gsc_.playerText("/pause");
-               } else if(_loc16_ == Parameters.data.TextThessal) {
+               } else if(keyCode == Parameters.data.TextThessal) {
                   this.gs.gsc_.playerText("He lives and reigns and conquers the world");
-               } else if(_loc16_ == Parameters.data.TextDraconis) {
+               } else if(keyCode == Parameters.data.TextDraconis) {
                   this.gs.gsc_.playerText("black");
-               } else if(_loc16_ == Parameters.data.TextCem) {
+               } else if(keyCode == Parameters.data.TextCem) {
                   this.gs.gsc_.playerText("ready");
                }
-               if(_loc16_ == Parameters.data.SelfTPHotkey) {
+               if(keyCode == Parameters.data.SelfTPHotkey) {
                   this.gs.gsc_.teleport(player.objectId_);
-               } else if(_loc16_ != Parameters.data.syncFollowHotkey) {
-                  if(_loc16_ != Parameters.data.syncLeadHotkey) {
-                     if(_loc16_ != Parameters.data.requestPuriHotkey) {
-                        if(_loc16_ == Parameters.data.TogglePlayerFollow) {
+               } else if(keyCode != Parameters.data.syncFollowHotkey) {
+                  if(keyCode != Parameters.data.syncLeadHotkey) {
+                     if(keyCode != Parameters.data.requestPuriHotkey) {
+                        if(keyCode == Parameters.data.TogglePlayerFollow) {
                            Parameters.followingName = !Parameters.followingName;
                            player.textNotification(!!Parameters.followingName?"Following: on":"Following: off",16776960);
-                        } else if(_loc16_ == Parameters.data.PassesCoverHotkey) {
+                        } else if(keyCode == Parameters.data.PassesCoverHotkey) {
                            Parameters.data.PassesCover = !Parameters.data.PassesCover;
                            player.textNotification(!!Parameters.data.PassesCover?"Projectile Noclip on":"Projectile Noclip off");
-                        } else if(_loc16_ == Parameters.data.LowCPUModeHotKey) {
+                        } else if(keyCode == Parameters.data.LowCPUModeHotKey) {
                            Parameters.lowCPUMode = !Parameters.lowCPUMode;
                            player.textNotification(!!Parameters.lowCPUMode?"Low CPU on":"Low CPU off");
-                        } else if(_loc16_ == Parameters.data.ReconRealm) {
+                        } else if(keyCode == Parameters.data.ReconRealm) {
                            if(Parameters.data.lastRealmIP != "127.0.0.1") {
                               StaticInjectorContext.getInjector().getInstance(EnterGameSignal).dispatch();
                               _loc4_ = new GameInitData();
@@ -868,7 +884,7 @@ public class MapUserInput {
                               StaticInjectorContext.getInjector().getInstance(PlayGameSignal).dispatch(_loc4_);
                               StaticInjectorContext.getInjector().getInstance(CloseAllPopupsSignal).dispatch();
                            }
-                        } else if(_loc16_ == Parameters.data.DrinkAllHotkey) {
+                        } else if(keyCode == Parameters.data.DrinkAllHotkey) {
                            _loc5_ = player.getClosestBag(true);
                            if(_loc5_) {
                               _loc21_ = TimeUtil.getTrueTime();
@@ -882,7 +898,7 @@ public class MapUserInput {
                                  _loc10_++;
                               }
                            }
-                        } else if(_loc16_ == Parameters.data.tradeNearestPlayerKey) {
+                        } else if(keyCode == Parameters.data.tradeNearestPlayerKey) {
                            _loc9_ = Infinity;
                            var _loc30_:int = 0;
                            var _loc29_:* = this.gs.map.goDict_;
@@ -899,23 +915,23 @@ public class MapUserInput {
                               this.gs.gsc_.requestTrade(_loc2_.name_);
                            }
                         }
-                        if(_loc16_ == Parameters.data.sayCustom1) {
+                        if(keyCode == Parameters.data.sayCustom1) {
                            if(Parameters.data.customMessage1.length > 0) {
                               msgSignal.dispatch(Parameters.data.customMessage1);
                            }
-                        } else if(_loc16_ == Parameters.data.sayCustom2) {
+                        } else if(keyCode == Parameters.data.sayCustom2) {
                            if(Parameters.data.customMessage2.length > 0) {
                               msgSignal.dispatch(Parameters.data.customMessage2);
                            }
-                        } else if(_loc16_ == Parameters.data.sayCustom3) {
+                        } else if(keyCode == Parameters.data.sayCustom3) {
                            if(Parameters.data.customMessage3.length > 0) {
                               msgSignal.dispatch(Parameters.data.customMessage3);
                            }
-                        } else if(_loc16_ == Parameters.data.sayCustom4) {
+                        } else if(keyCode == Parameters.data.sayCustom4) {
                            if(Parameters.data.customMessage4.length > 0) {
                               msgSignal.dispatch(Parameters.data.customMessage4);
                            }
-                        } else if(_loc16_ == Parameters.data.aimAtQuest) {
+                        } else if(keyCode == Parameters.data.aimAtQuest) {
                            if(this.gs.map.quest_.objectId_ >= 0) {
                               _loc15_ = this.gs.map.goDict_[this.gs.map.quest_.objectId_];
                               Parameters.data.cameraAngle = Math.atan2(player.y_ - _loc15_.y_,player.x_ - _loc15_.x_) - 1.5707963267949;

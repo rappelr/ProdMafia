@@ -17,7 +17,7 @@ import kabam.lib.net.impl.Message;
             this.data.position = 0;
         }
 
-        public function Print(msg:Message) {
+        public function PrintOutgoing(msg:Message) {
             this.data.position = 0;
             this.data.length = 0;
             msg.writeToOutput(this.data);
@@ -40,6 +40,30 @@ import kabam.lib.net.impl.Message;
             }
             finally {
                 fileStream.close();
+            }
+        }
+
+        public function PrintIncoming(packetId:int, data:ByteArray) {
+            data.position = 0;
+
+            var packetSize:int = data.bytesAvailable + 5;
+            var path:String = "packet_log/" + TimeUtil.getUnixTime() + "_" + packetId + "_" + packetSize + "b.bin";
+
+            var file:File = File.applicationStorageDirectory.resolvePath(path);
+            var fileStream:FileStream = new FileStream();
+
+            fileStream.open(file, FileMode.WRITE);
+            try {
+                fileStream.writeInt(packetSize);
+                fileStream.writeByte(packetId);
+                fileStream.writeBytes(data);
+            }
+            catch (e) {
+                trace (e);
+            }
+            finally {
+                fileStream.close();
+                data.position = 0;
             }
         }
     }

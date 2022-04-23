@@ -61,7 +61,7 @@ package io.decagames.rotmg.supportCampaign.tasks {
             return;
          }
          this.logger.info("GetCampaignStatus update");
-         this.logger.info(_loc3_);
+         //this.logger.info(_loc3_);
          this.model.parseConfigData(_loc3_);
          completeTask(true);
       }

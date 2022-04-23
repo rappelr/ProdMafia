@@ -1,4 +1,5 @@
 package io.decagames.rotmg.characterMetrics.tracker {
+import com.company.assembleegameclient.parameters.Parameters;
 import com.hurlant.util.Base64;
 import flash.utils.Dictionary;
 import flash.utils.IDataInput;
@@ -48,9 +49,19 @@ public class CharactersMetricsTracker {
 
         var bytes:int = data.bytesAvailable;
         while (data.bytesAvailable > bytes - 20)
-            trace("trail", data.readUnsignedByte());
+        {
+            if (Parameters.LOG_CHARACTERS_METRICS_TRACKER)
+                trace("trail", data.readUnsignedByte());
+            else
+                data.readUnsignedByte()
+        }
         while (data.bytesAvailable > 0)
-            trace("stats", CompressedInt.read(data));
+        {
+            if (Parameters.LOG_CHARACTERS_METRICS_TRACKER)
+                trace("stats", CompressedInt.read(data));
+            else
+                CompressedInt.read(data)
+        }
 
         this._lastUpdate = new Date();
     }

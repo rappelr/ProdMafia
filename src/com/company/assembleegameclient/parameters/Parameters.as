@@ -19,11 +19,11 @@ public class Parameters {
     public static const CLIENT_VERSION:String = "2.3.0.0.0";
     public static const PORT:int = 2050;
     public static const CLIENT_TOKEN:String = "8bV53M5ysJdVjU4M97fh2g7BnPXhefnc";
-    public static const USER_TOKEN:String = "62nlggvmdjb86ctzeafa69oaacvi8lgpfgec9znh";
     public static const UNITY_LAUNCHER_VERSION:String = "2019.3.14f1";
     public static const UNITY_GAME_VERSION:String = "2019.4.21f1";
     public static const LOG_PACKETS:Boolean = false;
     public static const EXPORT_SENT_PACKETS:Boolean = false;
+    public static const LOG_CHARACTERS_METRICS_TRACKER:Boolean = false;
     public static const FELLOW_GUILD_COLOR:uint = 10944349;
     public static const NAME_CHOSEN_COLOR:uint = 16572160;
     public static const PLAYER_ROTATE_SPEED:Number = 0.003;
@@ -131,8 +131,12 @@ public class Parameters {
     public static var charNames:Vector.<String> = new Vector.<String>(0);
     public static var charIds:Vector.<int> = new Vector.<int>(0);
     public static var mystics:Vector.<String> = new Vector.<String>(0);
+
+    public static var printPackets:Boolean = false;
+
     private static var savedOptions_:SharedObject = null;
     private static var keyNames_:Dictionary = new Dictionary();
+
 
     public function Parameters() {
         super();
@@ -804,6 +808,9 @@ public class Parameters {
         setDefault("lifeMul", 1);
         setDefault("speedMul", 1.0);
         generateClientToken();
+
+        // saladparty
+        setDefaultKey("togglePrintPackets",0);
     }
 
     public static function generateClientToken(force:Boolean = false) : void {

@@ -120,8 +120,8 @@ public class SocketServer {
         if (Parameters.data.noClip)
             return;
 
-        if (Parameters.EXPORT_SENT_PACKETS)
-            packetPrinter.Print(msg);
+        if (Parameters.printPackets)
+            packetPrinter.PrintOutgoing(msg);
 
         this.tail.next = msg;
         this.tail = msg;
@@ -276,6 +276,8 @@ public class SocketServer {
                 return;
             }
             message.consume();
+            if (Parameters.printPackets)
+                packetPrinter.PrintIncoming(messageId, this.data);
             sendPendingMessages();
         }
     }

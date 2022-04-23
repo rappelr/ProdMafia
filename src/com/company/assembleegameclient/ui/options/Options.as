@@ -85,7 +85,7 @@ package com.company.assembleegameclient.ui.options {
          options_ = new Vector.<Sprite>();
          var _loc5_:* = null;
          var _loc8_:* = null;
-         _loc3_ = new <String>["Options.Controls","Options.HotKeys","Options.Chat","Options.Graphics","Options.Sound","Options.Friend","Experimental","Debuffs","Auto","Loot","World","Visual","Other"];
+         _loc3_ = new <String>["Options.Controls","Options.HotKeys","Options.Chat","Options.Graphics","Options.Sound","Options.Friend","Experimental","Debuffs","Auto","Loot","World","Visual","Saladparty","Other"];
          super();
          this.gs_ = param1;
          graphics.clear();
@@ -576,6 +576,9 @@ package com.company.assembleegameclient.ui.options {
             case "Visual":
                this.addVisualOptions();
                break;
+            case "Saladparty":
+               this.addSaladpartyOptions();
+               break;
             case "Other":
                this.addOtherOptions();
          }
@@ -926,7 +929,11 @@ package com.company.assembleegameclient.ui.options {
          this.addOptionAndPosition(new NullOption());
          this.addOptionAndPosition(new NullOption());
       }
-      
+
+      private function addSaladpartyOptions() : void {
+         this.addOptionAndPosition(new KeyMapper("togglePrintPackets", "Toggle Packet Printing", "This key will toggle whether packet binary data is outputted."));
+      }
+
       private function onPlayMusicChange() : void {
          Music.setPlayMusic(Parameters.data.playMusic);
          if(Parameters.data.playMusic) {
