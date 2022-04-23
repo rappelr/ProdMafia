@@ -24,7 +24,7 @@ import kabam.lib.net.impl.Message;
             this.data.position = 0;
 
             var packetSize:int = this.data.bytesAvailable + 5;
-            var path:String = "packet_log/" + TimeUtil.getUnixTime() + "_" + msg.id + "_" + packetSize + "b.bin";
+            var path:String = "packet_log/" + TimeUtil.getUnixTime() + "_out_" + msg.id + "_" + packetSize + "b.bin";
 
             var file:File = File.applicationStorageDirectory.resolvePath(path);
             var fileStream:FileStream = new FileStream();
@@ -47,7 +47,7 @@ import kabam.lib.net.impl.Message;
             data.position = 0;
 
             var packetSize:int = data.bytesAvailable + 5;
-            var path:String = "packet_log/" + TimeUtil.getUnixTime() + "_" + packetId + "_" + packetSize + "b.bin";
+            var path:String = "packets_log/" + TimeUtil.getUnixTime() + "_inc_" + packetId + "_" + packetSize + "b.bin";
 
             var file:File = File.applicationStorageDirectory.resolvePath(path);
             var fileStream:FileStream = new FileStream();

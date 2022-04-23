@@ -999,9 +999,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
    }
 
    public function shootAck(param1:int) : void {
-      //TODO uncertain about this
-      //if(param1 == -1)
-      //   return;
+      return; //todo, causing dc
       var _loc2_:ShootAck = this.messages.require(100) as ShootAck;
       _loc2_.time_ = param1;
       serverConnection.sendMessage(_loc2_);
