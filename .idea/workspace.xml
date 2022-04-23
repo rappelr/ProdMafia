@@ -4,7 +4,11 @@
     <option name="desktopPackageType" value="captive runtime bundle" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ad37990-70c7-42ae-b5ef-90ac04853ccc" name="Default Changelist" comment="" />
+    <list default="true" id="1ad37990-70c7-42ae-b5ef-90ac04853ccc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/assembleegameclient/parameters/Parameters.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/assembleegameclient/parameters/Parameters.as" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +17,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="ActionScript Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1lg5kX6wFWZFQryP3KwmUs9GttY" />
   <component name="ProjectLevelVcsManager">
@@ -42,7 +55,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.16503906" />
     <property name="project.structure.side.proportion" value="0.49069768" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -65,11 +78,11 @@
       <recent name="C:\Users\fltr\Downloads\ProdMafia\src\com\company\assembleegameclient\ui\exaltation" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="com.saladparty.io" />
       <recent name="" />
       <recent name="kabam.rotmg.messaging.impl.outgoing" />
       <recent name="kabam.rotmg.account.web.signals" />
       <recent name="com.company.assembleegameclient.ui.exaltation" />
-      <recent name="kabam.rotmg.messaging.impl.incoming" />
     </key>
   </component>
   <component name="RunManager">
@@ -216,6 +229,20 @@
       <workItem from="1622376017216" duration="5000" />
       <workItem from="1622885331790" duration="3113000" />
       <workItem from="1650545699318" duration="1575000" />
+      <workItem from="1650547657738" duration="352000" />
+      <workItem from="1650548038023" duration="3879000" />
+      <workItem from="1650553767949" duration="1777000" />
+      <workItem from="1650555590760" duration="1768000" />
+      <workItem from="1650557601995" duration="1773000" />
+      <workItem from="1650559473619" duration="1504000" />
+      <workItem from="1650561007348" duration="1303000" />
+      <workItem from="1650563640714" duration="1582000" />
+      <workItem from="1650650750847" duration="1051000" />
+      <workItem from="1650652772075" duration="1814000" />
+      <workItem from="1650654615500" duration="1779000" />
+      <workItem from="1650656433249" duration="1594000" />
+      <workItem from="1650658091621" duration="561000" />
+      <workItem from="1650658684057" duration="315000" />
     </task>
     <servers />
   </component>
