@@ -35,7 +35,8 @@ package kabam.rotmg.characters.deletion.service {
       }
       
       private function getRequestPacket() : Object {
-         var _loc1_:Object = this.account.getAccessToken();
+         var _loc1_:Object = [];
+         _loc1_.accessToken = this.account.getAccessToken();
          _loc1_.charId = this.character.charId();
          _loc1_.reason = 1;
          _loc1_.isChallenger = this.seasonalEventModel.isChallenger;
