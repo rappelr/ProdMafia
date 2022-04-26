@@ -3,6 +3,7 @@ package kabam.rotmg.messaging.impl.outgoing {
 import flash.utils.IDataOutput;
 
 public class ShootAckCounter extends OutgoingMessage {
+
     public var time:int;
     public var amount:int;
 

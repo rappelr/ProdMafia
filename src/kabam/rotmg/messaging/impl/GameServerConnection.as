@@ -233,7 +233,7 @@ public class GameServerConnection {
       return false;
    }
 
-   public function teleport(param1:int) : void {
+   public function teleport(objectId:int, objectName:String) : void {
    }
 
    public function usePortal(param1:int) : void {

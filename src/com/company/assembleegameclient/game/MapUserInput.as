@@ -228,7 +228,7 @@ public class MapUserInput {
             if(_loc4_ == param1.objectId_) {
                param1.textNotification("You are closest!",16777215,1500,false);
             } else {
-               this.gs.gsc_.teleport(_loc4_);
+               this.gs.gsc_.teleport(_loc4_, param1.name_);
                param1.textNotification("Teleporting to " + this.gs.map.goDict_[_loc4_].name_,16777215,1500,false);
             }
          }
@@ -857,7 +857,7 @@ public class MapUserInput {
                   this.gs.gsc_.playerText("ready");
                }
                if(keyCode == Parameters.data.SelfTPHotkey) {
-                  this.gs.gsc_.teleport(player.objectId_);
+                  this.gs.gsc_.teleport(player.objectId_, player.name_);
                } else if(keyCode != Parameters.data.syncFollowHotkey) {
                   if(keyCode != Parameters.data.syncLeadHotkey) {
                      if(keyCode != Parameters.data.requestPuriHotkey) {

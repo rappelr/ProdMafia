@@ -82,7 +82,7 @@ public class PlayerGameObjectListItem extends GameObjectListItem implements Tool
         if (this.go.map_.isNexus) {
             this.go.map_.gs_.gsc_.requestTrade(go.name_);
         } else {
-            this.go.map_.gs_.gsc_.teleport(go.objectId_);
+            this.go.map_.gs_.gsc_.teleport(go.objectId_, go.name_);
         }
     }
 

@@ -1003,13 +1003,23 @@ package com.company.assembleegameclient.objects {
          map_.mapOverlay_.addStatusText(_loc2_);
       }
       
-      public function onGoto(param1:Number, param2:Number, param3:int) : void {
-         this.moveTo(param1,param2);
-         this.lastTickUpdateTime_ = param3;
-         this.tickPosition_.x = param1;
-         this.tickPosition_.y = param2;
-         this.posAtTick_.x = param1;
-         this.posAtTick_.y = param2;
+      public function onGoto(x:Number, y:Number, time:int) : void {
+         this.moveTo(x,y);
+         this.lastTickUpdateTime_ = time;
+         this.tickPosition_.x = x;
+         this.tickPosition_.y = y;
+         this.posAtTick_.x = x;
+         this.posAtTick_.y = y;
+         this.moveVec_.x = 0;
+         this.moveVec_.y = 0;
+      }
+
+      public function onGotoNoTime(x:Number, y:Number) : void {
+         this.moveTo(x,y);
+         this.tickPosition_.x = x;
+         this.tickPosition_.y = y;
+         this.posAtTick_.x = x;
+         this.posAtTick_.y = y;
          this.moveVec_.x = 0;
          this.moveVec_.y = 0;
       }

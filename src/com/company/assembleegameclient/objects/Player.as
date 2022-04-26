@@ -1160,7 +1160,7 @@ import io.decagames.rotmg.supportCampaign.data.SupporterCampaignModel;
       }
 
       public function teleportTo(param1:Player) : Boolean {
-         map_.gs_.gsc_.teleport(param1.objectId_);
+         map_.gs_.gsc_.teleport(param1.objectId_, param1.name_);
          return true;
       }
 
@@ -1493,7 +1493,7 @@ import io.decagames.rotmg.supportCampaign.data.SupporterCampaignModel;
             this.textNotification("You are closest!",16777215,1500,false);
             return;
          }
-         this.map_.gs_.gsc_.teleport(_loc2_);
+         this.map_.gs_.gsc_.teleport(_loc2_, this.name_);
          this.textNotification("Teleporting to " + this.map_.goDict_[_loc2_].name_,16777215,1500,false);
       }
 

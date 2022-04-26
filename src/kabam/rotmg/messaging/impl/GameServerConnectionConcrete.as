@@ -644,9 +644,10 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       serverConnection.sendMessage(_loc3_);
    }
 
-   override public function teleport(param1:int) : void {
+   override public function teleport(objectId:int, objectName:String) : void {
       var _loc2_:Teleport = this.messages.require(74) as Teleport;
-      _loc2_.objectId_ = param1;
+      _loc2_.objectId_ = objectId;
+      _loc2_.objectName_ = objectName;
       serverConnection.sendMessage(_loc2_);
    }
 
@@ -999,9 +1000,9 @@ public class GameServerConnectionConcrete extends GameServerConnection {
    }
 
    public function shootAck(param1:int) : void {
-      return; //todo, causing dc
-      var _loc2_:ShootAck = this.messages.require(100) as ShootAck;
-      _loc2_.time_ = param1;
+      var _loc2_:ShootAckCounter = this.messages.require(121) as ShootAckCounter;
+      _loc2_.time = param1;
+      _loc2_.amount = 1;
       serverConnection.sendMessage(_loc2_);
    }
 
@@ -1072,6 +1073,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
    }
 
    public function gotoAck(param1:int) : void {
+      // it seems this is no longer used
       var _loc2_:GotoAck = this.messages.require(65) as GotoAck;
       _loc2_.time_ = param1;
       serverConnection.sendMessage(_loc2_);
@@ -1602,6 +1604,9 @@ public class GameServerConnectionConcrete extends GameServerConnection {
          _loc3_++;
       }
       gs_.map.calcVulnerables();
+
+      if (Parameters.FORCE_SYNC_POSITION && (param1.position_.x_ != 0 || param1.position_.y_ != 0))
+         player.onGotoNoTime(param1.position_.x_, param1.position_.y_);
    }
 
    private function onNotification(param1:Notification) : void {
@@ -2024,7 +2029,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
    }
 
    private function onGoto(param1:Goto) : void {
-      this.gotoAck(gs_.lastUpdate_);
+      //this.gotoAck(gs_.lastUpdate_);
       var _loc2_:GameObject = gs_.map.goDict_[param1.objectId_];
       if(_loc2_ == null) {
          return;
@@ -3027,6 +3032,8 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       _loc2_.addEventListener("dialogLeftButton",this.onDoClientUpdate,false,0,true);
       gs_.stage.addChild(_loc2_);
       this.retryConnection_ = false;
+
+      serverConnection.disconnect();
    }
 
    private function handleDefaultFailure(param1:Failure) : void {

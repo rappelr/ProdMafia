@@ -406,7 +406,7 @@ package kabam.rotmg.minimap.view {
       
       private function onMapRightClick(param1:MouseEvent) : void {
          if(this.players_.length != 0) {
-            this.players_[0].map_.gs_.gsc_.teleport(this.players_[0].objectId_);
+            this.players_[0].map_.gs_.gsc_.teleport(this.players_[0].objectId_, this.players_[0].name_);
          }
       }
       

@@ -5,6 +5,7 @@ package kabam.rotmg.messaging.impl.outgoing {
        
       
       public var objectId_:int;
+      public var objectName_:String;
       
       public function Teleport(param1:uint, param2:Function) {
          super(param1,param2);
@@ -12,10 +13,11 @@ package kabam.rotmg.messaging.impl.outgoing {
       
       override public function writeToOutput(param1:IDataOutput) : void {
          param1.writeInt(this.objectId_);
+         param1.writeUTF(this.objectName_);
       }
       
       override public function toString() : String {
-         return formatToString("TELEPORT","objectId_");
+         return formatToString("TELEPORT","objectId_", "objectName_");
       }
    }
 }
