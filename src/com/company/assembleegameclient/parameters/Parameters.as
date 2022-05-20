@@ -19,8 +19,8 @@ public class Parameters {
     public static const CLIENT_VERSION:String = "2.3.1.2.0";
     public static const PORT:int = 2050;
     public static const CLIENT_TOKEN:String = "8bV53M5ysJdVjU4M97fh2g7BnPXhefnc";
-    public static const UNITY_LAUNCHER_VERSION:String = "2019.3.14f1";
-    public static const UNITY_GAME_VERSION:String = "2019.4.21f1";
+    public static const UNITY_LAUNCHER_VERSION:String = "2020.3.30f1";
+    public static const UNITY_GAME_VERSION:String = "2021.2.6f1";
     public static const LOG_PACKETS:Boolean = true;
     public static const FORCE_SYNC_POSITION:Boolean = false;
     public static const LOG_CHARACTERS_METRICS_TRACKER:Boolean = false;
