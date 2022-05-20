@@ -16,7 +16,7 @@ import flash.utils.Dictionary;
 import flash.utils.setTimeout;
 
 public class Parameters {
-    public static const CLIENT_VERSION:String = "2.3.1.1.0";
+    public static const CLIENT_VERSION:String = "2.3.1.2.0";
     public static const PORT:int = 2050;
     public static const CLIENT_TOKEN:String = "8bV53M5ysJdVjU4M97fh2g7BnPXhefnc";
     public static const UNITY_LAUNCHER_VERSION:String = "2019.3.14f1";

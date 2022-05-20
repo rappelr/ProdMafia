@@ -7,6 +7,7 @@ public class EmbeddedAssets {
    public static var charMasks:Class = characters_masks;
    public static var chars:Class = characters;
    public static var atlasData:Class = spritesheet;
+   public static var particlesXML:Class = particles;
 
    // the local class name will not be parsed, but must be different than the
    // global class name (the one getting parsed) to avoid collision issues
@@ -45,7 +46,6 @@ public class EmbeddedAssets {
       new materialCommon(), new materialRare(), new materialLegendary()
    ];
 
-   public static var particlesXML:Class = particles;
 
    public function EmbeddedAssets() {
       super();
