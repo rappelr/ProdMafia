@@ -1,0 +1,1938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground type="0x9300" id="DN CW">
+    <DisplayId>Dark Nexus Corrupted Water</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>0</BlendPriority>
+    <ConditionEffect duration="0.8">Curse</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x9301" id="DN CW d">
+    <DisplayId>Dark Nexus Corrupted Water Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x1</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>2</BlendPriority>
+    <ConditionEffect duration="0.8">Curse</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x9302" id="DN CW t25">
+    <DisplayId>Dark Nexus Corrupted Water top 25%</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>0</BlendPriority>
+    <Top>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </Top>
+    <TopAnimate dx=".2" dy="-0.2">Wave</TopAnimate>
+    <Speed>.85</Speed>
+    <ConditionEffect duration="0.8">Curse</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x9303" id="DN CW dt50">
+    <DisplayId>Dark Nexus Corrupted Water Dark top 50%</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x1</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+    </Top>
+    <TopAnimate dx=".2" dy="-0.2">Wave</TopAnimate>
+    <Speed>.85</Speed>
+    <ConditionEffect duration="0.8">Curse</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x9304" id="DN CW Nwk">
+    <DisplayId>Dark Nexus Corrupted Water NoWalk</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>0</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0x9305" id="DN CW d Nwk">
+    <DisplayId>Dark Nexus Corrupted Water Dark NoWalk</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x1</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>2</BlendPriority>
+    <NoWalk />
+  </Ground>
+  <Ground type="0x9306" id="DN CW t25 Nwk">
+    <DisplayId>Dark Nexus Corrupted Water top 25% NoWalk</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Sink />
+    <NoWalk />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>0</BlendPriority>
+    <Top>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </Top>
+    <TopAnimate dx=".2" dy="-0.2">Wave</TopAnimate>
+    <Speed>.85</Speed>
+  </Ground>
+  <Ground type="0x9307" id="DN CW dt50 Nwk">
+    <DisplayId>Dark Nexus Corrupted Water Dark top 50% NoWalk</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x1</Index>
+    </Texture>
+    <Sink />
+    <NoWalk />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+    </Top>
+    <TopAnimate dx=".2" dy="-0.2">Wave</TopAnimate>
+    <Speed>.85</Speed>
+  </Ground>
+  <Ground type="0x9308" id="DN G l">
+    <DisplayId>Dark Nexus Grass Light</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x4</Index>
+    </Texture>
+    <BlendPriority>1</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x9309" id="DN G hl">
+    <DisplayId>Dark Nexus Grass Half Light</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x7</Index>
+    </Texture>
+    <BlendPriority>3</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x930A" id="DN G d">
+    <DisplayId>Dark Nexus Grass Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa</Index>
+    </Texture>
+    <BlendPriority>4</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x930B" id="DN Dt">
+    <DisplayId>Dark Nexus Dirt</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xd</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>-1</BlendPriority>
+  </Ground>
+  <Ground type="0x930C" id="DN CDt">
+    <DisplayId>Dark Nexus Corrupted Dirt</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xe</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>5</BlendPriority>
+  </Ground>
+  <Ground type="0x930D" id="DN HW">
+    <DisplayId>Dark Nexus Holy Water</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>-2</BlendPriority>
+    <ConditionEffect duration="0.8">Healing</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x930E" id="DN HW d">
+    <DisplayId>Dark Nexus Holy Water Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x11</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>-4</BlendPriority>
+    <ConditionEffect duration="0.8">Healing</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x930F" id="DN D eGl">
+    <DisplayId>Dark Nexus Dirt Edge Grass Light</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xd</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>5</BlendPriority>
+    <SameTypeEdgeMode />
+    <Edge>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x5</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x6</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x6</Index>
+      </Texture>
+    </Corner>
+  </Ground>
+  <Ground type="0x9310" id="DN CD eGhl">
+    <DisplayId>Dark Nexus Corrupted Dirt Edge Grass Half Light</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xe</Index>
+    </Texture>
+    <Noblend />
+    <SameTypeEdgeMode />
+    <Edge>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x8</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x9</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x9</Index>
+      </Texture>
+    </Corner>
+  </Ground>
+  <Ground type="0x9311" id="DN CD eGd">
+    <DisplayId>Dark Nexus Corrupted Dirt Edge Grass Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xe</Index>
+    </Texture>
+    <Noblend />
+    <SameTypeEdgeMode />
+    <Edge>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xb</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xc</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xc</Index>
+      </Texture>
+    </Corner>
+  </Ground>
+  <Ground type="0x9312" id="DN CSq 1">
+    <DisplayId>Dark Nexus Corrupted Square 1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x20</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9313" id="DN CSq 2">
+    <DisplayId>Dark Nexus Corrupted Square 2</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x21</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9314" id="DN CSq 3">
+    <DisplayId>Dark Nexus Corrupted Square 3</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x22</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9315" id="DN CSq 4">
+    <DisplayId>Dark Nexus Corrupted Square 4</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x23</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9316" id="DN CSq cr">
+    <DisplayId>Dark Nexus Corrupted Square Cracked</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x24</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x25</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9317" id="DN CSq 1 d">
+    <DisplayId>Dark Nexus Corrupted Square 1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9318" id="DN CSq 2 d">
+    <DisplayId>Dark Nexus Corrupted Square 2 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x31</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9319" id="DN CSq 3 d">
+    <DisplayId>Dark Nexus Corrupted Square 3 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x32</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x931A" id="DN CSq 4 d">
+    <DisplayId>Dark Nexus Corrupted Square 4 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x33</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x931B" id="DN CSq cr d">
+    <DisplayId>Dark Nexus Corrupted Square Cracked Dark</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x24</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x25</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x931C" id="DN CRg 1">
+    <DisplayId>Dark Nexus Corrupted Rug 1</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x40</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x931D" id="DN CRg 2">
+    <DisplayId>Dark Nexus Corrupted Rug 2</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x44</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x47</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x931E" id="DN Br">
+    <DisplayId>Dark Nexus Bridge</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x50</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x931F" id="DN Br vt">
+    <DisplayId>Dark Nexus Bridge Vertical</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x51</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9320" id="DN Br edcr">
+    <DisplayId>Dark Nexus Bridge Edge Cross</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x52</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9321" id="DN Br ed">
+    <DisplayId>Dark Nexus Bridge Edge</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x53</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9322" id="DN Br ed vt">
+    <DisplayId>Dark Nexus Bridge Edge Vertical</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x54</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9323" id="DN Br ed Ir">
+    <DisplayId>Dark Nexus Bridge Edge Iron</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x55</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9324" id="DN Br ed Ir vt">
+    <DisplayId>Dark Nexus Bridge Edge Iron Vertical</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x56</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9325" id="DN Sq 1">
+    <DisplayId>Dark Nexus Square 1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x110</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9326" id="DN Sq 2">
+    <DisplayId>Dark Nexus Square 2</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x111</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9327" id="DN Sq 3">
+    <DisplayId>Dark Nexus Square 3</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x112</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9328" id="DN Sq 4">
+    <DisplayId>Dark Nexus Square 4</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x113</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9329" id="DN Sq cr">
+    <DisplayId>Dark Nexus Square Cracked</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x114</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x115</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x932A" id="DN Sq 1 dk">
+    <DisplayId>Dark Nexus Square 1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x120</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x932B" id="DN Sq 2 dk">
+    <DisplayId>Dark Nexus Square 2 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x121</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x932C" id="DN Sq 3 dk">
+    <DisplayId>Dark Nexus Square 3 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x122</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x932D" id="DN Sq 4 dk">
+    <DisplayId>Dark Nexus Square 4 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x123</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x932E" id="DN Sq cr dk">
+    <DisplayId>Dark Nexus Square Cracked Dark</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x124</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x125</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x932F" id="DN HRg 1">
+    <DisplayId>Dark Nexus Holy Rug 1</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x130</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x131</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x132</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x133</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9330" id="DN HRg 2">
+    <DisplayId>Dark Nexus Holy Rug 2</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x134</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x135</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x136</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x137</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9331" id="DN HSq 1">
+    <DisplayId>Dark Nexus Holy Square 1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x140</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9332" id="DN HSq 2">
+    <DisplayId>Dark Nexus Holy Square 2</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x141</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9333" id="DN HSq 3">
+    <DisplayId>Dark Nexus Holy Square 3</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x142</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9334" id="DN HSq 4">
+    <DisplayId>Dark Nexus Holy Square 4</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x143</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9335" id="DN HSq cr">
+    <DisplayId>Dark Nexus Holy Square Cracked</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x144</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x145</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9336" id="DN HSq 1 d">
+    <DisplayId>Dark Nexus Holy Square 1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x150</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9337" id="DN HSq 2 d">
+    <DisplayId>Dark Nexus Holy Square 2 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x151</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x9338" id="DN HSq 3 d">
+    <DisplayId>Dark Nexus Holy Square 3 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x152</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9339" id="DN HSq 4 d">
+    <DisplayId>Dark Nexus Holy Square 4 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x153</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x933A" id="DN HSq cr d">
+    <DisplayId>Dark Nexus Holy Square Cracked Dark</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x154</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x155</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x933B" id="DN Br Rd dk">
+    <DisplayId>Dark Nexus Brick Road Dark</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x160</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x161</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x162</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>1.4</Speed>
+    <BlendPriority>0</BlendPriority>
+  </Ground>
+  <Ground type="0x933C" id="DN Br Rd">
+    <DisplayId>Dark Nexus Brick Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x163</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x164</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0x165</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>1.4</Speed>
+    <BlendPriority>0</BlendPriority>
+  </Ground>
+  <Ground type="0x933D" id="DN C Pt 00">
+    <DisplayId>Dark Nexus Corrupted Path x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8e0</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x933E" id="DN C Pt 10">
+    <DisplayId>Dark Nexus Corrupted Path x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8e1</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x933F" id="DN C Pt 01">
+    <DisplayId>Dark Nexus Corrupted Path x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8e2</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9340" id="DN C Pt 11">
+    <DisplayId>Dark Nexus Corrupted Path x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8e3</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9341" id="DN C Pt cr 00">
+    <DisplayId>Dark Nexus Corrupted Path Cracked x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8e4</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9342" id="DN C Pt cr 10">
+    <DisplayId>Dark Nexus Corrupted Path Cracked x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8e5</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9343" id="DN C Pt cr 01">
+    <DisplayId>Dark Nexus Corrupted Path Cracked x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8e6</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9344" id="DN C Pt cr 11">
+    <DisplayId>Dark Nexus Corrupted Path Cracked x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8e7</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9345" id="DN C Pt2 00">
+    <DisplayId>Dark Nexus Corrupted Path2 x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8f0</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9346" id="DN C Pt2 10">
+    <DisplayId>Dark Nexus Corrupted Path2 x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8f1</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9347" id="DN C Pt2 01">
+    <DisplayId>Dark Nexus Corrupted Path2 x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8f2</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9348" id="DN C Pt2 11">
+    <DisplayId>Dark Nexus Corrupted Path2 x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8f3</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9349" id="DN C Pt2 cr 00">
+    <DisplayId>Dark Nexus Corrupted Path2 Cracked x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8f4</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x934A" id="DN C Pt2 cr 10">
+    <DisplayId>Dark Nexus Corrupted Path2 Cracked x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8f5</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x934B" id="DN C Pt2 cr 01">
+    <DisplayId>Dark Nexus Corrupted Path2 Cracked x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8f6</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x934C" id="DN C Pt2 cr 11">
+    <DisplayId>Dark Nexus Corrupted Path2 Cracked x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x8f7</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x934D" id="DN Pt 00">
+    <DisplayId>Dark Nexus Path x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x920</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x934E" id="DN Pt 10">
+    <DisplayId>Dark Nexus Path x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x921</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x934F" id="DN Pt 01">
+    <DisplayId>Dark Nexus Path x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x922</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9350" id="DN Pt 11">
+    <DisplayId>Dark Nexus Path x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x923</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9351" id="DN Pt cr 00">
+    <DisplayId>Dark Nexus Path Cracked x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x924</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9352" id="DN Pt cr 10">
+    <DisplayId>Dark Nexus Path Cracked x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x925</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9353" id="DN Pt cr 01">
+    <DisplayId>Dark Nexus Path Cracked x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x926</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9354" id="DN Pt cr 11">
+    <DisplayId>Dark Nexus Path Cracked x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x927</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9355" id="DN Pt2 00">
+    <DisplayId>Dark Nexus Path2 x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x930</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9356" id="DN Pt2 10">
+    <DisplayId>Dark Nexus Path2 x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x931</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9357" id="DN Pt2 01">
+    <DisplayId>Dark Nexus Path2 x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x932</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9358" id="DN Pt2 11">
+    <DisplayId>Dark Nexus Path2 x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x933</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9359" id="DN Pt2 cr 00">
+    <DisplayId>Dark Nexus Path2 Cracked x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x934</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x935A" id="DN Pt2 cr 10">
+    <DisplayId>Dark Nexus Path2 Cracked x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x935</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x935B" id="DN Pt2 cr 01">
+    <DisplayId>Dark Nexus Path2 Cracked x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x936</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x935C" id="DN Pt2 cr 11">
+    <DisplayId>Dark Nexus Path2 Cracked x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x937</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x935D" id="DN H Pt 00">
+    <DisplayId>Dark Nexus Holy Path x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x960</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x935E" id="DN H Pt 10">
+    <DisplayId>Dark Nexus Holy Path x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x961</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x935F" id="DN H Pt 01">
+    <DisplayId>Dark Nexus Holy Path x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x962</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9360" id="DN H Pt 11">
+    <DisplayId>Dark Nexus Holy Path x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x963</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9361" id="DN H Pt cr 00">
+    <DisplayId>Dark Nexus Holy Path Cracked x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x964</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9362" id="DN H Pt cr 10">
+    <DisplayId>Dark Nexus Holy Path Cracked x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x965</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9363" id="DN H Pt cr 01">
+    <DisplayId>Dark Nexus Holy Path Cracked x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x966</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9364" id="DN H Pt cr 11">
+    <DisplayId>Dark Nexus Holy Path Cracked x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x967</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9365" id="DN H Pt2 00">
+    <DisplayId>Dark Nexus Holy Path2 x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x970</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9366" id="DN H Pt2 10">
+    <DisplayId>Dark Nexus Holy Path2 x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x971</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9367" id="DN H Pt2 01">
+    <DisplayId>Dark Nexus Holy Path2 x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x972</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9368" id="DN H Pt2 11">
+    <DisplayId>Dark Nexus Holy Path2 x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x973</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9369" id="DN H Pt2 cr 00">
+    <DisplayId>Dark Nexus Holy Path2 Cracked x0y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x974</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x936A" id="DN H Pt2 cr 10">
+    <DisplayId>Dark Nexus Holy Path2 Cracked x1y0</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x975</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x936B" id="DN H Pt2 cr 01">
+    <DisplayId>Dark Nexus Holy Path2 Cracked x0y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x976</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x936C" id="DN H Pt2 cr 11">
+    <DisplayId>Dark Nexus Holy Path2 Cracked x1y1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x977</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x936D" id="DN H Pt 00 dk">
+    <DisplayId>Dark Nexus Holy Path x0y0 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x980</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x936E" id="DN H Pt 10 dk">
+    <DisplayId>Dark Nexus Holy Path x1y0 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x981</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x936F" id="DN H Pt 01 dk">
+    <DisplayId>Dark Nexus Holy Path x0y1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x982</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9370" id="DN H Pt 11 dk">
+    <DisplayId>Dark Nexus Holy Path x1y1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x983</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9371" id="DN H Pt cr 00 dk">
+    <DisplayId>Dark Nexus Holy Path Cracked x0y0 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x984</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9372" id="DN H Pt cr 10 dk">
+    <DisplayId>Dark Nexus Holy Path Cracked x1y0 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x985</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9373" id="DN H Pt cr 01 dk">
+    <DisplayId>Dark Nexus Holy Path Cracked x0y1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x986</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9374" id="DN H Pt cr 11 dk">
+    <DisplayId>Dark Nexus Holy Path Cracked x1y1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x987</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9375" id="DN H Pt2 00 dk">
+    <DisplayId>Dark Nexus Holy Path2 x0y0 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x990</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9376" id="DN H Pt2 10 dk">
+    <DisplayId>Dark Nexus Holy Path2 x1y0 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x991</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9377" id="DN H Pt2 01 dk">
+    <DisplayId>Dark Nexus Holy Path2 x0y1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x992</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9378" id="DN H Pt2 11 dk">
+    <DisplayId>Dark Nexus Holy Path2 x1y1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x993</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9379" id="DN H Pt2 cr 00 dk">
+    <DisplayId>Dark Nexus Holy Path2 Cracked x0y0 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x994</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x937A" id="DN H Pt2 cr 10 dk">
+    <DisplayId>Dark Nexus Holy Path2 Cracked x1y0 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x995</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x937B" id="DN H Pt2 cr 01 dk">
+    <DisplayId>Dark Nexus Holy Path2 Cracked x0y1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x996</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x937C" id="DN H Pt2 cr 11 dk">
+    <DisplayId>Dark Nexus Holy Path2 Cracked x1y1 Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x997</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x937d" id="DN CW Ins">
+    <DisplayId>Dark Nexus Corrupted Water Inside</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>0</BlendPriority>
+    <ConditionEffect duration="0.8">Curse</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x937e" id="DN G l Ins">
+    <DisplayId>Dark Nexus Grass Light Inside</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x4</Index>
+    </Texture>
+    <BlendPriority>1</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x937f" id="DN G hl Ins">
+    <DisplayId>Dark Nexus Grass Half Light Inside</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x7</Index>
+    </Texture>
+    <BlendPriority>3</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x9380" id="DN G d Ins">
+    <DisplayId>Dark Nexus Grass Dark Inside</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa</Index>
+    </Texture>
+    <BlendPriority>4</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x9381" id="DN Dt Ins">
+    <DisplayId>Dark Nexus Dirt Inside</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xd</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>3</BlendPriority>
+  </Ground>
+  <Ground type="0x9382" id="DN CDt Ins">
+    <DisplayId>Dark Nexus Corrupted Dirt Inside</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xe</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>5</BlendPriority>
+  </Ground>
+  <Ground type="0x9383" id="DN CDt2">
+    <DisplayId>Dark Nexus Corrupted Dirt 2</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>7</BlendPriority>
+  </Ground>
+  <Ground type="0x9384" id="DN G d2">
+    <DisplayId>Dark Nexus Grass Dark2</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x1a</Index>
+    </Texture>
+    <BlendPriority>6</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x9385" id="DN SwVd">
+    <DisplayId>Dark Nexus Swallowing Void</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x3fc</Index>
+    </Texture>
+    <Sinking />
+    <Speed>.8</Speed>
+    <NoBlend />
+    <ConditionEffect duration="0.8">Bleeding</ConditionEffect>
+    <ConditionEffect duration="0.8">Curse</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x9386" id="DN Rd Rk">
+    <DisplayId>Dark Nexus Red Rock</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa26</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>3</BlendPriority>
+  </Ground>
+  <Ground type="0x9387" id="DN HW Ins">
+    <DisplayId>Dark Nexus Holy Water Inside</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>-2</BlendPriority>
+    <ConditionEffect duration="0.8">Healing</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x9388" id="DN HW d Ins">
+    <DisplayId>Dark Nexus Holy Water Dark Inside</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x11</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>-4</BlendPriority>
+    <ConditionEffect duration="0.8">Healing</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x9389" id="DN G h">
+    <DisplayId>Dark Nexus Grass Holy</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa40</Index>
+    </Texture>
+    <BlendPriority>1</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x938a" id="DN Dt h">
+    <DisplayId>Dark Nexus Dirt Holy</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa50</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>1</BlendPriority>
+  </Ground>
+  <Ground type="0x938b" id="DN G a">
+    <DisplayId>Dark Nexus Grass Astral</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa43</Index>
+    </Texture>
+    <BlendPriority>3</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x938c" id="DN G a gr">
+    <DisplayId>Dark Nexus Grass Astral Green</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa46</Index>
+    </Texture>
+    <BlendPriority>4</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x938d" id="LN Rk">
+    <DisplayId>Light Nexus Rock Tile</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa36</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>3</BlendPriority>
+  </Ground>
+  <Ground type="0x938e" id="DN Dt h l">
+    <DisplayId>Dark Nexus Dirt Holy Light</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa60</Index>
+    </Texture>
+    <RandomOffset />
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0x938f" id="DN G a l">
+    <DisplayId>Dark Nexus Grass Astral Light</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa53</Index>
+    </Texture>
+    <BlendPriority>5</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x9390" id="DN G a gr l">
+    <DisplayId>Dark Nexus Grass Astral Green Light</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa56</Index>
+    </Texture>
+    <BlendPriority>6</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x9391" id="DN G a d">
+    <DisplayId>Dark Nexus Grass Astral Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa63</Index>
+    </Texture>
+    <BlendPriority>3</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x9392" id="DN G a gr d">
+    <DisplayId>Dark Nexus Grass Astral Green Dark</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xa66</Index>
+    </Texture>
+    <BlendPriority>4</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x9393" id="LN Br Sq">
+    <DisplayId>Light Nexus Bridge Square</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb90</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9394" id="LN Br Hrz1">
+    <DisplayId>Light Nexus Bridge Horizontal 1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb91</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9395" id="LN Br Hrz2">
+    <DisplayId>Light Nexus Bridge Horizontal 2</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb92</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9396" id="LN Br Vrt1">
+    <DisplayId>Light Nexus Bridge Vertical 1</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb93</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9397" id="LN Br Vrt2">
+    <DisplayId>Light Nexus Bridge Vertical 2</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb94</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9398" id="LN Br">
+    <DisplayId>Light Nexus Bridge</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xb95</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xb96</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xb97</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x9399" id="LN Rk Pt">
+    <DisplayId>Light Nexus Rock Path</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb0</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb1</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb2</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x939a" id="LN Rk Pt gr">
+    <DisplayId>Light Nexus Rock Path Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb3</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb4</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb5</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-3</BlendPriority>
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x939b" id="DN HSq 1 gr">
+    <DisplayId>Dark Nexus Holy Square 1 Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb6</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb7</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb8</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x939c" id="DN HSq 2 gr">
+    <DisplayId>Dark Nexus Holy Square 2 Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbb9</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbba</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbbb</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x939d" id="DN HSq 3 gr">
+    <DisplayId>Dark Nexus Holy Square 3 Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbbc</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbbd</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbbe</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x939e" id="DN HSq 4 gr">
+    <DisplayId>Dark Nexus Holy Square 4 Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbbf</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbc0</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xbc1</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x939f" id="DN H Pt 00 gr">
+    <DisplayId>Dark Nexus Holy Path x0y0 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xbd0</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93a0" id="DN H Pt 10 gr">
+    <DisplayId>Dark Nexus Holy Path x1y0 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xbd1</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93a1" id="DN H Pt 01 gr">
+    <DisplayId>Dark Nexus Holy Path x0y1 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xbd2</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93a2" id="DN H Pt 11 gr">
+    <DisplayId>Dark Nexus Holy Path x1y1 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xbd3</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93a3" id="DN H Pt2 00 gr">
+    <DisplayId>Dark Nexus Holy Path2 x0y0 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xbe0</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93a4" id="DN H Pt2 10 gr">
+    <DisplayId>Dark Nexus Holy Path2 x1y0 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xbe1</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93a5" id="DN H Pt2 01 gr">
+    <DisplayId>Dark Nexus Holy Path2 x0y1 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xbe2</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93a6" id="DN H Pt2 11 gr">
+    <DisplayId>Dark Nexus Holy Path2 x1y1 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xbe3</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93a7" id="LN Sm Cir Cen">
+    <DisplayId>Light Nexus Summoning Circle Center</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x130</Index>
+    </Texture>
+    <NoBlend />
+    <ConditionEffect duration="0.8">Healing</ConditionEffect>
+    <ConditionEffect duration="10">Energized</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x93a8" id="DN HW d ed">
+    <DisplayId>Dark Nexus Holy Water Dark Edge</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0x11</Index>
+    </Texture>
+    <Sink />
+    <Animate dx=".3" dy="0.3">Wave</Animate>
+    <Speed>.8</Speed>
+    <BlendPriority>-4</BlendPriority>
+    <ConditionEffect duration="0.8">Healing</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x93a9" id="LN Br Sq gr">
+    <DisplayId>Light Nexus Bridge Square Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb98</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93aa" id="LN Br Hrz1 gr">
+    <DisplayId>Light Nexus Bridge Horizontal 1 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb99</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93ab" id="LN Br Hrz2 gr">
+    <DisplayId>Light Nexus Bridge Horizontal 2 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb9a</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93ac" id="LN Br Vrt1 gr">
+    <DisplayId>Light Nexus Bridge Vertical 1 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb9b</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93ad" id="LN Br Vrt2 gr">
+    <DisplayId>Light Nexus Bridge Vertical 2 Grass</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xb9c</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93ae" id="LN Br gr">
+    <DisplayId>Light Nexus Bridge Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xb9d</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xb9e</Index>
+      </Texture>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xb9f</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.4</Speed>
+  </Ground>
+  <Ground type="0x93af" id="LN Rg">
+    <DisplayId>Dark Nexus Holy Rug</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>antinomyNexusObjects8x8</File>
+      <Index>0xba5</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xba6</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xba7</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>antinomyNexusObjects8x8</File>
+        <Index>0xba8</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.4</Speed>
+  </Ground>
+</GroundTypes>

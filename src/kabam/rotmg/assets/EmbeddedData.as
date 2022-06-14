@@ -128,6 +128,10 @@ package kabam.rotmg.assets {
       private static const AbyssOfDemonsObjectsCXML:Class = abyssOfDemonsObjects;
       
       private static const AbyssOfDemonsGroundCXML:Class = abyssOfDemonsGround;
+
+      private static const AntinomyNexusObjectsCXML:Class = antinomyNexusObjects;
+
+      private static const AntinomyNexusGroundCXML:Class = antinomyNexusGround;
       
       private static const GhostShipCXML:Class = ghostShip;
       
@@ -309,7 +313,7 @@ package kabam.rotmg.assets {
          new ancientRuinsGroundCXML(),new AbyssOfDemonsGroundCXML(),new PirateCaveGroundCXML(),
          new SpiderDenGroundCXML(),new UndeadLairGroundCXML(),new HighTechTerrorGroundCXML(),
          new thirdDimensionGroundCXML(), new toxicSewersGroundCXML(), new spriteWorldGroundCXML(),
-         new deadwaterDocksGroundCXML()];
+         new deadwaterDocksGroundCXML(), new AntinomyNexusGroundCXML()];
       
       public static const objectFiles:Array = [new ProjectilesCXML(),new EquipEggsCXML(),new EquipKeysCXML(),
          new EquipSkinsCXML(),new EquipTestCXML(),new EquipCXML(),new DyesCXML(),new TextilesCXML(),
@@ -343,7 +347,8 @@ package kabam.rotmg.assets {
          new ancientRuinsObjectsCXML(),new SkinsCXML(),new AbyssOfDemonsObjectsCXML(),
          new PirateCaveObjectsCXML(),new SpiderDenObjectsCXML(),new UndeadLairObjectsCXML(),
          new HighTechTerrorObjectsCXML(), new thirdDimensionObjectsCXML(),
-         new toxicSewersObjectsCXML(), new spriteWorldObjectsCXML(), new deadwaterDocksObjectsCXML()];
+         new toxicSewersObjectsCXML(), new spriteWorldObjectsCXML(), new deadwaterDocksObjectsCXML(),
+         new AntinomyNexusObjectsCXML()];
       
       public static const regionFiles:Array = [];
       
