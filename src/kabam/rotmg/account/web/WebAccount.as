@@ -32,7 +32,7 @@ package kabam.rotmg.account.web {
       
       public function WebAccount() {
          super();
-         this.entryTag = "";
+         this.entryTag = Parameters.CLIENT_ENTRY_TAG;
       }
       
       public function get userDisplayName() : String {

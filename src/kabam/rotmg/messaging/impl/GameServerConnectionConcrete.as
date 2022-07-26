@@ -1347,7 +1347,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
       if (param1.stats)
          this.statsTracker.setBinaryStringData(this.charId_, param1.stats);
 
-      //this.addTextLine.dispatch(ChatMessage.make(Parameters.DEBUG_CHAT_NAME,"CharID: " + this.charId_));
+      this.addTextLine.dispatch(ChatMessage.make(Parameters.CLIENT_CHAT_NAME,Parameters.CLIENT_INFO));
    }
 
    private function onDamage(param1:Damage) : void {
