@@ -182,6 +182,10 @@ package kabam.rotmg.assets {
       private static const iceCaveGroundCXML:Class = iceCaveGround;
       
       private static const iceCaveObjectsCXML:Class = iceCaveObjects;
+
+      private static const InterregnumNexusObjectsCXML:Class = interregnumNexusObjects;
+
+      private static const InterregnumNexusGroundCXML:Class = interregnumNexusGround;
       
       private static const stPatricksGroundCXML:Class = stPatricksGround;
       
@@ -313,7 +317,7 @@ package kabam.rotmg.assets {
          new ancientRuinsGroundCXML(),new AbyssOfDemonsGroundCXML(),new PirateCaveGroundCXML(),
          new SpiderDenGroundCXML(),new UndeadLairGroundCXML(),new HighTechTerrorGroundCXML(),
          new thirdDimensionGroundCXML(), new toxicSewersGroundCXML(), new spriteWorldGroundCXML(),
-         new deadwaterDocksGroundCXML(), new AntinomyNexusGroundCXML()];
+         new deadwaterDocksGroundCXML(), new AntinomyNexusGroundCXML(), new InterregnumNexusGroundCXML()];
       
       public static const objectFiles:Array = [new ProjectilesCXML(),new EquipEggsCXML(),new EquipKeysCXML(),
          new EquipSkinsCXML(),new EquipTestCXML(),new EquipCXML(),new DyesCXML(),new TextilesCXML(),
@@ -348,7 +352,7 @@ package kabam.rotmg.assets {
          new PirateCaveObjectsCXML(),new SpiderDenObjectsCXML(),new UndeadLairObjectsCXML(),
          new HighTechTerrorObjectsCXML(), new thirdDimensionObjectsCXML(),
          new toxicSewersObjectsCXML(), new spriteWorldObjectsCXML(), new deadwaterDocksObjectsCXML(),
-         new AntinomyNexusObjectsCXML()];
+         new AntinomyNexusObjectsCXML(), new InterregnumNexusObjectsCXML()];
       
       public static const regionFiles:Array = [];
       

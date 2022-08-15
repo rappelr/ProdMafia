@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground type="0xCC00" id="IntN Sd">
+    <DisplayId>Interregnum Nexus Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x4</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>4</BlendPriority>
+  </Ground>
+  <Ground type="0xCC01" id="IntN Sd 2">
+    <DisplayId>Interregnum Nexus Sand 2</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x706</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x707</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x708</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>4</BlendPriority>
+  </Ground>
+  <Ground type="0xCC02" id="IntN Sq">
+    <DisplayId>Interregnum Nexus Square</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x5</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x700</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x701</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x702</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC03" id="IntN Fl Gr TL">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+    <Speed>1.5</Speed>
+  </Ground>
+  <Ground type="0xCC04" id="IntN Fl Gr TR">
+    <DisplayId>Interregnum Nexus Flow Green Top Right</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x11</Index>
+    </Texture>
+    <Animate dx="-.1" dy=".1">Flow</Animate>
+    <Speed>1.5</Speed>
+  </Ground>
+  <Ground type="0xCC05" id="IntN Fl Gr BL">
+    <DisplayId>Interregnum Nexus Flow Green BOttom Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Animate dx=".1" dy="-.1">Flow</Animate>
+    <Speed>1.5</Speed>
+  </Ground>
+  <Ground type="0xCC06" id="IntN Fl Gr BR">
+    <DisplayId>Interregnum Nexus Flow Green Bottom Right</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x13</Index>
+    </Texture>
+    <Animate dx="-.1" dy="-.1">Flow</Animate>
+    <Speed>1.5</Speed>
+  </Ground>
+  <Ground type="0x53b0" id="IntN Fl Gr TL Fade 1">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2008</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b1" id="IntN Fl Gr TL Fade 2">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2009</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b2" id="IntN Fl Gr TL Fade 3">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2010</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b3" id="IntN Fl Gr TR Fade 1">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2011</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b4" id="IntN Fl Gr TR Fade 2">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2012</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b5" id="IntN Fl Gr TR Fade 3">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2013</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b6" id="IntN Fl Gr BL Fade 1">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2014</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b7" id="IntN Fl Gr BL Fade 2">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2015</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b8" id="IntN Fl Gr BL Fade 3">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2016</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53b9" id="IntN Fl Gr BR Fade 1">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2017</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53ba" id="IntN Fl Gr BR Fade 2">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2018</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53bb" id="IntN Fl Gr BR Fade 3">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2019</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53d0" id="IntN Fl Gr TL2">
+    <DisplayId>Interregnum Nexus Flow Green Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2004</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53d1" id="IntN Fl Gr TR2">
+    <DisplayId>Interregnum Nexus Flow Green Top Right</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2005</Index>
+    </Texture>
+    <Animate dx="-.1" dy=".1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53d2" id="IntN Fl Gr BL2">
+    <DisplayId>Interregnum Nexus Flow Green BOttom Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2006</Index>
+    </Texture>
+    <Animate dx=".1" dy="-.1">Flow</Animate>
+  </Ground>
+  <Ground type="0x53d3" id="IntN Fl Gr BR2">
+    <DisplayId>Interregnum Nexus Flow Green Bottom Right</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2007</Index>
+    </Texture>
+    <Animate dx="-.1" dy="-.1">Flow</Animate>
+  </Ground>
+  <Ground type="0x3dd1" id="IntN Fl Gry TL">
+    <DisplayId>Interregnum Nexus Flow Grey Top Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2000</Index>
+    </Texture>
+    <Animate dx=".1" dy=".1">Flow</Animate>
+    <Speed>.666</Speed>
+    <MinDamage>55</MinDamage>
+    <MaxDamage>55</MaxDamage>
+    <Sink />
+  </Ground>
+  <Ground type="0x3dd2" id="IntN Fl Gry TR">
+    <DisplayId>Interregnum Nexus Flow Grey Top Right</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2001</Index>
+    </Texture>
+    <Animate dx="-.1" dy=".1">Flow</Animate>
+    <Speed>.666</Speed>
+    <MinDamage>55</MinDamage>
+    <MaxDamage>55</MaxDamage>
+    <Sink />
+  </Ground>
+  <Ground type="0x3dd3" id="IntN Fl Gry BL">
+    <DisplayId>Interregnum Nexus Flow Grey BOttom Left</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2002</Index>
+    </Texture>
+    <MinDamage>55</MinDamage>
+    <MaxDamage>55</MaxDamage>
+    <Sink />
+    <Animate dx=".1" dy="-.1">Flow</Animate>
+    <Speed>.666</Speed>
+  </Ground>
+  <Ground type="0x3dd4" id="IntN Fl Gry BR">
+    <DisplayId>Interregnum Nexus Flow Grey Bottom Right</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>2003</Index>
+    </Texture>
+    <MinDamage>55</MinDamage>
+    <MaxDamage>55</MaxDamage>
+    <Sink />
+    <Animate dx="-.1" dy="-.1">Flow</Animate>
+    <Speed>.666</Speed>
+  </Ground>
+  <Ground type="0xCC07" id="IntN Sq Sd">
+    <DisplayId>Interregnum Nexus Square Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x703</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x704</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x705</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC08" id="IntN Inv Pt">
+    <DisplayId>Interregnum Nexus Invisible Path</DisplayId>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC09" id="IntN Abs Tl 1">
+    <DisplayId>Interregnum Nexus Abyss Tile 1</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x60</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC0A" id="IntN Abs Tl 2">
+    <DisplayId>Interregnum Nexus Abyss Tile 2</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x61</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC0B" id="IntN Abs Tl 3">
+    <DisplayId>Interregnum Nexus Abyss Tile 3</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6a</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC0C" id="IntN Abs Tl 4">
+    <DisplayId>Interregnum Nexus Abyss Tile 4</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6b</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC0D" id="IntN Abs Tl 5">
+    <DisplayId>Interregnum Nexus Abyss Tile 5</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x62</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x62</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x62</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x62</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x63</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x64</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x65</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC0E" id="IntN Abs Tl 6">
+    <DisplayId>Interregnum Nexus Abyss Tile 6</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x66</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC0F" id="IntN Abs Tl 7">
+    <DisplayId>Interregnum Nexus Abyss Tile 7</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x67</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC10" id="IntN Abs Tl 8">
+    <DisplayId>Interregnum Nexus Abyss Tile 8</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x68</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC11" id="IntN Abs Tl 9">
+    <DisplayId>Interregnum Nexus Abyss Tile 9</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x69</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC12" id="IntN Abs Tl 10">
+    <DisplayId>Interregnum Nexus Abyss Tile 10</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6c</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6d</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6e</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6f</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC13" id="IntN UDL Tl 1">
+    <DisplayId>Interregnum Nexus UDL Tile 1</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x70</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x71</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x72</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x73</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC14" id="IntN UDL Tl 2">
+    <DisplayId>Interregnum Nexus UDL Tile 2</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x74</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC15" id="IntN UDL Tl 3">
+    <DisplayId>Interregnum Nexus UDL Tile 3</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x75</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC16" id="IntN UDL Tl 4">
+    <DisplayId>Interregnum Nexus UDL Tile 4</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x77</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x79</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC17" id="IntN UDL Tl 5">
+    <DisplayId>Interregnum Nexus UDL Tile 5</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x7a</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x7b</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x7c</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC18" id="IntN UDL Tl 6">
+    <DisplayId>Interregnum Nexus UDL Tile 6</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x7d</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC1A" id="IntN ML Tl 1">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 1</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x80</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x81</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC1B" id="IntN ML Tl 2">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 2</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x82</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x83</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC1C" id="IntN ML Tl 3">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 3</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x84</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC1D" id="IntN ML Tl 4">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 4</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x85</Index>
+    </Texture>
+    <NoWalk />
+  </Ground>
+  <Ground type="0xCC1E" id="IntN ML Tl 5">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 5</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x86</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x87</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x88</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x89</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC1F" id="IntN CL Tl 1">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 1</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x90</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC20" id="IntN CL Tl 2">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 2</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x91</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC21" id="IntN CL Tl 3">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 3</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x92</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC22" id="IntN CL Tl 4">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 4</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x93</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC23" id="IntN CL Tl 5">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 5</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x94</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC24" id="IntN CL Tl 6">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 6</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x95</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC25" id="IntN CL Tl 7">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 7</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x96</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC26" id="IntN CL Tl 8">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 8</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x97</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC27" id="IntN CL Tl 9">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 9</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x98</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC28" id="IntN CL Tl 10">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 10</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x99</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC29" id="IntN CL Tl 11">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 11</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x9a</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC2A" id="IntN CL Tl 12">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 12</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x9b</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC2B" id="IntN CL Tl 13">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 13</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x9c</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC2C" id="IntN CL Tl 14">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 14</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x9d</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC2D" id="IntN CL Tl 15">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 15</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x9e</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC2E" id="IntN CL Tl 16">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 16</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x9f</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC2F" id="IntN CL Tl 17">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 17</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa0</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC30" id="IntN CL Tl 18">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 18</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa1</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC31" id="IntN CL Tl 19">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 19</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa2</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC32" id="IntN CL Tl 20">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 20</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa3</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC33" id="IntN CL Tl 21">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 21</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa4</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC34" id="IntN SP Tl 1">
+    <DisplayId>Interregnum Nexus Snake Pit Tile 1</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb3</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC35" id="IntN SP Tl 2">
+    <DisplayId>Interregnum Nexus Snake Pit Tile 2</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb4</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb5</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb6</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb7</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb8</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb9</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC36" id="IntN SP Tl 3">
+    <DisplayId>Interregnum Nexus Snake Pit Tile 3</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xba</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xbb</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC37" id="IntN SP Tl 4">
+    <DisplayId>Interregnum Nexus Snake Pit Tile 4</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xbc</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC38" id="IntN SN Tl 1">
+    <DisplayId>Interregnum Nexus Summer Tile 1</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc0</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC39" id="IntN SN Tl 2">
+    <DisplayId>Interregnum Nexus Summer Tile 2</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc1</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC3A" id="IntN SN Tl 3">
+    <DisplayId>Interregnum Nexus Summer Tile 3</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc2</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC3B" id="IntN SN Tl 4">
+    <DisplayId>Interregnum Nexus Summer Tile 4</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc3</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC3C" id="IntN SN Tl 5">
+    <DisplayId>Interregnum Nexus Summer Tile 5</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc4</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC3D" id="IntN SN Tl 6">
+    <DisplayId>Interregnum Nexus Summer Tile 6</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc5</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC3E" id="IntN SN Tl 7">
+    <DisplayId>Interregnum Nexus Summer Tile 7</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc6</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC3F" id="IntN SN Tl 8">
+    <DisplayId>Interregnum Nexus Summer Tile 8</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc7</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC40" id="IntN SN Tl 9">
+    <DisplayId>Interregnum Nexus Summer Tile 9</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc8</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC41" id="IntN SN Tl 10">
+    <DisplayId>Interregnum Nexus Summer Tile 10</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc9</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC42" id="IntN SN Tl 11">
+    <DisplayId>Interregnum Nexus Summer Tile 11</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xca</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC43" id="IntN SN Tl 12">
+    <DisplayId>Interregnum Nexus Summer Tile 12</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xcb</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC44" id="IntN SN Tl 13">
+    <DisplayId>Interregnum Nexus Summer Tile 13</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xcc</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC45" id="IntN SN Tl 14">
+    <DisplayId>Interregnum Nexus Summer Tile 14</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xcd</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC46" id="IntN SN Tl 15">
+    <DisplayId>Interregnum Nexus Summer Tile 15</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xce</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC47" id="IntN SN Tl 16">
+    <DisplayId>Interregnum Nexus Summer Tile 16</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xcf</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC48" id="IntN SN Tl 17">
+    <DisplayId>Interregnum Nexus Summer Tile 17</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd0</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC49" id="IntN SN Tl 18">
+    <DisplayId>Interregnum Nexus Summer Tile 18</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd1</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC4A" id="IntN SN Tl 19">
+    <DisplayId>Interregnum Nexus Summer Tile 19</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd2</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC4B" id="IntN SN Tl 20">
+    <DisplayId>Interregnum Nexus Summer Tile 20</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd3</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC4C" id="IntN SN Tl 21">
+    <DisplayId>Interregnum Nexus Summer Tile 21</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd4</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC4D" id="IntN SN Tl 22">
+    <DisplayId>Interregnum Nexus Summer Tile 22</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd5</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC4E" id="IntN SN Tl 23">
+    <DisplayId>Interregnum Nexus Summer Tile 23</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd6</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC4F" id="IntN SN Tl 24">
+    <DisplayId>Interregnum Nexus Summer Tile 24</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd7</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC50" id="IntN SN Tl 25">
+    <DisplayId>Interregnum Nexus Summer Tile 25</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd8</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC51" id="IntN SN Tl 26">
+    <DisplayId>Interregnum Nexus Summer Tile 26</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd9</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC52" id="IntN SN Tl 27">
+    <DisplayId>Interregnum Nexus Summer Tile 27</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xda</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC53" id="IntN SN Tl 28">
+    <DisplayId>Interregnum Nexus Summer Tile 28</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xdb</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC54" id="IntN SN Tl 29">
+    <DisplayId>Interregnum Nexus Summer Tile 29</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xdd</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xde</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xdf</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xe0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xe1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xe2</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC55" id="IntN SN Tl 30">
+    <DisplayId>Interregnum Nexus Summer Tile 30</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xe3</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xe4</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xe5</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCC56" id="IntN SN Tl 31">
+    <DisplayId>Interregnum Nexus Summer Tile 31</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xe6</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC57" id="IntN SN Tl 32">
+    <DisplayId>Interregnum Nexus Summer Tile 32</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xe7</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC69" id="IntN SN Tl 33">
+    <DisplayId>Interregnum Nexus Summer Tile 33</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xe8</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCC58" id="IntN Abs Tl 1 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 1 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x160</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC59" id="IntN Abs Tl 2 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 2 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x161</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC5A" id="IntN Abs Tl 3 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 3 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x16a</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC5B" id="IntN Abs Tl 4 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 4 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x16b</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC5C" id="IntN Abs Tl 5 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 5 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x162</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x162</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x162</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x162</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x163</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x164</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x165</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC5D" id="IntN Abs Tl 6 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 6 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x166</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC5E" id="IntN Abs Tl 7 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 7 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x167</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC5F" id="IntN Abs Tl 8 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 8 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x168</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC60" id="IntN Abs Tl 9 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 9 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x169</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC61" id="IntN Abs Tl 10 Sd">
+    <DisplayId>Interregnum Nexus Abyss Tile 10 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x16c</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x16d</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x16e</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x16f</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC62" id="IntN UDL Tl 1 Sd">
+    <DisplayId>Interregnum Nexus UDL Tile 1 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x170</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x171</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x172</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x173</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC63" id="IntN UDL Tl 2 Sd">
+    <DisplayId>Interregnum Nexus UDL Tile 2 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x174</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC64" id="IntN UDL Tl 3 Sd">
+    <DisplayId>Interregnum Nexus UDL Tile 3 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x175</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC65" id="IntN UDL Tl 4 Sd">
+    <DisplayId>Interregnum Nexus UDL Tile 4 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x176</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x177</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x178</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x179</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC66" id="IntN UDL Tl 5 Sd">
+    <DisplayId>Interregnum Nexus UDL Tile 5 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x17a</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x17b</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x17c</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC67" id="IntN UDL Tl 6 Sd">
+    <DisplayId>Interregnum Nexus UDL Tile 6 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x17d</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCad" id="IntN ML Tl 1 Sd">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 1 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x180</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x181</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCae" id="IntN ML Tl 2 Sd">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 2 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x182</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x183</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC6B" id="IntN ML Tl 3 Sd">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 3 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x184</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC6C" id="IntN ML Tl 4 Sd">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 4 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x185</Index>
+    </Texture>
+    <NoWalk />
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC6D" id="IntN ML Tl 5 Sd">
+    <DisplayId>Interregnum Nexus Mad Lab Tile 5 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x186</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x187</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x188</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x189</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC6E" id="IntN CL Tl 1 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 1 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x190</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC6F" id="IntN CL Tl 2 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 2 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x191</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC70" id="IntN CL Tl 3 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 3 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x192</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC71" id="IntN CL Tl 4 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 4 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x193</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC72" id="IntN CL Tl 5 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 5 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x194</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC73" id="IntN CL Tl 6 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 6 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x195</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC74" id="IntN CL Tl 7 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 7 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x196</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC75" id="IntN CL Tl 8 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 8 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x197</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC76" id="IntN CL Tl 9 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 9 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x198</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC77" id="IntN CL Tl 10 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 10 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x199</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC78" id="IntN CL Tl 11 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 11 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x19a</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC79" id="IntN CL Tl 12 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 12 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x19b</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC7A" id="IntN CL Tl 13 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 13 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x19c</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC7B" id="IntN CL Tl 14 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 14 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x19d</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC7C" id="IntN CL Tl 15 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 15 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x19e</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC7D" id="IntN CL Tl 16 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 16 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x19f</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC7E" id="IntN CL Tl 17 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 17 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a0</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC7F" id="IntN CL Tl 18 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 18 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a1</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC80" id="IntN CL Tl 19 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 19 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a2</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC81" id="IntN CL Tl 20 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 20 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a3</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC82" id="IntN CL Tl 21 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 21 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a4</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC83" id="IntN SP Tl 1 Sd">
+    <DisplayId>Interregnum Nexus Snake Pit Tile 1 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC84" id="IntN SP Tl 2 Sd">
+    <DisplayId>Interregnum Nexus Snake Pit Tile 2 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b4</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b5</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b6</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b7</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b8</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1b9</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC85" id="IntN SP Tl 3 Sd">
+    <DisplayId>Interregnum Nexus Snake Pit Tile 3 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1ba</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1bb</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC86" id="IntN SP Tl 4 Sd">
+    <DisplayId>Interregnum Nexus Snake Pit Tile 4 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1bc</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC87" id="IntN SN Tl 1 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 1 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c0</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC88" id="IntN SN Tl 2 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 2 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c1</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC89" id="IntN SN Tl 3 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 3 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c2</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC8A" id="IntN SN Tl 4 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 4 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c3</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC8B" id="IntN SN Tl 5 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 5 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c4</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC8C" id="IntN SN Tl 6 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 6 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c5</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC8D" id="IntN SN Tl 7 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 7 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c6</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC8E" id="IntN SN Tl 8 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 8 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c7</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC8F" id="IntN SN Tl 9 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 9 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c8</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC90" id="IntN SN Tl 10 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 10 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c9</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC91" id="IntN SN Tl 11 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 11 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1ca</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC92" id="IntN SN Tl 12 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 12 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1cb</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC93" id="IntN SN Tl 13 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 13 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1cc</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC94" id="IntN SN Tl 14 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 14 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1cd</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC95" id="IntN SN Tl 15 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 15 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1ce</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC96" id="IntN SN Tl 16 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 16 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1cf</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC97" id="IntN SN Tl 17 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 17 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d0</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC98" id="IntN SN Tl 18 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 18 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d1</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC99" id="IntN SN Tl 19 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 19 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d2</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC9A" id="IntN SN Tl 20 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 20 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d3</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC9B" id="IntN SN Tl 21 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 21 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d4</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC9C" id="IntN SN Tl 22 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 22 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d5</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC9D" id="IntN SN Tl 23 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 23 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d6</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC9E" id="IntN SN Tl 24 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 24 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d7</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC9F" id="IntN SN Tl 25 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 25 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d8</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCA0" id="IntN SN Tl 26 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 26 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1d9</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCA1" id="IntN SN Tl 27 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 27 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1da</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCA2" id="IntN SN Tl 28 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 28 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1db</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCA3" id="IntN SN Tl 29 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 29 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1dc</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1dd</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1de</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1df</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1e0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1e1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1e2</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCA4" id="IntN SN Tl 30 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 30 Sand</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1e3</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1e4</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x1e5</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC19" id="IntN SN Tl 31 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 31 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1e6</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC68" id="IntN SN Tl 32 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 32 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1e7</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCC6a" id="IntN SN Tl 33 Sd">
+    <DisplayId>Interregnum Nexus Summer Tile 33 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1e8</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCA5" id="IntN Ind Sd">
+    <DisplayId>Interregnum Nexus Indoor Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x630</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+  </Ground>
+  <Ground type="0xCCA6" id="IntN Ind Sd Rd">
+    <DisplayId>Interregnum Nexus Indoor Sand Randomized</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x630</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x631</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x632</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x633</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x634</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0xCCA7" id="IntN Ind Sq">
+    <DisplayId>Interregnum Nexus Indoor Square</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x635</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCA8" id="IntN Ind Sq Sd">
+    <DisplayId>Interregnum Nexus Indoor Square Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x680</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCA9" id="IntN Ind Wd 1">
+    <DisplayId>Interregnum Nexus Indoor Wood 1</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x681</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCAA" id="IntN Ind Wd 2">
+    <DisplayId>Interregnum Nexus Indoor Wood 2</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x682</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCAB" id="IntN Ind Wd 3">
+    <DisplayId>Interregnum Nexus Indoor Wood 3</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x683</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCAC" id="IntN Ind Wd 4">
+    <DisplayId>Interregnum Nexus Indoor Wood 4</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x684</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCAf" id="IntN Sq 2xspd">
+    <DisplayId>Interregnum Nexus Square 2x speed</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x5</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x700</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x701</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x702</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>1.5</Speed>
+  </Ground>
+  <Ground type="0xCCb0" id="IntN Sq Sd 2xspd">
+    <DisplayId>Interregnum Nexus Square Sand 2x speed</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x703</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x704</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x705</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>1.5</Speed>
+  </Ground>
+</GroundTypes>

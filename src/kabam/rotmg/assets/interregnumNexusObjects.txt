@@ -1,0 +1,4818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0xCE00" id="IntN Tri TL">
+    <DisplayId>Interregnum Nexus Triangle Top Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE01" id="IntN Tri TR">
+    <DisplayId>Interregnum Nexus Triangle Top Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x7</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE02" id="IntN Tri BL">
+    <DisplayId>Interregnum Nexus Triangle Bottom Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x8</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE03" id="IntN Tri BR">
+    <DisplayId>Interregnum Nexus Triangle Bottom Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x9</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE04" id="IntN Sq Br">
+    <DisplayId>Interregnum Nexus Square Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xa</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0xb</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0xCE05" id="IntN Tri TL Br">
+    <DisplayId>Interregnum Nexus Triangle Top Left Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xc</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE06" id="IntN Tri TR Br">
+    <DisplayId>Interregnum Nexus Triangle Top Right Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xd</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE07" id="IntN Tri BL Br">
+    <DisplayId>Interregnum Nexus Triangle Bottom Left Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xe</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE08" id="IntN Tri BR Br">
+    <DisplayId>Interregnum Nexus Triangle Bottom Right Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xf</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE09" id="IntN Tri Ov Fl TL">
+    <DisplayId>Interregnum Nexus Triangle Over Flow Top Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x14</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x15</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE0a" id="IntN Tri Ov Fl TR">
+    <DisplayId>Interregnum Nexus Triangle Over Flow Top Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x18</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x19</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE0b" id="IntN Tri Ov Fl BL">
+    <DisplayId>Interregnum Nexus Triangle Over Flow Bottom Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1c</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1f</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x1c</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE0c" id="IntN Tri Ov Fl BR">
+    <DisplayId>Interregnum Nexus Triangle Over Flow Bottom Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x20</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x9</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE0d" id="IntN Ov Fl Sh">
+    <DisplayId>Interregnum Nexus Over Flow Shadow</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x24</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x27</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x27</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x25</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE0E" id="IntN St Br">
+    <DisplayId>Interregnum Nexus Stone Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x28</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x29</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2a</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0xCE0F" id="IntN I St Hr">
+    <DisplayId>Interregnum Nexus I Stone Horizontal</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x2b</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE10" id="IntN I St Vr">
+    <DisplayId>Interregnum Nexus I Stone Vertical</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x2c</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE11" id="IntN Ed Fl Ou BR">
+    <DisplayId>Interregnum Nexus Edge Flow Outer Bottom Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x30</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x31</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x32</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x33</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x34</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x36</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x37</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE12" id="IntN Ed Fl Ou Top Right">
+    <DisplayId>Interregnum Nexus Edge Flow Outer Top Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x38</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x38</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x39</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x3a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x3b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x3c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x3d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x3e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x3f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE1c" id="IntN Ed Fl Ou Bottom Left">
+    <DisplayId>Interregnum Nexus Edge Flow Outer Bottom Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x40</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x40</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x41</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x42</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x43</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x44</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x45</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x46</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x47</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE1d" id="IntN Ed Fl Ou TL">
+    <DisplayId>Interregnum Nexus Edge Flow Outer Top Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x48</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x48</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x49</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x4a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x4b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x4c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x4d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x4e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x4f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE13" id="IntN Ed Fl B">
+    <DisplayId>Interregnum Nexus Edge Flow Bottom</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x7</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE14" id="IntN Ed Fl T">
+    <DisplayId>Interregnum Nexus Edge Flow Top</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x8</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x9</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xa</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xb</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xc</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xd</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xe</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE15" id="IntN Ed Fl L">
+    <DisplayId>Interregnum Nexus Edge Flow Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x10</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x17</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE16" id="IntN Ed Fl R">
+    <DisplayId>Interregnum Nexus Edge Flow Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x18</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x1a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x1b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x1c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x1d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x1e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x1f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE17" id="IntN Ed Fl BR">
+    <DisplayId>Interregnum Nexus Edge Flow Bottom Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x20</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x27</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE18" id="IntN Ed Fl BL">
+    <DisplayId>Interregnum Nexus Edge Flow Bottom Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x28</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x28</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x2a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x2b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x2c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x2d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x2e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x2f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE19" id="IntN Ed Fl TR">
+    <DisplayId>Interregnum Nexus Edge Flow Top Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x30</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x30</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x31</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x32</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x33</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x34</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x35</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x36</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x37</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE1A" id="IntN Ed Fl TL">
+    <DisplayId>Interregnum Nexus Edge Flow Top Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x38</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x38</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x39</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x3a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x3b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x3c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x3d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x3e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x3f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCE1B" id="IntN Cir L">
+    <DisplayId>Interregnum Nexus Circle Large</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x40</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE1e" id="IntN I St Hr Sd">
+    <DisplayId>Interregnum Nexus I Stone Horizontal Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x2d</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE1f" id="IntN I St Vr Sd">
+    <DisplayId>Interregnum Nexus I Stone Vertical Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x2e</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE20" id="IntN Tri TL Sd">
+    <DisplayId>Interregnum Nexus Triangle Top Left Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x56</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE21" id="IntN Tri TR Sd">
+    <DisplayId>Interregnum Nexus Triangle Top Right Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x57</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE22" id="IntN Tri BL Sd">
+    <DisplayId>Interregnum Nexus Triangle Bottom Left Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x58</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE23" id="IntN Tri BR Sd">
+    <DisplayId>Interregnum Nexus Triangle Bottom Right Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x59</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE24" id="IntN Sq Br Sd">
+    <DisplayId>Interregnum Nexus Square Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x5a</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x5b</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0xCE25" id="IntN Tri TL Br Sd">
+    <DisplayId>Interregnum Nexus Triangle Top Left Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x5c</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE26" id="IntN Tri TR Br Sd">
+    <DisplayId>Interregnum Nexus Triangle Top Right Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x5d</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE27" id="IntN Tri BL Br Sd">
+    <DisplayId>Interregnum Nexus Triangle Bottom Left Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x5e</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE28" id="IntN Tri BR Br Sd">
+    <DisplayId>Interregnum Nexus Triangle Bottom Right Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x5f</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE29" id="IntN Bl">
+    <DisplayId>Interregnum Nexus Blink</DisplayId>
+    <Class>Character</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x51</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <NoMiniMap />
+    <Animation period="0" prob="0.6" id="Anim">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x51</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x52</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x53</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x54</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x55</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Invis">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Anim">
+        <StyleStep id="Anim">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0xCE2A" id="IntN Cir L Sd">
+    <DisplayId>Interregnum Nexus Circle Large Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x41</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE2B" id="IntN ML DoG 1">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 1</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE2C" id="IntN ML DoG 2">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 2</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f1</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE2D" id="IntN ML DoG 3">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 3</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f2</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE2E" id="IntN ML DoG 4">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 4</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f3</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE2F" id="IntN ML DoG 5">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 5</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f4</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE30" id="IntN ML DoG 6">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 6</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f5</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE31" id="IntN ML DoG 7">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 7</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f6</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE32" id="IntN ML DoG 8">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 8</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f7</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE33" id="IntN ML DoG 9">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 9</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f8</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE34" id="IntN ML DoG 10">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 10</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1f9</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE35" id="IntN ML DoG 11">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 11</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1fa</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE36" id="IntN ML DoG 12">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 12</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1fb</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE37" id="IntN ML DoG 13">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 13</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1fc</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE38" id="IntN ML DoG 14">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 14</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1fd</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE39" id="IntN ML DoG 15">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 15</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1fe</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE3A" id="IntN ML DoG 16">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 16</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1ff</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE3B" id="IntN ML DoG 17">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 17</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x200</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE3C" id="IntN ML DoG 18">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 18</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x201</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE3D" id="IntN ML DoG 19">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 19</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x202</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE3E" id="IntN ML DoG 20">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 20</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x203</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE3F" id="IntN ML DoG 21">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 21</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x204</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE40" id="IntN ML DoG 22">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 22</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x205</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE41" id="IntN ML DoG 23">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 23</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x206</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE42" id="IntN ML DoG 24">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 24</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x207</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE43" id="IntN ML DoG 25">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 25</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x208</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE44" id="IntN ML DoG 26">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 26</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x209</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE45" id="IntN ML DoG 27">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 27</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x20a</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE46" id="IntN ML DoG 28">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 28</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x20b</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE47" id="IntN ML DoG 29">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 29</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x20c</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE48" id="IntN ML DoG 30">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 30</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x20d</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE49" id="IntN ML DoG 31">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 31</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x20e</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE4A" id="IntN ML DoG 32">
+    <DisplayId>Interregnum Nexus Mad Lab DrawOnGround 32</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x20f</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE4B" id="IntN Abs Wl 1">
+    <DisplayId>Interregnum Nexus Abyss Wall 1</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x610</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x611</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x612</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x613</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x614</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x615</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x616</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x617</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE4C" id="IntN Abs Wl 2">
+    <DisplayId>Interregnum Nexus Abyss Wall 2</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x618</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x619</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x61a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x61b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x61c</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x61d</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE4D" id="IntN UDL Wl 1">
+    <DisplayId>Interregnum Nexus UDL Wall 1</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x626</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x627</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x629</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62c</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62d</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62e</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE4E" id="IntN UDL Wl 2">
+    <DisplayId>Interregnum Nexus UDL Wall 2</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x624</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x629</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62c</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62d</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62e</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE4F" id="IntN UDL Wl 3">
+    <DisplayId>Interregnum Nexus UDL Wall 3</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x625</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x629</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62c</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62d</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62e</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE50" id="IntN UDL Wl 4">
+    <DisplayId>Interregnum Nexus UDL Wall 4</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x620</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x629</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62c</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62d</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62e</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE51" id="IntN UDL Wl 5">
+    <DisplayId>Interregnum Nexus UDL Wall 5</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x621</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x622</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x623</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x629</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62c</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62d</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x62e</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE52" id="IntN ML Wl 1">
+    <DisplayId>Interregnum Nexus Mad Lab Wall 1</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x330</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x332</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x333</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE53" id="IntN ML Wl 2">
+    <DisplayId>Interregnum Nexus Mad Lab Wall 2</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x331</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x332</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x333</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE54" id="IntN ML Wl 3">
+    <DisplayId>Interregnum Nexus Mad Lab Wall 3</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x334</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x335</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x336</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE55" id="IntN ML Wl 4">
+    <DisplayId>Interregnum Nexus Mad Lab Wall 4</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x337</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x332</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x333</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE56" id="IntN CL Wl 1">
+    <DisplayId>Interregnum Nexus Cursed Library Wall 1</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x341</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x342</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x343</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x344</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x345</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x346</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x347</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x348</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x349</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x34a</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE57" id="IntN CL Wl 2">
+    <DisplayId>Interregnum Nexus Cursed Library Wall 2</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x34b</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x34d</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x34e</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE58" id="IntN CL Wl 3">
+    <DisplayId>Interregnum Nexus Cursed Library Wall 3</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x34c</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x34d</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x34e</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE59" id="IntN SP Wl 1">
+    <DisplayId>Interregnum Nexus Snake Pit Wall 1</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x350</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x351</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x352</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x359</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35c</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35d</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35e</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE5B" id="IntN SN Wl">
+    <DisplayId>Interregnum Nexus Summer Wall</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x360</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x361</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x362</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCE5C" id="IntN Pil Sd 1">
+    <DisplayId>Interregnum Nexus Pillar Sand 1</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Pillar</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x370</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE5D" id="IntN Pil Sd 2">
+    <DisplayId>Interregnum Nexus Pillar Sand 2</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Pillar</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x371</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE5E" id="IntN CL Tbl 1">
+    <DisplayId>Interregnum Nexus Cursed Library 1</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x380</Index>
+    </Texture>
+    <Color>0x02051a</Color>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE5F" id="IntN CL Tbl 2">
+    <DisplayId>Interregnum Nexus Cursed Library 2</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x381</Index>
+    </Texture>
+    <Color>0x02051a</Color>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE60" id="IntN CL Tbl 3">
+    <DisplayId>Interregnum Nexus Cursed Library 3</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x382</Index>
+    </Texture>
+    <Color>0x02051a</Color>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE61" id="IntN CL Tbl 4">
+    <DisplayId>Interregnum Nexus Cursed Library 4</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x383</Index>
+    </Texture>
+    <Color>0x02051a</Color>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE62" id="IntN CL Tbl 5">
+    <DisplayId>Interregnum Nexus Cursed Library 5</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x384</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x385</Index>
+      </Texture>
+    </RandomTexture>
+    <Color>0x02051a</Color>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE63" id="IntN CL Tbl 1 Ed UL">
+    <DisplayId>Interregnum Nexus Cursed Library 1 Up Left</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table Edge</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x380</Index>
+    </Texture>
+    <Color>0x02051a</Color>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE64" id="IntN CL Tbl 1 Ed UR">
+    <DisplayId>Interregnum Nexus Cursed Library 1 Edge Up Right</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table Edge</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x380</Index>
+    </Texture>
+    <Color>0x02051a</Color>
+    <Rotation>90</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE65" id="IntN CL Tbl 1 Ed LR">
+    <DisplayId>Interregnum Nexus Cursed Library 1 Edge Low Right</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table Edge</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x380</Index>
+    </Texture>
+    <Color>0x02051a</Color>
+    <Rotation>180</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE66" id="IntN CL Tbl 1 Ed LL">
+    <DisplayId>Interregnum Nexus Cursed Library 1 Edge Low Left</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table Edge</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x380</Index>
+    </Texture>
+    <Color>0x02051a</Color>
+    <Rotation>270</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE67" id="IntN SN Tbl UL">
+    <DisplayId>Interregnum Nexus SN Table Up Left</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x38a</Index>
+    </Texture>
+    <Color>0x4a3d44</Color>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE68" id="IntN SN Tbl UR">
+    <DisplayId>Interregnum Nexus SN Table Up Right</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x38b</Index>
+    </Texture>
+    <Color>0x4a3d44</Color>
+    <Rotation>90</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE69" id="IntN SN Tbl LR">
+    <DisplayId>Interregnum Nexus SN Table Low Right</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x38d</Index>
+    </Texture>
+    <Color>0x4a3d44</Color>
+    <Rotation>180</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE6A" id="IntN SN Tbl LL">
+    <DisplayId>Interregnum Nexus SN Table Low Left</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x38d</Index>
+    </Texture>
+    <Color>0x4a3d44</Color>
+    <Rotation>270</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE6B" id="IntN Abs Obj 1">
+    <DisplayId>Interregnum Nexus Abyss Object 1</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x290</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x291</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x292</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x293</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x62</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE6C" id="IntN Abs Obj 2">
+    <DisplayId>Interregnum Nexus Abyss Object 2</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x294</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x295</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x296</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x297</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x298</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x299</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE6D" id="IntN Abs Obj 3">
+    <DisplayId>Interregnum Nexus Abyss Object 3</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x29a</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x29b</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x63</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE6E" id="IntN Abs Obj 4">
+    <DisplayId>Interregnum Nexus Abyss Object 4</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x29c</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x29d</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x29e</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x29f</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE6F" id="IntN Abs Obj 5">
+    <DisplayId>Interregnum Nexus Abyss Object 5</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2a0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2a1</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE70" id="IntN Abs Obj 6">
+    <DisplayId>Interregnum Nexus Abyss Object 6</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2a2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2a3</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE71" id="IntN Abs Obj 7">
+    <DisplayId>Interregnum Nexus Abyss Object 7</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x51</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x55</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x56</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x57</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x58</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x59</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x5d</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE72" id="IntN Abs Obj 8">
+    <DisplayId>Interregnum Nexus Abyss Object 8</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x64</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x65</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x66</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE73" id="IntN Abs Obj 9">
+    <DisplayId>Interregnum Nexus Abyss Object 9</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x67</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE74" id="IntN Abs Obj 10">
+    <DisplayId>Interregnum Nexus Abyss Object 10</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x5c</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE75" id="IntN UDL Obj 1">
+    <DisplayId>Interregnum Nexus UDL Object 1</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b3</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b4</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b5</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b6</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b7</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b8</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2b9</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2ba</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2bb</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2bc</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2bd</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE76" id="IntN UDL Obj 2">
+    <DisplayId>Interregnum Nexus UDL Object 2</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2be</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2bf</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c3</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c4</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c5</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c6</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c7</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c8</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2c9</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2ca</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE77" id="IntN UDL Obj 3">
+    <DisplayId>Interregnum Nexus UDL Object 3</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2cb</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2cc</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x73</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x74</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE78" id="IntN UDL Obj 4">
+    <DisplayId>Interregnum Nexus UDL Object 4</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2cd</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2ce</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2cf</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x70</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x71</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x72</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE79" id="IntN UDL Obj 5">
+    <DisplayId>Interregnum Nexus UDL Object 5</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x2d0</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE7A" id="IntN UDL Obj 6">
+    <DisplayId>Interregnum Nexus UDL Object 6</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x75</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x76</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x77</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE7B" id="IntN UDL Obj 7">
+    <DisplayId>Interregnum Nexus UDL Object 7</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x78</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE7C" id="IntN UDL Obj 8">
+    <DisplayId>Interregnum Nexus UDL Object 8</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x79</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE7D" id="IntN UDL Obj 9">
+    <DisplayId>Interregnum Nexus UDL Object 9</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x7a</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x7b</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x7c</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x7d</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x7e</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x7f</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE7E" id="IntN UDL Obj 10">
+    <DisplayId>Interregnum Nexus UDL Object 10</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE7F" id="IntN ML Obj 1">
+    <DisplayId>Interregnum Nexus Mad Lab Object 1</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x2e0</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE80" id="IntN CL Obj 1">
+    <DisplayId>Interregnum Nexus Cursed Library Object 1</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f3</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f4</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f5</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f6</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f7</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f8</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2f9</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2fa</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2fb</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x2fc</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xa0</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xa1</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xa2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xa3</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xa4</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xa5</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE81" id="IntN CL Obj 2">
+    <DisplayId>Interregnum Nexus Cursed Library Object 2</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xb2</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xb3</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xb4</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE83" id="IntN CL HWl 1">
+    <DisplayId>Interregnum Nexus Cursed Library Hight Wall 1</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0xa6</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE84" id="IntN CL HWl 2">
+    <DisplayId>Interregnum Nexus Cursed Library Hight Wall 2</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0xa7</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE85" id="IntN CL HWl 3">
+    <DisplayId>Interregnum Nexus Cursed Library Hight Wall 2</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xa8</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xa9</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xaa</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xab</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xac</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xad</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xae</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xaf</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0xb0</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCE86" id="IntN SP Obj 1">
+    <DisplayId>Interregnum Nexus Snake Pit Object 1</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x300</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x301</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x302</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x303</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCE88" id="IntN SP Obj 2">
+    <DisplayId>Interregnum Nexus Snake Pit Object 2</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x304</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x305</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCe5a" id="IntN SP Obj 3">
+    <DisplayId>Interregnum Nexus Snake Pit Object 3</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x90</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x91</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x92</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x93</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x94</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x95</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCe82" id="IntN SN HWl">
+    <DisplayId>Interregnum Nexus Summer High Wall</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0xc0</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xce87" id="IntN Ind Tri TL">
+    <DisplayId>Interregnum Nexus Indoor Triangle Top Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6a6</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE89" id="IntN Ind Tri TR">
+    <DisplayId>Interregnum Nexus Indoor Triangle Top Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6a7</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE8A" id="IntN Ind Tri BL">
+    <DisplayId>Interregnum Nexus Indoor Triangle Bottom Left</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6a8</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE8B" id="IntN Ind Tri BR">
+    <DisplayId>Interregnum Nexus Indoor Triangle Bottom Right</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6a9</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE8C" id="IntN Ind Sq Br">
+    <DisplayId>Interregnum Nexus Indoor Square Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6aa</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6ab</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0xCE8D" id="IntN Ind Tri TL Br">
+    <DisplayId>Interregnum Nexus Indoor Triangle Top Left Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6ac</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE8E" id="IntN Ind Tri TR Br">
+    <DisplayId>Interregnum Nexus Indoor Triangle Top Right Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6ad</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE8F" id="IntN Ind Tri BL Br">
+    <DisplayId>Interregnum Nexus Indoor Triangle Bottom Left Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6ae</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE90" id="IntN Ind Tri BR Br">
+    <DisplayId>Interregnum Nexus Indoor Triangle Bottom Right Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6af</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE91" id="IntN Ind St Br">
+    <DisplayId>Interregnum Nexus Indoor Stone Broken</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6c8</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6c9</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6ca</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0xCE92" id="IntN Ind I St Hr">
+    <DisplayId>Interregnum Nexus Indoor I Stone Horizontal</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6cb</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE93" id="IntN Ind I St Vr">
+    <DisplayId>Interregnum Nexus Indoor I Stone Vertical</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6cc</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE94" id="IntN Ind Cir L">
+    <DisplayId>Interregnum Nexus Indoor Circle Large</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x40</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE95" id="IntN Ind I St Hr Sd">
+    <DisplayId>Interregnum Nexus Indoor I Stone Horizontal Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6cd</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE96" id="IntN Ind I St Vr Sd">
+    <DisplayId>Interregnum Nexus Indoor I Stone Vertical Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6ce</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE97" id="IntN Ind Tri TL Sd">
+    <DisplayId>Interregnum Nexus Indoor Triangle Top Left Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6f6</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE98" id="IntN Ind Tri TR Sd">
+    <DisplayId>Interregnum Nexus Indoor Triangle Top Right Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6f7</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE99" id="IntN Ind Tri BL Sd">
+    <DisplayId>Interregnum Nexus Indoor Triangle Bottom Left Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6f8</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE9A" id="IntN Ind Tri BR Sd">
+    <DisplayId>Interregnum Nexus Indoor Triangle Bottom Right Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6f9</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE9B" id="IntN Ind Sq Br Sd">
+    <DisplayId>Interregnum Nexus Indoor Square Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6fa</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x6fb</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0xCE9C" id="IntN Ind Tri TL Br Sd">
+    <DisplayId>Interregnum Nexus Indoor Triangle Top Left Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6fc</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE9D" id="IntN Ind Tri TR Br Sd">
+    <DisplayId>Interregnum Nexus Indoor Triangle Top Right Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6fd</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE9E" id="IntN Ind Tri BL Br Sd">
+    <DisplayId>Interregnum Nexus Indoor Triangle Bottom Left Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6fe</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCE9F" id="IntN Ind Tri BR Br Sd">
+    <DisplayId>Interregnum Nexus Indoor Triangle Bottom Right Broken Sand</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x6ff</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCEA0" id="IntN Ind Wl">
+    <DisplayId>Interregnum Nexus Indoor Wall</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x690</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x691</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x692</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x692</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x692</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x692</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x692</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x693</Index>
+      </Texture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCEA1" id="IntN Ind Wl Lt">
+    <DisplayId>Interregnum Nexus Indoor Wall Lit</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x694</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x693</Index>
+      </Texture>
+    </Top>
+    <Animation sync="true" prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x694</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x695</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x696</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x695</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCEA2" id="IntN Ind Gr Lt 1">
+    <DisplayId>Interregnum Nexus Indoor Ground Lit 1</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x697</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x697</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x698</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x699</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x698</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCEA3" id="IntN Ind Gr Lt 2">
+    <DisplayId>Interregnum Nexus Indoor Ground Lit 2</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x69a</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69b</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCEA4" id="IntN Ind Ltn">
+    <DisplayId>Interregnum Nexus Indoor Lantern</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x69d</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69f</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69e</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCEA5" id="IntN Ind Ltn up">
+    <DisplayId>Interregnum Nexus Indoor Lantern Up</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x69d</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69f</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x69e</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Z>0.6</Z>
+  </Object>
+  <Object type="0xCEA6" id="IntN Fl Rk 1">
+    <DisplayId>Interregnum Nexus Floating Rocks 1</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x230</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x230</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x231</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x232</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x233</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x234</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x233</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x232</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x231</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+    <ShadowColor>0xa3ffea</ShadowColor>
+  </Object>
+  <Object type="0xCEA7" id="IntN Fl Rk 2">
+    <DisplayId>Interregnum Nexus Floating Rocks 2</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x235</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x235</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x236</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x237</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x238</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x239</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x238</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x237</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x236</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+    <ShadowColor>0xa3ffea</ShadowColor>
+  </Object>
+  <Object type="0xCEA8" id="IntN Fl Rk 3">
+    <DisplayId>Interregnum Nexus Floating Rocks 3</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x23a</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x23b</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+    <ShadowColor>0xa3ffea</ShadowColor>
+  </Object>
+  <Object type="0xCEA9" id="IntN Fl Rk 4">
+    <DisplayId>Interregnum Nexus Floating Rocks 4</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x240</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x240</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x241</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x242</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x243</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x244</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x243</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x242</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x241</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+  </Object>
+  <Object type="0xCEAA" id="IntN Fl Rk 5">
+    <DisplayId>Interregnum Nexus Floating Rocks 5</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x245</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x245</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x246</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x247</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x248</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x249</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x248</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x247</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x246</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+  </Object>
+  <Object type="0xCEAB" id="IntN Fl Rk 6">
+    <DisplayId>Interregnum Nexus Floating Rocks 6</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x24a</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x24b</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+  </Object>
+  <Object type="0xCEAC" id="IntN Fl Rk 7">
+    <DisplayId>Interregnum Nexus Floating Rocks 7</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0xf0</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf1</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+    <ShadowColor>0xa3ffea</ShadowColor>
+  </Object>
+  <Object type="0xCEAD" id="IntN Fl Rk 8">
+    <DisplayId>Interregnum Nexus Floating Rocks 8</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0xf5</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf9</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xf6</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+    <ShadowColor>0xa3ffea</ShadowColor>
+  </Object>
+  <Object type="0xCEAE" id="IntN Fl Rk 9">
+    <DisplayId>Interregnum Nexus Floating Rocks 9</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0xfa</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xfa</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xfb</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xfc</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xfd</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xfe</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xfd</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xfc</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0xfb</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+  </Object>
+  <Object type="0xCEAF" id="IntN Fl Rk 10">
+    <DisplayId>Interregnum Nexus Floating Rocks 10</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x100</Index>
+    </Texture>
+    <Animation prob="1" period="2.1">
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x100</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x101</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x102</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x103</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.8">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x104</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x103</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x102</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x101</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <Z>0.6</Z>
+  </Object>
+  <Object type="0xCEB0" id="IntN Ind Cr">
+    <DisplayId>Interregnum Nexus Indoor Crate</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Crate</Model>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x105</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCEB1" id="IntN Ind Cr Lt 1">
+    <DisplayId>Interregnum Nexus Indoor Crate Lit 1</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Crate</Model>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x106</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x106</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x107</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x108</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x107</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCEB2" id="IntN Ind Cr Lt 2">
+    <DisplayId>Interregnum Nexus Indoor Crate Lit 2</DisplayId>
+    <Class>GameObject</Class>
+    <Model>Crate</Model>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x109</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x109</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x10a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x10b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x10a</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0xCEB3" id="IntN Rk Wl">
+    <DisplayId>Interregnum Nexus Rock Wall</DisplayId>
+    <Class>CaveWall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x114</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x114</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x114</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x114</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x114</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x114</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x114</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x115</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x115</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x116</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x110</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x111</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x112</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x113</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Connects />
+    <NoWallTextureRepeat />
+  </Object>
+  <Object type="0xCEB4" id="IntN Ind Rk Wl">
+    <DisplayId>Interregnum Nexus Indoor Rock Wall</DisplayId>
+    <Class>CaveWall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x124</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x125</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x126</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x120</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x121</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Connects />
+    <NoWallTextureRepeat />
+  </Object>
+  <Object type="0xCEB5" id="IntN Wndr Cth Rck 1">
+    <DisplayId>Interregnum Nexus Wanderer Cloth Rack 1</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x117</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCEB6" id="IntN Wndr Cth Rck 2">
+    <DisplayId>Interregnum Nexus Wanderer Cloth Rack 2</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x118</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCEB7" id="IntN Wndr Swd Rck 1">
+    <DisplayId>Interregnum Nexus Wanderer Sword Rack 1</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x119</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCEB8" id="IntN Wndr Swd Rck 2">
+    <DisplayId>Interregnum Nexus Wanderer Sword Rack 2</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x11a</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCEB9" id="IntN Wndr Ax Rck">
+    <DisplayId>Interregnum Nexus Wanderer Axe Rack</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x11b</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCEBA" id="IntN Cdle">
+    <DisplayId>Interregnum Nexus Candle</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x11c</Index>
+    </Texture>
+    <Animation prob="1" period=".3">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x11c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x11d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x11e</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <ShadowColor>0xfffc6d</ShadowColor>
+  </Object>
+  <Object type="0xCEBB" id="IntN Hl Cry">
+    <DisplayId>Interregnum Nexus Holy Crystal</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x130</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period=".8">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x130</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x131</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x132</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x133</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x134</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x135</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x136</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x137</Index></Texture>
+      </Frame>
+    </Animation>
+    <Z>0.6</Z>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0xCEBC" id="IntN Cir L Lt">
+    <DisplayId>Interregnum Nexus Circle Lit</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x140</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period=".8">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x140</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x141</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x142</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x143</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x144</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x145</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x146</Index></Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+               &gt;
+               <Index>0x147</Index></Texture>
+      </Frame>
+    </Animation>
+    <Static />
+  </Object>
+  <Object type="0xCEbd" id="IntN Fl Rk Spw">
+    <DisplayId>Interregnum Nexus Floating Rocks Spawner</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x230</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xCEc1" id="IntN Fl Rk Spw Bl">
+    <DisplayId>Interregnum Nexus Floating Rocks Spawner Blink</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x240</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xcebe" id="Interregnum Daily Quest Portal">
+    <DisplayId>Interregnum Daily Quest Room</DisplayId>
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonName>Interregnum Daily Quest Room</DungeonName>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x4f7</Index>
+    </Texture>
+    <Animation prob="1" period=".8">
+      <Frame time="0.4">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x4f7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x4f8</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCEbf" id="IntN Vt Ov Fl">
+    <DisplayId>Interregnum Nexus Vertical Over Flow</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x710</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x710</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x711</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x712</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x713</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x718</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x713</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x712</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x711</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xCEc0" id="IntN Hr Ov Fl">
+    <DisplayId>Interregnum Nexus Horizontal Over Flow</DisplayId>
+    <Class>GameObject</Class>
+    <DrawOnGround />
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x714</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x714</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x715</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x716</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x717</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x719</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x717</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x716</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x715</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+</Objects>
