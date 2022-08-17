@@ -17,7 +17,7 @@ import flash.utils.setTimeout;
 
 public class Parameters {
     public static const CLIENT_INFO:String = "Saladparty *unstable*";
-    public static const CLIENT_VERSION:String = "3.0.0.0.0";
+    public static const CLIENT_VERSION:String = "3.0.1.0.0";
     public static const CLIENT_ENTRY_TAG:String = "rotmg";
     public static const PORT:int = 2050;
     public static const CLIENT_TOKEN:String = "8bV53M5ysJdVjU4M97fh2g7BnPXhefnc";
